@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: https://www.xianmin.org/sitemap.xml
+Sitemap: https://sxqsfun.github.io/sitemap.xml

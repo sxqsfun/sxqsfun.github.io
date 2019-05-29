@@ -1,88 +1,88 @@
-<?xml-stylesheet type="text/xsl" href="https://www.xianmin.org/sitemap.xsl"?>
+<?xml-stylesheet type="text/xsl" href="https://sxqsfun.github.io/sitemap.xsl"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://www.xianmin.org/about/</loc>
+    <loc>https://sxqsfun.github.io/about/</loc>
     <lastmod>2017-08-28T21:41:52+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://www.xianmin.org/</loc>
+    <loc>https://sxqsfun.github.io/</loc>
     <lastmod>2017-08-28T21:41:52+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://www.xianmin.org/categories/</loc>
+    <loc>https://sxqsfun.github.io/categories/</loc>
     <lastmod>2014-09-28T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://www.xianmin.org/post/creating-a-new-theme/</loc>
+    <loc>https://sxqsfun.github.io/post/creating-a-new-theme/</loc>
     <lastmod>2014-09-28T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://www.xianmin.org/categories/development/</loc>
+    <loc>https://sxqsfun.github.io/categories/development/</loc>
     <lastmod>2014-09-28T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://www.xianmin.org/post/</loc>
+    <loc>https://sxqsfun.github.io/post/</loc>
     <lastmod>2014-09-28T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://www.xianmin.org/tags/</loc>
+    <loc>https://sxqsfun.github.io/tags/</loc>
     <lastmod>2014-09-28T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://www.xianmin.org/tags/development/</loc>
+    <loc>https://sxqsfun.github.io/tags/development/</loc>
     <lastmod>2014-09-28T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://www.xianmin.org/tags/go/</loc>
+    <loc>https://sxqsfun.github.io/tags/go/</loc>
     <lastmod>2014-09-28T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://www.xianmin.org/categories/golang/</loc>
+    <loc>https://sxqsfun.github.io/categories/golang/</loc>
     <lastmod>2014-09-28T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://www.xianmin.org/tags/golang/</loc>
+    <loc>https://sxqsfun.github.io/tags/golang/</loc>
     <lastmod>2014-09-28T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://www.xianmin.org/categories/index/</loc>
+    <loc>https://sxqsfun.github.io/categories/index/</loc>
     <lastmod>2014-09-28T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://www.xianmin.org/tags/templates/</loc>
+    <loc>https://sxqsfun.github.io/tags/templates/</loc>
     <lastmod>2014-09-28T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://www.xianmin.org/tags/themes/</loc>
+    <loc>https://sxqsfun.github.io/tags/themes/</loc>
     <lastmod>2014-09-28T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>

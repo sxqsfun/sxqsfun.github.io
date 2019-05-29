@@ -2,39 +2,39 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on 上下求索</title>
-    <link>https://www.xianmin.org/categories/</link>
+    <link>https://sxqsfun.github.io/categories/</link>
     <description>Recent content in Categories on 上下求索</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <lastBuildDate>Sun, 28 Sep 2014 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://www.xianmin.org/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://sxqsfun.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Development</title>
-      <link>https://www.xianmin.org/categories/development/</link>
+      <link>https://sxqsfun.github.io/categories/development/</link>
       <pubDate>Sun, 28 Sep 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://www.xianmin.org/categories/development/</guid>
+      <guid>https://sxqsfun.github.io/categories/development/</guid>
       <description></description>
     </item>
     
     <item>
       <title>golang</title>
-      <link>https://www.xianmin.org/categories/golang/</link>
+      <link>https://sxqsfun.github.io/categories/golang/</link>
       <pubDate>Sun, 28 Sep 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://www.xianmin.org/categories/golang/</guid>
+      <guid>https://sxqsfun.github.io/categories/golang/</guid>
       <description></description>
     </item>
     
     <item>
       <title>index</title>
-      <link>https://www.xianmin.org/categories/index/</link>
+      <link>https://sxqsfun.github.io/categories/index/</link>
       <pubDate>Sun, 28 Sep 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://www.xianmin.org/categories/index/</guid>
+      <guid>https://sxqsfun.github.io/categories/index/</guid>
       <description></description>
     </item>
     

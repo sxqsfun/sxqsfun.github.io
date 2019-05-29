@@ -2,57 +2,57 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on 上下求索</title>
-    <link>https://www.xianmin.org/tags/</link>
+    <link>https://sxqsfun.github.io/tags/</link>
     <description>Recent content in Tags on 上下求索</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <lastBuildDate>Sun, 28 Sep 2014 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://www.xianmin.org/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://sxqsfun.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>development</title>
-      <link>https://www.xianmin.org/tags/development/</link>
+      <link>https://sxqsfun.github.io/tags/development/</link>
       <pubDate>Sun, 28 Sep 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://www.xianmin.org/tags/development/</guid>
+      <guid>https://sxqsfun.github.io/tags/development/</guid>
       <description></description>
     </item>
     
     <item>
       <title>go</title>
-      <link>https://www.xianmin.org/tags/go/</link>
+      <link>https://sxqsfun.github.io/tags/go/</link>
       <pubDate>Sun, 28 Sep 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://www.xianmin.org/tags/go/</guid>
+      <guid>https://sxqsfun.github.io/tags/go/</guid>
       <description></description>
     </item>
     
     <item>
       <title>golang</title>
-      <link>https://www.xianmin.org/tags/golang/</link>
+      <link>https://sxqsfun.github.io/tags/golang/</link>
       <pubDate>Sun, 28 Sep 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://www.xianmin.org/tags/golang/</guid>
+      <guid>https://sxqsfun.github.io/tags/golang/</guid>
       <description></description>
     </item>
     
     <item>
       <title>templates</title>
-      <link>https://www.xianmin.org/tags/templates/</link>
+      <link>https://sxqsfun.github.io/tags/templates/</link>
       <pubDate>Sun, 28 Sep 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://www.xianmin.org/tags/templates/</guid>
+      <guid>https://sxqsfun.github.io/tags/templates/</guid>
       <description></description>
     </item>
     
     <item>
       <title>themes</title>
-      <link>https://www.xianmin.org/tags/themes/</link>
+      <link>https://sxqsfun.github.io/tags/themes/</link>
       <pubDate>Sun, 28 Sep 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://www.xianmin.org/tags/themes/</guid>
+      <guid>https://sxqsfun.github.io/tags/themes/</guid>
       <description></description>
     </item>
     
