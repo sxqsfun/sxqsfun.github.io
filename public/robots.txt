@@ -1,2 +1,0 @@
-User-agent: *
-Sitemap: http://sxqsfun.github.io/sitemap.xml
