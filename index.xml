@@ -6,15 +6,15 @@
     <description>Recent content on 上下求索</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sun, 20 Aug 2017 21:38:52 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 28 May 2019 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://sxqsfun.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>About</title>
+      <title>关于我</title>
       <link>https://sxqsfun.github.io/about/</link>
-      <pubDate>Sun, 20 Aug 2017 21:38:52 +0800</pubDate>
+      <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
       
       <guid>https://sxqsfun.github.io/about/</guid>
       
@@ -35,17 +35,59 @@
     </item>
     
     <item>
-      <title>Creating a New Theme</title>
-      <link>https://sxqsfun.github.io/post/creating-a-new-theme/</link>
-      <pubDate>Sun, 28 Sep 2014 00:00:00 +0000</pubDate>
+      <title>阿里云安全组</title>
+      <link>https://sxqsfun.github.io/post/%E9%98%BF%E9%87%8C%E4%BA%91%E5%AE%89%E5%85%A8%E7%BB%84/</link>
+      <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://sxqsfun.github.io/post/creating-a-new-theme/</guid>
+      <guid>https://sxqsfun.github.io/post/%E9%98%BF%E9%87%8C%E4%BA%91%E5%AE%89%E5%85%A8%E7%BB%84/</guid>
       
         <description>
 
-&lt;h2 id=&#34;开启博客之旅&#34;&gt;开启博客之旅&lt;/h2&gt;
+&lt;h2 id=&#34;问题&#34;&gt;问题&lt;/h2&gt;
 
-&lt;p&gt;这是我的第一篇博客.&lt;/p&gt;
+&lt;p&gt;公司的一个项目由两个小组进行开发，客户用一个阿里云账号买了两台服务器， 一个小组一台。
+一直都相安无事，突然今天下午有一个服务无法访问了，排查半天，最后排查到安全组，登录阿里
+云一看，之前配置好的端口有几个都不见了。然后看到新加的配置里有个备注里写的是另一个组的服务
+名，创建时间是今天下午。经过询问，确实是另一个组修改了安全组。&lt;/p&gt;
+
+&lt;h2 id=&#34;为什么&#34;&gt;为什么&lt;/h2&gt;
+
+&lt;p&gt;之前对安全组的了解：只知道它是配置端口用的，服务器防火墙开放端口后，如果不在
+安全组中配置，同样是访问不了的。像是给服务器多加了一道防线。
+我以为的安全组，应该是一个服务器一个安全组。不存在修改了一个服务器里的安全组，另一个服务器
+里的安全组也会修改的情况。&lt;/p&gt;
+
+&lt;h2 id=&#34;原因&#34;&gt;原因&lt;/h2&gt;
+
+&lt;p&gt;带着疑问，看了一下阿里云的 &lt;a href=&#34;https://help.aliyun.com/knowledge_detail/40570.html&#34;&gt;安全组说明文档&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;以下摘自文档内容&#34;&gt;以下摘自文档内容&lt;/h3&gt;
+
+&lt;p&gt;1 什么是安全组？&lt;br/&gt;
+    安全组是一种虚拟防火墙。用于设置单台或多台云服务器的网络访问控制，它是重要的网络安全隔离手段，您可以在云端划分安全域。
+    每个实例至少属于一个安全组，在创建的时候就需要指定。同一安全组内的实例之间网络互通，不同安全组的实例之间默认内网不通，
+    可以授权两个安全组之间互访。详情请参见安全组概述。&lt;/p&gt;
+
+&lt;p&gt;2 为什么要在创建 ECS 实例时选择安全组？&lt;br/&gt;
+    在创建 ECS 实例之前，必须选择安全组来划分应用环境的安全域，授权安全组规则进行合理的网络安全隔离。
+    如果您在购买 ECS 实例时不选择安全组，创建的 ECS 实例都会分配到一个固定的安全组，您还需要重新通过移出安全组以及加入新的
+    安全组来实现网络安全隔离。&lt;/p&gt;
+
+&lt;h3 id=&#34;总结一下&#34;&gt;总结一下&lt;/h3&gt;
+
+&lt;p&gt;同一个阿里云账户购买阿里云服务器默认会帮你配置一个安全组(一台或多台都在这个默认的安全组下)。你可以配置不同的
+服务器在不同的安全组下，同一个安全组之间的服务器内网互通，不同安全组之间的服务器默认内网不通，授权后可互通。&lt;/p&gt;
+
+&lt;h2 id=&#34;怎么办&#34;&gt;怎么办&lt;/h2&gt;
+
+&lt;h3 id=&#34;如果要想一个服务器一个安全组&#34;&gt;如果要想一个服务器一个安全组&lt;/h3&gt;
+
+&lt;p&gt;登录阿里云账号——控制台——云服务器ECS——网络与安全——安全组——创建安全组——管理实例，添加指定服务器实例到安全组即可。
+为了区分，可以给安全组设置一个别名或标签。&lt;/p&gt;
+
+&lt;h3 id=&#34;如果要删除一个安全组&#34;&gt;如果要删除一个安全组&lt;/h3&gt;
+
+&lt;p&gt;登录阿里云账号——控制台——云服务器ECS——网络与安全——安全组——勾选要删除的安全组，点击列表左下方的删除按钮即可。&lt;/p&gt;
 </description>
       
     </item>
