@@ -1,59 +1,23 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on 上下求索</title>
+    <title>上下求索</title>
     <link>https://sxqsfun.github.io/tags/</link>
-    <description>Recent content in Tags on 上下求索</description>
+    <description>Recent content on 上下求索</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 12 Jun 2019 12:06:28 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 12 Jun 2019 12:17:09 +0800</lastBuildDate>
     
 	<atom:link href="https://sxqsfun.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>测试</title>
-      <link>https://sxqsfun.github.io/tags/%E6%B5%8B%E8%AF%95/</link>
-      <pubDate>Wed, 12 Jun 2019 12:06:28 +0800</pubDate>
+      <title>Ddd</title>
+      <link>https://sxqsfun.github.io/post/ddd/</link>
+      <pubDate>Wed, 12 Jun 2019 12:17:09 +0800</pubDate>
       
-      <guid>https://sxqsfun.github.io/tags/%E6%B5%8B%E8%AF%95/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>github</title>
-      <link>https://sxqsfun.github.io/tags/github/</link>
-      <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://sxqsfun.github.io/tags/github/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>hugo</title>
-      <link>https://sxqsfun.github.io/tags/hugo/</link>
-      <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://sxqsfun.github.io/tags/hugo/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>安全组</title>
-      <link>https://sxqsfun.github.io/tags/%E5%AE%89%E5%85%A8%E7%BB%84/</link>
-      <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://sxqsfun.github.io/tags/%E5%AE%89%E5%85%A8%E7%BB%84/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>阿里云</title>
-      <link>https://sxqsfun.github.io/tags/%E9%98%BF%E9%87%8C%E4%BA%91/</link>
-      <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://sxqsfun.github.io/tags/%E9%98%BF%E9%87%8C%E4%BA%91/</guid>
-      <description></description>
+      <guid>https://sxqsfun.github.io/post/ddd/</guid>
+      <description>dfsdfsfsfsdfs dfsdfsf 打发第三方 东方闪电</description>
     </item>
     
   </channel>
