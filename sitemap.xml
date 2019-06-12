@@ -2,22 +2,29 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://sxqsfun.github.io/post/aliyun/</loc>
-    <lastmod>2019-06-11T20:54:50+08:00</lastmod>
+    <loc>https://sxqsfun.github.io/post/</loc>
+    <lastmod>2019-06-12T10:43:00+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://sxqsfun.github.io/post/test/</loc>
+    <lastmod>2019-06-12T10:43:00+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://sxqsfun.github.io/post/</loc>
-    <lastmod>2019-06-11T20:54:50+08:00</lastmod>
+    <loc>https://sxqsfun.github.io/</loc>
+    <lastmod>2019-06-12T10:43:00+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://sxqsfun.github.io/</loc>
+    <loc>https://sxqsfun.github.io/post/aliyun/</loc>
     <lastmod>2019-06-11T20:54:50+08:00</lastmod>
-    <priority>0</priority>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
