@@ -2,64 +2,51 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://sxqsfun.github.io/tags/</loc>
-    <lastmod>2019-06-12T12:17:09+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://sxqsfun.github.io/categories/</loc>
-    <lastmod>2019-06-12T12:17:09+08:00</lastmod>
+    <lastmod>2019-06-13T20:34:03+08:00</lastmod>
     <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://sxqsfun.github.io/categories/</loc>
-    <lastmod>2019-06-12T12:17:09+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://sxqsfun.github.io/post/ddd/</loc>
-    <lastmod>2019-06-12T12:17:09+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://sxqsfun.github.io/post/</loc>
-    <lastmod>2019-06-12T12:17:09+08:00</lastmod>
+    <lastmod>2019-06-13T20:34:03+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://sxqsfun.github.io/tags/</loc>
-    <lastmod>2019-06-12T12:17:09+08:00</lastmod>
+    <lastmod>2019-06-13T20:34:03+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://sxqsfun.github.io/</loc>
-    <lastmod>2019-06-12T12:17:09+08:00</lastmod>
+    <lastmod>2019-06-13T20:34:03+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://sxqsfun.github.io/post/wechat/</loc>
-    <lastmod>2019-06-12T12:06:28+08:00</lastmod>
+    <loc>https://sxqsfun.github.io/tags/%E5%BE%AE%E4%BF%A1js-sdk/</loc>
+    <lastmod>2019-06-13T20:34:03+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://sxqsfun.github.io/post/%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7%E6%89%AB%E4%B8%80%E6%89%AB/</loc>
+    <lastmod>2019-06-13T20:34:03+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://sxqsfun.github.io/tags/%E6%B5%8B%E8%AF%95/</loc>
-    <lastmod>2019-06-12T12:06:28+08:00</lastmod>
+    <loc>https://sxqsfun.github.io/tags/%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7%E6%89%AB%E4%B8%80%E6%89%AB/</loc>
+    <lastmod>2019-06-13T20:34:03+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://sxqsfun.github.io/categories/%E6%B5%8B%E8%AF%95/</loc>
-    <lastmod>2019-06-12T12:06:28+08:00</lastmod>
+    <loc>https://sxqsfun.github.io/categories/%E5%BE%AE%E4%BF%A1%E5%BC%80%E5%8F%91/</loc>
+    <lastmod>2019-06-13T20:34:03+08:00</lastmod>
     <priority>0</priority>
   </url>
   
