@@ -72,7 +72,7 @@
 
 <meta itemprop="datePublished" content="2019-05-28T00:00:00&#43;00:00" />
 <meta itemprop="dateModified" content="2019-05-29T00:00:00&#43;00:00" />
-<meta itemprop="wordCount" content="891">
+<meta itemprop="wordCount" content="944">
 
 
 
@@ -330,7 +330,7 @@ if (!doNotTrack) {
             <a href="https://sxqsfun.github.io/categories/%E9%98%BF%E9%87%8C%E4%BA%91/"> 阿里云 </a>
             
           </div>
-        <span class="more-meta"> 约 891 字 </span>
+        <span class="more-meta"> 约 944 字 </span>
           <span class="more-meta"> 预计阅读 2 分钟 </span>
 
         
@@ -351,33 +351,13 @@ if (!doNotTrack) {
 <div class="post-toc" id="post-toc">
   <h2 class="post-toc-title">文章目录</h2>
   <div class="post-toc-content">
-    <nav id="TableOfContents">
-<ul>
-<li>
-<ul>
-<li><a href="#问题">问题</a></li>
-<li><a href="#为什么">为什么</a></li>
-<li><a href="#原因">原因</a>
-<ul>
-<li><a href="#以下摘自文档内容">以下摘自文档内容</a></li>
-<li><a href="#总结一下">总结一下</a></li>
-</ul></li>
-<li><a href="#怎么办">怎么办</a>
-<ul>
-<li><a href="#如果要想一个服务器一个安全组">如果要想一个服务器一个安全组</a></li>
-<li><a href="#如果要删除一个安全组">如果要删除一个安全组</a></li>
-</ul></li>
-</ul></li>
-</ul>
-</nav>
+    
   </div>
 </div>
 
     
     <div class="post-content">
-      
-
-<h2 id="问题">问题</h2>
+      <h2 id="问题">问题</h2>
 
 <p>公司的一个项目由两个小组进行开发，客户用一个阿里云账号买了两台服务器， 一个小组一台。
 一直都相安无事，突然今天下午有一个服务无法访问了，排查半天，最后排查到安全组，登录阿里
@@ -393,21 +373,25 @@ if (!doNotTrack) {
 
 <h2 id="原因">原因</h2>
 
-<p>带着疑问，看了一下阿里云的 <a href="https://help.aliyun.com/knowledge_detail/40570.html">安全组说明文档</a></p>
+<p>带着疑问，看了一下阿里云的[https://help.aliyun.com/knowledge_detail/40570.html][安全组说明文档]</p>
 
 <h3 id="以下摘自文档内容">以下摘自文档内容</h3>
 
-<p>1 什么是安全组？<br/>
+<ul>
+<li>什么是安全组?</li>
     安全组是一种虚拟防火墙。用于设置单台或多台云服务器的网络访问控制，它是重要的网络安全隔离手段，您可以在云端划分安全域。
     每个实例至少属于一个安全组，在创建的时候就需要指定。同一安全组内的实例之间网络互通，不同安全组的实例之间默认内网不通，
-    可以授权两个安全组之间互访。详情请参见安全组概述。</p>
+    可以授权两个安全组之间互访。详情请参见安全组概述。
+</ul>
 
-<p>2 为什么要在创建 ECS 实例时选择安全组？<br/>
+<ul>
+<li>为什么要在创建 ECS 实例时选择安全组?</li>
     在创建 ECS 实例之前，必须选择安全组来划分应用环境的安全域，授权安全组规则进行合理的网络安全隔离。
     如果您在购买 ECS 实例时不选择安全组，创建的 ECS 实例都会分配到一个固定的安全组，您还需要重新通过移出安全组以及加入新的
-    安全组来实现网络安全隔离。</p>
+    安全组来实现网络安全隔离。
+</ul>
 
-<h3 id="总结一下">总结一下</h3>
+<h2 id="总结一下">总结一下</h2>
 
 <p>同一个阿里云账户购买阿里云服务器默认会帮你配置一个安全组(一台或多台都在这个默认的安全组下)。你可以配置不同的
 服务器在不同的安全组下，同一个安全组之间的服务器内网互通，不同安全组之间的服务器默认内网不通，授权后可互通。</p>
@@ -474,7 +458,7 @@ if (!doNotTrack) {
       
       <nav class="post-nav">
         
-          <a class="prev" href="/post/ccc/">
+          <a class="prev" href="/post/wechat/">
             
             <i class="iconfont">
               <svg  class="icon" viewBox="0 0 1024 1024" version="1.1"
