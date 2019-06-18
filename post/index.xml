@@ -6,10 +6,19 @@
     <description>Recent content in Posts on 上下求索</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Thu, 13 Jun 2019 20:34:03 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 18 Jun 2019 07:39:12 +0800</lastBuildDate>
     
 	<atom:link href="https://sxqsfun.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Mysql中count原理浅析</title>
+      <link>https://sxqsfun.github.io/post/mysql%E4%B8%ADcount%E5%8E%9F%E7%90%86%E6%B5%85%E6%9E%90/</link>
+      <pubDate>Tue, 18 Jun 2019 07:39:12 +0800</pubDate>
+      
+      <guid>https://sxqsfun.github.io/post/mysql%E4%B8%ADcount%E5%8E%9F%E7%90%86%E6%B5%85%E6%9E%90/</guid>
+      <description>同事遇到mysql查询问题： 1 2 3 select count(0) from ( select *, b.id as bid, c.id as cid from table_a a, left join table_b b on b.a_id = a.id ) 左连接查询多张表后获取查询记录条数。 sql运行报错：Dup</description>
+    </item>
     
     <item>
       <title>微信JS-SDK 扫一扫</title>

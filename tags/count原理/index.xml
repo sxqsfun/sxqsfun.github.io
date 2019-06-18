@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>count原理 on 上下求索</title>
+    <link>https://sxqsfun.github.io/tags/count%E5%8E%9F%E7%90%86/</link>
+    <description>Recent content in count原理 on 上下求索</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Tue, 18 Jun 2019 07:39:12 +0800</lastBuildDate>
+    
+	<atom:link href="https://sxqsfun.github.io/tags/count%E5%8E%9F%E7%90%86/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Mysql中count原理浅析</title>
+      <link>https://sxqsfun.github.io/post/mysql%E4%B8%ADcount%E5%8E%9F%E7%90%86%E6%B5%85%E6%9E%90/</link>
+      <pubDate>Tue, 18 Jun 2019 07:39:12 +0800</pubDate>
+      
+      <guid>https://sxqsfun.github.io/post/mysql%E4%B8%ADcount%E5%8E%9F%E7%90%86%E6%B5%85%E6%9E%90/</guid>
+      <description>同事遇到mysql查询问题： 1 2 3 select count(0) from ( select *, b.id as bid, c.id as cid from table_a a, left join table_b b on b.a_id = a.id ) 左连接查询多张表后获取查询记录条数。 sql运行报错：Dup</description>
+    </item>
+    
+  </channel>
+</rss>
