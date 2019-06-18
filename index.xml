@@ -63,9 +63,7 @@ sql运行报错：Duplicate column name &#39;id&#39;.&lt;/p&gt;
 
 &lt;h3 id=&#34;参考资料&#34;&gt;参考资料&lt;/h3&gt;
 
-&lt;ol&gt;
-&lt;li&gt;[https://www.cnblogs.com/xuty/p/10189614.html][mysql count(*)原理]]&lt;/li&gt;
-&lt;/ol&gt;
+&lt;p&gt;1 &lt;a href=&#34;https://www.cnblogs.com/xuty/p/10189614.html&#34; title=&#34;mysql count(*)原理&#34;&gt;mysql count(*)原理&lt;/a&gt;&lt;/p&gt;
 </description>
       
     </item>
