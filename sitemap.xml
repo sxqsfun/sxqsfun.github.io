@@ -3,7 +3,44 @@
   
   <url>
     <loc>https://sxqsfun.github.io/categories/</loc>
-    <lastmod>2019-06-18T07:39:12+08:00</lastmod>
+    <lastmod>2019-06-20T17:57:42+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://sxqsfun.github.io/post/jquery%E4%BA%8B%E4%BB%B6%E5%A7%94%E6%89%98/</loc>
+    <lastmod>2019-06-20T17:57:42+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://sxqsfun.github.io/post/</loc>
+    <lastmod>2019-06-20T17:57:42+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://sxqsfun.github.io/tags/</loc>
+    <lastmod>2019-06-20T17:57:42+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://sxqsfun.github.io/tags/jquery/</loc>
+    <lastmod>2019-06-20T17:57:42+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://sxqsfun.github.io/categories/jquery/</loc>
+    <lastmod>2019-06-20T17:57:42+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://sxqsfun.github.io/</loc>
+    <lastmod>2019-06-20T17:57:42+08:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -15,25 +52,7 @@
   </url>
   
   <url>
-    <loc>https://sxqsfun.github.io/post/</loc>
-    <lastmod>2019-06-18T07:39:12+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://sxqsfun.github.io/tags/</loc>
-    <lastmod>2019-06-18T07:39:12+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://sxqsfun.github.io/tags/count%E5%8E%9F%E7%90%86/</loc>
-    <lastmod>2019-06-18T07:39:12+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://sxqsfun.github.io/categories/mysql/</loc>
     <lastmod>2019-06-18T07:39:12+08:00</lastmod>
     <priority>0</priority>
   </url>
@@ -45,7 +64,7 @@
   </url>
   
   <url>
-    <loc>https://sxqsfun.github.io/</loc>
+    <loc>https://sxqsfun.github.io/categories/mysql/</loc>
     <lastmod>2019-06-18T07:39:12+08:00</lastmod>
     <priority>0</priority>
   </url>
@@ -107,13 +126,13 @@
   </url>
   
   <url>
-    <loc>https://sxqsfun.github.io/categories/%E9%98%BF%E9%87%8C%E4%BA%91/</loc>
+    <loc>https://sxqsfun.github.io/tags/%E9%98%BF%E9%87%8C%E4%BA%91/</loc>
     <lastmod>2019-05-29T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://sxqsfun.github.io/tags/%E9%98%BF%E9%87%8C%E4%BA%91/</loc>
+    <loc>https://sxqsfun.github.io/categories/%E9%98%BF%E9%87%8C%E4%BA%91/</loc>
     <lastmod>2019-05-29T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
