@@ -6,10 +6,19 @@
     <description>Recent content in Posts on 上下求索</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Thu, 20 Jun 2019 17:57:42 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 04 Jul 2019 19:00:56 +0800</lastBuildDate>
     
 	<atom:link href="https://sxqsfun.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>学习子龙山人emacs视频</title>
+      <link>https://sxqsfun.github.io/post/%E5%AD%A6%E4%B9%A0%E5%AD%90%E9%BE%99%E5%B1%B1%E4%BA%BAemacs%E8%A7%86%E9%A2%91/</link>
+      <pubDate>Thu, 04 Jul 2019 19:00:56 +0800</pubDate>
+      
+      <guid>https://sxqsfun.github.io/post/%E5%AD%A6%E4%B9%A0%E5%AD%90%E9%BE%99%E5%B1%B1%E4%BA%BAemacs%E8%A7%86%E9%A2%91/</guid>
+      <description>day1 C-h k 查询快捷键 C-h v 查询变量 c-h f 查询方法 elisp s表达式：(方法名 变量1 变量2 …) C-x C-e 光标放在elisp函数后面，执行这个函数 定义变量：（setq</description>
+    </item>
     
     <item>
       <title>Jquery事件委托</title>
