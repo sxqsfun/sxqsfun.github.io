@@ -23,7 +23,7 @@
 <meta name="mobile-web-app-capable" content="yes">
 
 <meta name="author" content="dany" />
-  <meta name="description" content="安装hugo sudo pacman -S hugo 创建网站 hugo new site myBlog 安装主题 hugo-theme-jane (https://github.com/xianmin/hugo-theme-jane) 把这个主题克隆到 themes 文件夹 cd myBlog git clone https://github.com/xianmin/hugo-theme-jane.git –depth=1 themes/jane 复制一些示例文本 cp -r themes/jane/exampleSite/content ./ 复制默认的站点设" />
+  <meta name="description" content="安装hugo 1 sudo pacman -S hugo 创建网站 1 hugo new site myBlog 安装主题 hugo-theme-jane (https://github.com/xianmin/hugo-theme-jane) 把这个主题克隆到 themes 文件夹 1 2 cd myBlog git clone https://github.com/xianmin/hugo-theme-jane.git --depth=1 themes/jane 复制一些示例文本 1 cp -r themes/jane/exampleSite/content ./ 复制默认的站点设置 1" />
 
   <meta name="keywords" content="linux, emacs, program, journal, 博客, 笔记" />
 
@@ -62,25 +62,25 @@
 
 
 <meta property="og:title" content="用hugo在github搭建个人博客" />
-<meta property="og:description" content="安装hugo sudo pacman -S hugo 创建网站 hugo new site myBlog 安装主题 hugo-theme-jane (https://github.com/xianmin/hugo-theme-jane) 把这个主题克隆到 themes 文件夹 cd myBlog git clone https://github.com/xianmin/hugo-theme-jane.git –depth=1 themes/jane 复制一些示例文本 cp -r themes/jane/exampleSite/content ./ 复制默认的站点设" />
+<meta property="og:description" content="安装hugo 1 sudo pacman -S hugo 创建网站 1 hugo new site myBlog 安装主题 hugo-theme-jane (https://github.com/xianmin/hugo-theme-jane) 把这个主题克隆到 themes 文件夹 1 2 cd myBlog git clone https://github.com/xianmin/hugo-theme-jane.git --depth=1 themes/jane 复制一些示例文本 1 cp -r themes/jane/exampleSite/content ./ 复制默认的站点设置 1" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://sxqsfun.github.io/post/%E7%94%A8hugo%E5%9C%A8github.io%E4%B8%8A%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/" />
 <meta property="article:published_time" content="2019-10-24T12:30:55+08:00" />
 <meta property="article:modified_time" content="2019-10-24T12:30:55+08:00" />
 <meta itemprop="name" content="用hugo在github搭建个人博客">
-<meta itemprop="description" content="安装hugo sudo pacman -S hugo 创建网站 hugo new site myBlog 安装主题 hugo-theme-jane (https://github.com/xianmin/hugo-theme-jane) 把这个主题克隆到 themes 文件夹 cd myBlog git clone https://github.com/xianmin/hugo-theme-jane.git –depth=1 themes/jane 复制一些示例文本 cp -r themes/jane/exampleSite/content ./ 复制默认的站点设">
+<meta itemprop="description" content="安装hugo 1 sudo pacman -S hugo 创建网站 1 hugo new site myBlog 安装主题 hugo-theme-jane (https://github.com/xianmin/hugo-theme-jane) 把这个主题克隆到 themes 文件夹 1 2 cd myBlog git clone https://github.com/xianmin/hugo-theme-jane.git --depth=1 themes/jane 复制一些示例文本 1 cp -r themes/jane/exampleSite/content ./ 复制默认的站点设置 1">
 
 
 <meta itemprop="datePublished" content="2019-10-24T12:30:55&#43;08:00" />
 <meta itemprop="dateModified" content="2019-10-24T12:30:55&#43;08:00" />
-<meta itemprop="wordCount" content="1024">
+<meta itemprop="wordCount" content="952">
 
 
 
 <meta itemprop="keywords" content="" />
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="用hugo在github搭建个人博客"/>
-<meta name="twitter:description" content="安装hugo sudo pacman -S hugo 创建网站 hugo new site myBlog 安装主题 hugo-theme-jane (https://github.com/xianmin/hugo-theme-jane) 把这个主题克隆到 themes 文件夹 cd myBlog git clone https://github.com/xianmin/hugo-theme-jane.git –depth=1 themes/jane 复制一些示例文本 cp -r themes/jane/exampleSite/content ./ 复制默认的站点设"/>
+<meta name="twitter:description" content="安装hugo 1 sudo pacman -S hugo 创建网站 1 hugo new site myBlog 安装主题 hugo-theme-jane (https://github.com/xianmin/hugo-theme-jane) 把这个主题克隆到 themes 文件夹 1 2 cd myBlog git clone https://github.com/xianmin/hugo-theme-jane.git --depth=1 themes/jane 复制一些示例文本 1 cp -r themes/jane/exampleSite/content ./ 复制默认的站点设置 1"/>
 
 <!--[if lte IE 9]>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
@@ -336,8 +336,8 @@ if (!doNotTrack) {
           2019-10-24
         </time>
         
-        <span class="more-meta"> 约 1024 字 </span>
-          <span class="more-meta"> 预计阅读 3 分钟 </span>
+        <span class="more-meta"> 约 952 字 </span>
+          <span class="more-meta"> 预计阅读 2 分钟 </span>
 
         
         
@@ -438,43 +438,86 @@ if (!doNotTrack) {
 <h2 id="headline-1">
 安装hugo
 </h2>
-<p>
-sudo pacman -S hugo
-</p>
+<div class="src src-shell">
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code class="language-shell" data-lang="shell"><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-shell" data-lang="shell">sudo pacman -S hugo</code></pre></td></tr></table>
+</div>
+</div>
+</div>
 <h2 id="headline-2">
 创建网站
 </h2>
-<p>
-hugo new site myBlog
-</p>
+<div class="src src-text">
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code class="language-text" data-lang="text"><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-text" data-lang="text">hugo new site myBlog</code></pre></td></tr></table>
+</div>
+</div>
+</div>
 <h2 id="headline-3">
 安装主题 hugo-theme-jane (<a href="https://github.com/xianmin/hugo-theme-jane)">https://github.com/xianmin/hugo-theme-jane)</a>
 </h2>
 <h3 id="headline-4">
 把这个主题克隆到 themes 文件夹
 </h3>
-<p>
-cd myBlog
-git clone <a href="https://github.com/xianmin/hugo-theme-jane.git">https://github.com/xianmin/hugo-theme-jane.git</a> –depth=1 themes/jane
-</p>
+<div class="src src-shell">
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code class="language-shell" data-lang="shell"><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-shell" data-lang="shell"><span class="nb">cd</span> myBlog
+git clone https://github.com/xianmin/hugo-theme-jane.git --depth<span class="o">=</span><span class="m">1</span> themes/jane</code></pre></td></tr></table>
+</div>
+</div>
+</div>
 <h3 id="headline-5">
 复制一些示例文本
 </h3>
-<p>
-cp -r themes/jane/exampleSite/content ./
-</p>
+<div class="src src-shell">
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code class="language-shell" data-lang="shell"><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-shell" data-lang="shell">cp -r themes/jane/exampleSite/content ./</code></pre></td></tr></table>
+</div>
+</div>
+</div>
 <h3 id="headline-6">
 复制默认的站点设置
 </h3>
-<p>
-cp themes/jane/exampleSite/config.toml ./
-</p>
+<div class="src src-shell">
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code class="language-shell" data-lang="shell"><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-shell" data-lang="shell">cp themes/jane/exampleSite/config.toml ./</code></pre></td></tr></table>
+</div>
+</div>
+</div>
 <h3 id="headline-7">
 启动 hugo server
 </h3>
-<p>
-hugo server
-</p>
+<div class="src src-shell">
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code class="language-shell" data-lang="shell"><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-shell" data-lang="shell">hugo server</code></pre></td></tr></table>
+</div>
+</div>
+</div>
 <h3 id="headline-8">
 查看示例网站，浏览器打开 <a href="http://localhost:1313/">http://localhost:1313/</a> 
 </h3>
@@ -494,15 +537,32 @@ hugo server
 <h3 id="headline-12">
 设置Git的user name 和 email (如果没有设置的话)
 </h3>
-<p>
-git config –global user.name &#34;humingx&#34;
-git config –global user.email &#34;humingx@yeah.net&#34;
-</p>
+<div class="src src-shell">
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code class="language-shell" data-lang="shell"><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-shell" data-lang="shell">git config --global user.name <span class="s2">&#34;humingx&#34;</span>
+git config --global user.email <span class="s2">&#34;humingx@yeah.net&#34;</span></code></pre></td></tr></table>
+</div>
+</div>
+</div>
 <h3 id="headline-13">
 生成密钥
 </h3>
+<div class="src src-shell">
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code class="language-shell" data-lang="shell"><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-shell" data-lang="shell">ssh-keygen -t rsa -C <span class="s2">&#34;78528291@163.com&#34;</span></code></pre></td></tr></table>
+</div>
+</div>
+</div>
 <p>
-ssh-keygen -t rsa -C &#34;78528291@163.com&#34;
 连续3个回车。如果不需要密码的话。
 最后得到了两个文件：id_rsa和id_rsa.pub
 </p>
@@ -517,32 +577,65 @@ Key 把id_rsa.pub文件里的内容复制到这里
 <h3 id="headline-15">
 git初始化网站仓库
 </h3>
-<p>
-cd myBlog
-git init
-</p>
+<div class="src src-shell">
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code class="language-shell" data-lang="shell"><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-shell" data-lang="shell"><span class="nb">cd</span> myBlog
+git init</code></pre></td></tr></table>
+</div>
+</div>
+</div>
 <h3 id="headline-16">
 添加github.io仓库做为git仓库的子模块到public
 </h3>
-<p>
-git submodule add -b master git@github.com:keysaim/keysaim.github.io.git public
-</p>
+<div class="src src-shell">
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code class="language-shell" data-lang="shell"><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-shell" data-lang="shell">git submodule add -b master git@github.com:keysaim/keysaim.github.io.git public</code></pre></td></tr></table>
+</div>
+</div>
+</div>
 <h3 id="headline-17">
 生成静态博客站
 </h3>
-<p>
-直接运行hugo命令，就会在public目录下生成静态博客站。
-hugo
-</p>
+<div class="src src-shell">
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code class="language-shell" data-lang="shell"><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-shell" data-lang="shell"><span class="c1">#直接运行hugo命令，就会在public目录下生成静态博客站。</span>
+hugo</code></pre></td></tr></table>
+</div>
+</div>
+</div>
 <h3 id="headline-18">
 提交到github.io
 </h3>
-<p>
-cd public
+<div class="src src-shell">
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code class="language-shell" data-lang="shell"><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-shell" data-lang="shell"><span class="nb">cd</span> public
 git add .
-git commit -m &#34;YOUR COMMIT MESSAGE&#34;
-git push origin master
-</p>
+git commit -m <span class="s2">&#34;YOUR COMMIT MESSAGE&#34;</span>
+git push origin master</code></pre></td></tr></table>
+</div>
+</div>
+</div>
 <h3 id="headline-19">
 查看你的github.io博客
 </h3>
@@ -653,18 +746,18 @@ git push origin master
 <h3 id="headline-29">
 启动
 </h3>
-<p>
+<pre class="example">
 M-x easy-hugo
-</p>
+</pre>
 <h2 id="headline-30">
 参考资料
 </h2>
 <p>
-[https://github.com/xianmin/hugo-theme-jane/blob/master/README-zh.md][hugo-theme-jane 使用说明]
-[<a href="https://segmentfault.com/a/1190000002645623][git-ssh">https://segmentfault.com/a/1190000002645623][git-ssh</a> 配置和使用]
-[<a href="https://keysaim.github.io/post/blog/deploy-hugo-blog-in-github.io/][">https://keysaim.github.io/post/blog/deploy-hugo-blog-in-github.io/][</a>如何在github.io搭建Hugo博客站]
-[<a href="https://blog.csdn.net/qq_29232943/article/details/52786603][GitHub">https://blog.csdn.net/qq_29232943/article/details/52786603][GitHub</a> Pages 绑定来自阿里云的域名]
-[<a href="https://github.com/masasam/emacs-easy-hugo][emacs-easy-hugo]">https://github.com/masasam/emacs-easy-hugo][emacs-easy-hugo]</a>
+<a href="https://github.com/xianmin/hugo-theme-jane/blob/master/README-zh.md">hugo-theme-jane 使用说明</a>
+<a href="https://segmentfault.com/a/1190000002645623">git-ssh 配置和使用</a>
+<a href="https://keysaim.github.io/post/blog/deploy-hugo-blog-in-github.io/">如何在github.io搭建Hugo博客站</a>
+<a href="https://blog.csdn.net/qq_29232943/article/details/52786603">GitHub Pages 绑定来自阿里云的域名</a>
+<a href="https://github.com/masasam/emacs-easy-hugo">emacs-easy-hugo</a>
 </p>
 
     </div>
