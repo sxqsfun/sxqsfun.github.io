@@ -6,10 +6,19 @@
     <description>Recent content in Posts on 上下求索</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Thu, 04 Jul 2019 19:00:56 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 24 Oct 2019 12:30:55 +0800</lastBuildDate>
     
 	<atom:link href="https://sxqsfun.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>用hugo在github搭建个人博客</title>
+      <link>https://sxqsfun.github.io/post/%E7%94%A8hugo%E5%9C%A8github.io%E4%B8%8A%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</link>
+      <pubDate>Thu, 24 Oct 2019 12:30:55 +0800</pubDate>
+      
+      <guid>https://sxqsfun.github.io/post/%E7%94%A8hugo%E5%9C%A8github.io%E4%B8%8A%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</guid>
+      <description>安装hugo sudo pacman -S hugo 创建网站 hugo new site myBlog 安装主题 hugo-theme-jane (https://github.com/xianmin/hugo-theme-jane) 把这个主题克隆到 themes 文件夹 cd myBlog git clone https://github.com/xianmin/hugo-theme-jane.git –depth=1 themes/jane 复制一些示例文本 cp -r themes/jane/exampleSite/content ./ 复制默认的站点设</description>
+    </item>
     
     <item>
       <title>学习子龙山人emacs视频</title>
