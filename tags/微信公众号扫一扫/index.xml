@@ -13,10 +13,10 @@
     
     <item>
       <title>微信JS-SDK 扫一扫</title>
-      <link>https://sxqsfun.github.io/post/wechat_saoyisao/</link>
+      <link>https://sxqsfun.github.io/post/%E5%BE%AE%E4%BF%A1%E6%89%AB%E4%B8%80%E6%89%AB/</link>
       <pubDate>Thu, 13 Jun 2019 20:34:03 +0800</pubDate>
       
-      <guid>https://sxqsfun.github.io/post/wechat_saoyisao/</guid>
+      <guid>https://sxqsfun.github.io/post/%E5%BE%AE%E4%BF%A1%E6%89%AB%E4%B8%80%E6%89%AB/</guid>
       <description>基本流程 配置js安全域名 后台接口生成 config 数据 前端页面获取接口数据，调用 微信js-sdk 获取相应权限 配置js安全域名 登录微信公众平台进入“公众号</description>
     </item>
     

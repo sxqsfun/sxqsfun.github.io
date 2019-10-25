@@ -22,64 +22,64 @@
     
     <item>
       <title>Mysql随机查询</title>
-      <link>https://sxqsfun.github.io/post/mysql_rand_query/</link>
+      <link>https://sxqsfun.github.io/post/mysql%E9%9A%8F%E6%9C%BA%E6%9F%A5%E8%AF%A2/</link>
       <pubDate>Fri, 25 Oct 2019 09:35:47 +0800</pubDate>
       
-      <guid>https://sxqsfun.github.io/post/mysql_rand_query/</guid>
+      <guid>https://sxqsfun.github.io/post/mysql%E9%9A%8F%E6%9C%BA%E6%9F%A5%E8%AF%A2/</guid>
       <description>昨天接到一个需求：点击换一批按钮，随机查询出200条数据。 mysql随机查询 1 2 3 4 #rand()函数随机生成一个[0,1)之间的数 #rou</description>
     </item>
     
     <item>
-      <title>用hugo在github上搭建个人博客</title>
-      <link>https://sxqsfun.github.io/post/hugo_github.io_blog/</link>
+      <title>hugo创建静态博客并发布到github.io上</title>
+      <link>https://sxqsfun.github.io/post/hugo%E5%88%9B%E5%BB%BA%E9%9D%99%E6%80%81%E5%8D%9A%E5%AE%A2%E5%B9%B6%E5%8F%91%E5%B8%83%E5%88%B0github/</link>
       <pubDate>Thu, 24 Oct 2019 12:30:55 +0800</pubDate>
       
-      <guid>https://sxqsfun.github.io/post/hugo_github.io_blog/</guid>
+      <guid>https://sxqsfun.github.io/post/hugo%E5%88%9B%E5%BB%BA%E9%9D%99%E6%80%81%E5%8D%9A%E5%AE%A2%E5%B9%B6%E5%8F%91%E5%B8%83%E5%88%B0github/</guid>
       <description>安装hugo 1 sudo pacman -S hugo 创建网站 1 hugo new site myBlog 安装主题 hugo-theme-jane 把这个主题克隆到 themes 文件夹 1 2 cd myBlog git clone https://github.com/xianmin/hugo-theme-jane.git --depth=1 themes/jane 复制一些示例文本 1 cp -r themes/jane/exampleSite/content ./ 复制默认的站点设置 1 cp</description>
     </item>
     
     <item>
       <title>学习子龙山人emacs视频</title>
-      <link>https://sxqsfun.github.io/post/lean_emacs_zlsr/</link>
+      <link>https://sxqsfun.github.io/post/%E5%AD%A6%E4%B9%A0%E5%AD%90%E9%BE%99%E5%B1%B1%E4%BA%BA%E8%A7%86%E9%A2%91%E7%AC%94%E8%AE%B0/</link>
       <pubDate>Thu, 04 Jul 2019 19:00:56 +0800</pubDate>
       
-      <guid>https://sxqsfun.github.io/post/lean_emacs_zlsr/</guid>
+      <guid>https://sxqsfun.github.io/post/%E5%AD%A6%E4%B9%A0%E5%AD%90%E9%BE%99%E5%B1%B1%E4%BA%BA%E8%A7%86%E9%A2%91%E7%AC%94%E8%AE%B0/</guid>
       <description>day1 C-h k 查询快捷键 C-h v 查询变量 c-h f 查询方法 elisp s表达式：(方法名 变量1 变量2 …) C-x C-e 光标放在elisp函数后面，执行这个函数 定义变量：（setq</description>
     </item>
     
     <item>
       <title>Jquery事件委托</title>
-      <link>https://sxqsfun.github.io/post/jquery_event/</link>
+      <link>https://sxqsfun.github.io/post/jquery%E4%BA%8B%E4%BB%B6%E5%A7%94%E6%89%98/</link>
       <pubDate>Thu, 20 Jun 2019 17:57:42 +0800</pubDate>
       
-      <guid>https://sxqsfun.github.io/post/jquery_event/</guid>
+      <guid>https://sxqsfun.github.io/post/jquery%E4%BA%8B%E4%BB%B6%E5%A7%94%E6%89%98/</guid>
       <description>在很多时候，我们需要通过 AJAX 或者用户操作动态的增加或者去除列表项元素，那么在每一次改变的时候都需要重新给新增的元素绑定事件。 事件委托的其中一个</description>
     </item>
     
     <item>
       <title>Mysql中count原理浅析</title>
-      <link>https://sxqsfun.github.io/post/mysql_count/</link>
+      <link>https://sxqsfun.github.io/post/mysql_count%E5%87%BD%E6%95%B0%E5%8E%9F%E7%90%86%E6%B5%85%E6%9E%90/</link>
       <pubDate>Tue, 18 Jun 2019 07:39:12 +0800</pubDate>
       
-      <guid>https://sxqsfun.github.io/post/mysql_count/</guid>
+      <guid>https://sxqsfun.github.io/post/mysql_count%E5%87%BD%E6%95%B0%E5%8E%9F%E7%90%86%E6%B5%85%E6%9E%90/</guid>
       <description>同事遇到mysql查询问题： 1 2 3 select count(0) from ( select *, b.id as bid, c.id as cid from table_a a, left join table_b b on b.a_id = a.id ) 左连接查询多张表后获取查询记录条数。 sql运行报错：Dup</description>
     </item>
     
     <item>
       <title>微信JS-SDK 扫一扫</title>
-      <link>https://sxqsfun.github.io/post/wechat_saoyisao/</link>
+      <link>https://sxqsfun.github.io/post/%E5%BE%AE%E4%BF%A1%E6%89%AB%E4%B8%80%E6%89%AB/</link>
       <pubDate>Thu, 13 Jun 2019 20:34:03 +0800</pubDate>
       
-      <guid>https://sxqsfun.github.io/post/wechat_saoyisao/</guid>
+      <guid>https://sxqsfun.github.io/post/%E5%BE%AE%E4%BF%A1%E6%89%AB%E4%B8%80%E6%89%AB/</guid>
       <description>基本流程 配置js安全域名 后台接口生成 config 数据 前端页面获取接口数据，调用 微信js-sdk 获取相应权限 配置js安全域名 登录微信公众平台进入“公众号</description>
     </item>
     
     <item>
       <title>阿里云安全组</title>
-      <link>https://sxqsfun.github.io/post/ali_safe/</link>
+      <link>https://sxqsfun.github.io/post/%E9%98%BF%E9%87%8C%E4%BA%91%E5%AE%89%E5%85%A8%E7%BB%84/</link>
       <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://sxqsfun.github.io/post/ali_safe/</guid>
+      <guid>https://sxqsfun.github.io/post/%E9%98%BF%E9%87%8C%E4%BA%91%E5%AE%89%E5%85%A8%E7%BB%84/</guid>
       <description>问题 公司的一个项目由两个小组进行开发，客户用一个阿里云账号买了两台服务器， 一个小组一台。 一直都相安无事，突然今天下午有一个服务无法访问了，排</description>
     </item>
     

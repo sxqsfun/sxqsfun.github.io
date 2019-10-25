@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Jquery事件委托 - 上下求索</title>
+  <title>hugo创建静态博客并发布到github.io上 - 上下求索</title>
   
 
 <meta name="renderer" content="webkit" />
@@ -23,7 +23,7 @@
 <meta name="mobile-web-app-capable" content="yes">
 
 <meta name="author" content="dany" />
-  <meta name="description" content="在很多时候，我们需要通过 AJAX 或者用户操作动态的增加或者去除列表项元素，那么在每一次改变的时候都需要重新给新增的元素绑定事件。 事件委托的其中一个" />
+  <meta name="description" content="安装hugo 1 sudo pacman -S hugo 创建网站 1 hugo new site myBlog 安装主题 hugo-theme-jane 把这个主题克隆到 themes 文件夹 1 2 cd myBlog git clone https://github.com/xianmin/hugo-theme-jane.git --depth=1 themes/jane 复制一些示例文本 1 cp -r themes/jane/exampleSite/content ./ 复制默认的站点设置 1 cp" />
 
   <meta name="keywords" content="linux, emacs, program, journal, 博客, 笔记" />
 
@@ -35,7 +35,7 @@
 <meta name="generator" content="Hugo 0.58.3" />
 
 
-<link rel="canonical" href="https://sxqsfun.github.io/post/jquery%E4%BA%8B%E4%BB%B6%E5%A7%94%E6%89%98/" />
+<link rel="canonical" href="https://sxqsfun.github.io/post/hugo%E5%88%9B%E5%BB%BA%E9%9D%99%E6%80%81%E5%8D%9A%E5%AE%A2%E5%B9%B6%E5%8F%91%E5%B8%83%E5%88%B0github/" />
 
 
 
@@ -59,26 +59,26 @@
 
 
 
-<meta property="og:title" content="Jquery事件委托" />
-<meta property="og:description" content="在很多时候，我们需要通过 AJAX 或者用户操作动态的增加或者去除列表项元素，那么在每一次改变的时候都需要重新给新增的元素绑定事件。 事件委托的其中一个" />
+<meta property="og:title" content="hugo创建静态博客并发布到github.io上" />
+<meta property="og:description" content="安装hugo 1 sudo pacman -S hugo 创建网站 1 hugo new site myBlog 安装主题 hugo-theme-jane 把这个主题克隆到 themes 文件夹 1 2 cd myBlog git clone https://github.com/xianmin/hugo-theme-jane.git --depth=1 themes/jane 复制一些示例文本 1 cp -r themes/jane/exampleSite/content ./ 复制默认的站点设置 1 cp" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://sxqsfun.github.io/post/jquery%E4%BA%8B%E4%BB%B6%E5%A7%94%E6%89%98/" />
-<meta property="article:published_time" content="2019-06-20T17:57:42+08:00" />
-<meta property="article:modified_time" content="2019-06-20T17:57:42+08:00" />
-<meta itemprop="name" content="Jquery事件委托">
-<meta itemprop="description" content="在很多时候，我们需要通过 AJAX 或者用户操作动态的增加或者去除列表项元素，那么在每一次改变的时候都需要重新给新增的元素绑定事件。 事件委托的其中一个">
+<meta property="og:url" content="https://sxqsfun.github.io/post/hugo%E5%88%9B%E5%BB%BA%E9%9D%99%E6%80%81%E5%8D%9A%E5%AE%A2%E5%B9%B6%E5%8F%91%E5%B8%83%E5%88%B0github/" />
+<meta property="article:published_time" content="2019-10-24T12:30:55+08:00" />
+<meta property="article:modified_time" content="2019-10-24T12:30:55+08:00" />
+<meta itemprop="name" content="hugo创建静态博客并发布到github.io上">
+<meta itemprop="description" content="安装hugo 1 sudo pacman -S hugo 创建网站 1 hugo new site myBlog 安装主题 hugo-theme-jane 把这个主题克隆到 themes 文件夹 1 2 cd myBlog git clone https://github.com/xianmin/hugo-theme-jane.git --depth=1 themes/jane 复制一些示例文本 1 cp -r themes/jane/exampleSite/content ./ 复制默认的站点设置 1 cp">
 
 
-<meta itemprop="datePublished" content="2019-06-20T17:57:42&#43;08:00" />
-<meta itemprop="dateModified" content="2019-06-20T17:57:42&#43;08:00" />
-<meta itemprop="wordCount" content="610">
+<meta itemprop="datePublished" content="2019-10-24T12:30:55&#43;08:00" />
+<meta itemprop="dateModified" content="2019-10-24T12:30:55&#43;08:00" />
+<meta itemprop="wordCount" content="961">
 
 
 
-<meta itemprop="keywords" content="jquery," />
+<meta itemprop="keywords" content="hugo,blog," />
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Jquery事件委托"/>
-<meta name="twitter:description" content="在很多时候，我们需要通过 AJAX 或者用户操作动态的增加或者去除列表项元素，那么在每一次改变的时候都需要重新给新增的元素绑定事件。 事件委托的其中一个"/>
+<meta name="twitter:title" content="hugo创建静态博客并发布到github.io上"/>
+<meta name="twitter:description" content="安装hugo 1 sudo pacman -S hugo 创建网站 1 hugo new site myBlog 安装主题 hugo-theme-jane 把这个主题克隆到 themes 文件夹 1 2 cd myBlog git clone https://github.com/xianmin/hugo-theme-jane.git --depth=1 themes/jane 复制一些示例文本 1 cp -r themes/jane/exampleSite/content ./ 复制默认的站点设置 1 cp"/>
 
 <!--[if lte IE 9]>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
@@ -327,17 +327,18 @@ if (!doNotTrack) {
           <article class="post bg-white">
     
     <header class="post-header">
-      <h1 class="post-title">Jquery事件委托</h1>
+      <h1 class="post-title">hugo创建静态博客并发布到github.io上</h1>
       
       <div class="post-meta">
-        <time datetime="2019-06-20" class="post-time">
-          2019-06-20
+        <time datetime="2019-10-24" class="post-time">
+          2019-10-24
         </time>
         <div class="post-category">
-            <a href="https://sxqsfun.github.io/categories/jquery/"> jquery </a>
+            <a href="https://sxqsfun.github.io/categories/hugo/"> hugo </a>
+            <a href="https://sxqsfun.github.io/categories/blog/"> blog </a>
             
           </div>
-        <span class="more-meta"> 约 610 字 </span>
+        <span class="more-meta"> 约 961 字 </span>
           <span class="more-meta"> 预计阅读 2 分钟 </span>
 
         
@@ -345,7 +346,7 @@ if (!doNotTrack) {
 
         
         
-          <span id="/post/jquery%E4%BA%8B%E4%BB%B6%E5%A7%94%E6%89%98/" class="leancloud_visitors" data-flag-title="Jquery事件委托">
+          <span id="/post/hugo%E5%88%9B%E5%BB%BA%E9%9D%99%E6%80%81%E5%8D%9A%E5%AE%A2%E5%B9%B6%E5%8F%91%E5%B8%83%E5%88%B0github/" class="leancloud_visitors" data-flag-title="hugo创建静态博客并发布到github.io上">
             <span class="post-meta-item-text"> | 阅读 </span>
             <span class="leancloud-visitors-count"></span>
           </span>
@@ -360,13 +361,85 @@ if (!doNotTrack) {
   <div class="post-toc-content">
     <nav id="TableOfContents">
 <ul>
-<li><a href="#headline-1">入口函数</a>
+<li><a href="#headline-1">安装hugo</a>
 </li>
-<li><a href="#headline-2">事件委托</a>
+<li><a href="#headline-2">创建网站</a>
 </li>
-<li><a href="#headline-3">jquery中的 on()方法</a>
+<li><a href="#headline-3">安装主题 hugo-theme-jane</a>
+<ul>
+<li><a href="#headline-4">把这个主题克隆到 themes 文件夹</a>
 </li>
-<li><a href="#headline-4">参考资料</a>
+<li><a href="#headline-5">复制一些示例文本</a>
+</li>
+<li><a href="#headline-6">复制默认的站点设置</a>
+</li>
+<li><a href="#headline-7">启动 hugo server</a>
+</li>
+<li><a href="#headline-8">查看示例网站，浏览器打开 http://localhost:1313/ </a>
+</li>
+</ul>
+</li>
+<li><a href="#headline-9">把网站放到github</a>
+<ul>
+<li><a href="#headline-10">注册github账号</a>
+</li>
+<li><a href="#headline-11">创建github.io仓库</a>
+</li>
+<li><a href="#headline-12">设置Git的user name 和 email (如果没有设置的话)</a>
+</li>
+<li><a href="#headline-13">生成密钥</a>
+</li>
+<li><a href="#headline-14">登陆Github, 添加 SSH key</a>
+</li>
+<li><a href="#headline-15">git初始化网站仓库</a>
+</li>
+<li><a href="#headline-16">添加github.io仓库做为git仓库的子模块到public目录</a>
+</li>
+<li><a href="#headline-17">生成静态博客站</a>
+</li>
+<li><a href="#headline-18">提交到github.io</a>
+</li>
+<li><a href="#headline-19">查看你的github.io博客</a>
+</li>
+</ul>
+</li>
+<li><a href="#headline-20">配置域名</a>
+<ul>
+<li><a href="#headline-21">购买域名</a>
+</li>
+<li><a href="#headline-22">解析域名</a>
+</li>
+<li><a href="#headline-23">创建CNAME文件</a>
+</li>
+<li><a href="#headline-24">域名访问是否生效(域名解析生效，一般等待十来分钟左右，即可访问)</a>
+</li>
+</ul>
+</li>
+<li><a href="#headline-25">emacs上使用easy-hugo发布</a>
+<ul>
+<li><a href="#headline-26">下载安装 easy-hugo</a>
+</li>
+<li><a href="#headline-27">配置</a>
+</li>
+<li><a href="#headline-28">一键发布脚本</a>
+</li>
+<li><a href="#headline-29">emacs启动</a>
+</li>
+</ul>
+</li>
+<li><a href="#headline-30">参考资料</a>
+<ul>
+<li><a href="#headline-31">hugo-theme-jane 使用说明</a>
+</li>
+<li><a href="#headline-32">git-ssh 配置和使用</a>
+</li>
+<li><a href="#headline-33">如何在github.io搭建Hugo博客站</a>
+</li>
+<li><a href="#headline-34">GitHub Pages 绑定来自阿里云的域名</a>
+</li>
+<li><a href="#headline-35">emacs-easy-hugo</a>
+</li>
+</ul>
 </li>
 </ul>
 </nav>
@@ -376,103 +449,353 @@ if (!doNotTrack) {
     
     <div class="post-content">
       
-<p>
-在很多时候，我们需要通过 AJAX 或者用户操作动态的增加或者去除列表项元素，那么在每一次改变的时候都需要重新给新增的元素绑定事件。
-事件委托的其中一个优点就是动态绑定事件，可以为“未来元素”绑定好事件。
-</p>
-<h3 id="headline-1">
-入口函数
-</h3>
-<ul>
-<li>
-<p>
-JavaScript的入口函数要等到页面中所有资源（包括图片、文件）加载完成才开始执行。
-</p>
-</li>
-<li>
-<p>
-jQuery的入口函数只会等待文档树加载完成就开始执行，并不会等待图片、文件的加载。
-</p>
-</li>
-</ul>
-<p>
-附注：JQ和JS中还有load方法，用于等待页面中资源完全加载，再执行相应代码。
-</p>
-<h3 id="headline-2">
-事件委托
-</h3>
-<p>
-事件委托，通俗地来讲，就是把一个元素响应事件（click、keydown……）的函数委托到另一个元素。
-</p>
-<p>
-一般来讲，会把一个或者一组元素的事件委托到它的父层或者更外层元素上，真正绑定事件的是外层元素，
-当事件响应到需要绑定的元素上时，会通过事件冒泡机制从而触发它的外层元素的绑定事件上，然后在外层元素上去执行函数。
-</p>
-<h3 id="headline-3">
-jquery中的 on()方法
-</h3>
-<ul>
-<li>
-<p>
-语法
-</p>
-</li>
-</ul>
-<div class="src src-js">
+<h2 id="headline-1">
+安装hugo
+</h2>
+<div class="src src-shell">
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code class="language-js" data-lang="js"><span class="lnt">1
+<pre class="chroma"><code class="language-shell" data-lang="shell"><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-js" data-lang="js"> <span class="nx">$</span><span class="p">(</span><span class="nx">selector</span><span class="p">).</span><span class="nx">on</span><span class="p">(</span><span class="nx">event</span><span class="p">,</span><span class="nx">childSelector</span><span class="p">,</span><span class="nx">data</span><span class="p">,</span><span class="kd">function</span><span class="p">)</span>
-</code></pre></td></tr></table>
+<pre class="chroma"><code class="language-shell" data-lang="shell">sudo pacman -S hugo</code></pre></td></tr></table>
 </div>
 </div>
 </div>
-<table>
-<thead>
-<tr>
-<th>参数</th>
-<th>描述</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>event</td>
-<td>必需。规定要从被选元素移除的一个或多个事件或命名空间。由空格分隔多个事件值，也可以是数组。必须是有效的事件。</td>
-</tr>
-<tr>
-<td>childSelector</td>
-<td>可选。规定只能添加到指定的子元素上的事件处理程序（且不是选择器本身，比如已废弃的 delegate() 方法）。</td>
-</tr>
-<tr>
-<td>data</td>
-<td>可选。规定传递到函数的额外数据。</td>
-</tr>
-<tr>
-<td>function</td>
-<td>可选。规定当事件发生时运行的函数。</td>
-</tr>
-</tbody>
-</table>
-<p>
-自 jQuery 版本 1.7 起，on() 方法是 bind()、live() 和 delegate() 方法的新的替代品。
-</p>
+<h2 id="headline-2">
+创建网站
+</h2>
+<div class="src src-shell">
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code class="language-shell" data-lang="shell"><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-shell" data-lang="shell">hugo new site myBlog</code></pre></td></tr></table>
+</div>
+</div>
+</div>
+<h2 id="headline-3">
+安装主题 <a href="https://github.com/xianmin/hugo-theme-jane">hugo-theme-jane</a>
+</h2>
 <h3 id="headline-4">
-参考资料
+把这个主题克隆到 themes 文件夹
 </h3>
+<div class="src src-shell">
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code class="language-shell" data-lang="shell"><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-shell" data-lang="shell"><span class="nb">cd</span> myBlog
+git clone https://github.com/xianmin/hugo-theme-jane.git --depth<span class="o">=</span><span class="m">1</span> themes/jane</code></pre></td></tr></table>
+</div>
+</div>
+</div>
+<h3 id="headline-5">
+复制一些示例文本
+</h3>
+<div class="src src-shell">
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code class="language-shell" data-lang="shell"><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-shell" data-lang="shell">cp -r themes/jane/exampleSite/content ./</code></pre></td></tr></table>
+</div>
+</div>
+</div>
+<h3 id="headline-6">
+复制默认的站点设置
+</h3>
+<div class="src src-shell">
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code class="language-shell" data-lang="shell"><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-shell" data-lang="shell">cp themes/jane/exampleSite/config.toml ./</code></pre></td></tr></table>
+</div>
+</div>
+</div>
+<h3 id="headline-7">
+启动 hugo server
+</h3>
+<div class="src src-shell">
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code class="language-shell" data-lang="shell"><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-shell" data-lang="shell">hugo server</code></pre></td></tr></table>
+</div>
+</div>
+</div>
+<h3 id="headline-8">
+查看示例网站，浏览器打开 <a href="http://localhost:1313/">http://localhost:1313/</a> 
+</h3>
+<h2 id="headline-9">
+把网站放到github
+</h2>
+<h3 id="headline-10">
+注册github账号
+</h3>
+<h3 id="headline-11">
+创建github.io仓库
+</h3>
+<p>
+点击New repository–&gt;输入仓库名称格式为：用户名.github.io(如：leach-chen.github.io)-&gt;点击Create repository。
+浏览器里访问 <a href="https://leach-chen.github.io/,">https://leach-chen.github.io/,</a> 可以发现这个url可以被访问了
+</p>
+<h3 id="headline-12">
+设置Git的user name 和 email (如果没有设置的话)
+</h3>
+<div class="src src-shell">
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code class="language-shell" data-lang="shell"><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-shell" data-lang="shell">git config --global user.name <span class="s2">&#34;humingx&#34;</span>
+git config --global user.email <span class="s2">&#34;humingx@yeah.net&#34;</span></code></pre></td></tr></table>
+</div>
+</div>
+</div>
+<h3 id="headline-13">
+生成密钥
+</h3>
+<div class="src src-shell">
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code class="language-shell" data-lang="shell"><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-shell" data-lang="shell">ssh-keygen -t rsa -C <span class="s2">&#34;78528291@163.com&#34;</span>
+<span class="c1">#连续3个回车。如果不需要密码的话。最后得到了两个文件：id_rsa和id_rsa.pub</span></code></pre></td></tr></table>
+</div>
+</div>
+</div>
+<h3 id="headline-14">
+登陆Github, 添加 SSH key
+</h3>
+<p>
+Settings——SSH and GPG keys——New SSH key。
+</p>
 <ul>
 <li>
 <p>
-<a href="https://www.runoob.com/jquery/event-on.html">jquery on()方法</a>
+Title 添加一个标题方便自己区分.
 </p>
 </li>
 <li>
 <p>
-<a href="https://blog.csdn.net/zhenghaohan1999/article/details/84031750">ajax渲染页面点击事件失效的解决方法</a>
+Key 把id_rsa.pub文件里的内容复制到这里 
 </p>
 </li>
 </ul>
+<h3 id="headline-15">
+git初始化网站仓库
+</h3>
+<div class="src src-shell">
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code class="language-shell" data-lang="shell"><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-shell" data-lang="shell"><span class="nb">cd</span> myBlog
+git init</code></pre></td></tr></table>
+</div>
+</div>
+</div>
+<h3 id="headline-16">
+添加github.io仓库做为git仓库的子模块到public目录
+</h3>
+<div class="src src-shell">
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code class="language-shell" data-lang="shell"><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-shell" data-lang="shell">git submodule add -b master git@github.com:keysaim/keysaim.github.io.git public</code></pre></td></tr></table>
+</div>
+</div>
+</div>
+<h3 id="headline-17">
+生成静态博客站
+</h3>
+<div class="src src-shell">
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code class="language-shell" data-lang="shell"><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-shell" data-lang="shell"><span class="c1">#直接运行hugo命令，就会在public目录下生成静态博客站。</span>
+hugo</code></pre></td></tr></table>
+</div>
+</div>
+</div>
+<h3 id="headline-18">
+提交到github.io
+</h3>
+<div class="src src-shell">
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code class="language-shell" data-lang="shell"><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-shell" data-lang="shell"><span class="nb">cd</span> public
+git add .
+git commit -m <span class="s2">&#34;YOUR COMMIT MESSAGE&#34;</span>
+git push origin master</code></pre></td></tr></table>
+</div>
+</div>
+</div>
+<h3 id="headline-19">
+查看你的github.io博客
+</h3>
+<p>
+正常情况下，过一会你就可以看到你基于Hugo的github.io博客站了，博主的是<a href="https://keysaim.github.io/">https://keysaim.github.io/</a>。
+</p>
+<h2 id="headline-20">
+配置域名
+</h2>
+<h3 id="headline-21">
+购买域名
+</h3>
+<h3 id="headline-22">
+解析域名
+</h3>
+<p>
+记录类型 CNAME
+记录值 keysaim.github.io
+</p>
+<h3 id="headline-23">
+创建CNAME文件
+</h3>
+<p>
+在GitHub博客仓库的根目录中新建文件CNAME（主要文件名一定要大写，没有后缀）。
+在该文件增加一行文字，告诉Github Pages服务器你想指定的域名。该域名不能包含前缀信息，即不能添加http://前缀。 
+</p>
+<h3 id="headline-24">
+域名访问是否生效(域名解析生效，一般等待十来分钟左右，即可访问)
+</h3>
+<h2 id="headline-25">
+emacs上使用easy-hugo发布
+</h2>
+<h3 id="headline-26">
+下载安装 <a href="https://github.com/masasam/emacs-easy-hugo">easy-hugo</a>
+</h3>
+<h3 id="headline-27">
+配置
+</h3>
+<div class="src src-elisp">
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code class="language-elisp" data-lang="elisp"><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span><span class="lnt">8
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-elisp" data-lang="elisp"><span class="p">(</span><span class="nb">require</span> <span class="ss">&#39;easy-hugo</span><span class="p">)</span>
+
+<span class="p">(</span><span class="nb">setq</span> <span class="nv">easy-hugo-basedir</span> <span class="s">&#34;~/Repository/code/blog&#34;</span><span class="p">)</span>
+<span class="p">(</span><span class="nb">setq</span> <span class="nv">easy-hugo-url</span> <span class="s">&#34;http://sxqs.fun&#34;</span><span class="p">)</span>
+<span class="p">(</span><span class="nb">setq</span> <span class="nv">easy-hugo-sshdomain</span> <span class="s">&#34;sxqs.fun&#34;</span><span class="p">)</span>
+<span class="p">(</span><span class="nb">setq</span> <span class="nv">easy-hugo-root</span> <span class="s">&#34;~/Repository/code/blog&#34;</span><span class="p">)</span>
+<span class="p">(</span><span class="nb">setq</span> <span class="nv">easy-hugo-previewtime</span> <span class="s">&#34;300&#34;</span><span class="p">)</span>
+<span class="p">(</span><span class="nb">setq</span> <span class="nv">easy-hugo-default-ext</span> <span class="s">&#34;.org&#34;</span><span class="p">)</span></code></pre></td></tr></table>
+</div>
+</div>
+</div>
+<h3 id="headline-28">
+一键发布脚本
+</h3>
+<div class="src src-shell">
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code class="language-shell" data-lang="shell"><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-shell" data-lang="shell"><span class="cp">#!/bin/bash
+</span><span class="cp"></span>
+<span class="nb">echo</span> -e <span class="s2">&#34;\033[0;32mDeploying updates to GitHub...\033[0m&#34;</span>
+hugo 
+
+<span class="nb">cd</span> public
+git add -A
+
+<span class="nv">msg</span><span class="o">=</span><span class="s2">&#34;rebuilding site `LANG=C date`&#34;</span>
+<span class="k">if</span> <span class="o">[</span> <span class="nv">$#</span> -eq <span class="m">1</span> <span class="o">]</span>
+  <span class="k">then</span> <span class="nv">msg</span><span class="o">=</span><span class="s2">&#34;</span><span class="nv">$1</span><span class="s2">&#34;</span>
+<span class="k">fi</span>
+git commit -m <span class="s2">&#34;</span><span class="nv">$msg</span><span class="s2">&#34;</span>
+
+git push origin master
+
+<span class="nb">cd</span> ..</code></pre></td></tr></table>
+</div>
+</div>
+</div>
+<h3 id="headline-29">
+emacs启动
+</h3>
+<div class="src src-elisp">
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code class="language-elisp" data-lang="elisp"><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-elisp" data-lang="elisp"><span class="nv">M-x</span> <span class="nv">easy-hugo</span></code></pre></td></tr></table>
+</div>
+</div>
+</div>
+<h2 id="headline-30">
+参考资料
+</h2>
+<h3 id="headline-31">
+<a href="https://github.com/xianmin/hugo-theme-jane/blob/master/README-zh.md">hugo-theme-jane 使用说明</a>
+</h3>
+<h3 id="headline-32">
+<a href="https://segmentfault.com/a/1190000002645623">git-ssh 配置和使用</a>
+</h3>
+<h3 id="headline-33">
+<a href="https://keysaim.github.io/post/blog/deploy-hugo-blog-in-github.io/">如何在github.io搭建Hugo博客站</a>
+</h3>
+<h3 id="headline-34">
+<a href="https://blog.csdn.net/qq_29232943/article/details/52786603">GitHub Pages 绑定来自阿里云的域名</a>
+</h3>
+<h3 id="headline-35">
+<a href="https://github.com/masasam/emacs-easy-hugo">emacs-easy-hugo</a>
+</h3>
 
     </div>
 
@@ -486,7 +809,7 @@ jquery中的 on()方法
   <p class="copyright-item">
     <span class="item-title">上次更新</span>
     <span class="item-content">
-      2019-06-20
+      2019-10-24
       
     </span>
   </p>
@@ -520,14 +843,15 @@ jquery中的 on()方法
 
     <footer class="post-footer">
       <div class="post-tags">
-          <a href="https://sxqsfun.github.io/tags/jquery/">jquery</a>
+          <a href="https://sxqsfun.github.io/tags/hugo/">hugo</a>
+          <a href="https://sxqsfun.github.io/tags/blog/">blog</a>
           
         </div>
 
       
       <nav class="post-nav">
         
-          <a class="prev" href="/post/%E5%AD%A6%E4%B9%A0%E5%AD%90%E9%BE%99%E5%B1%B1%E4%BA%BA%E8%A7%86%E9%A2%91%E7%AC%94%E8%AE%B0/">
+          <a class="prev" href="/post/mysql%E9%9A%8F%E6%9C%BA%E6%9F%A5%E8%AF%A2/">
             
             <i class="iconfont">
               <svg  class="icon" viewBox="0 0 1024 1024" version="1.1"
@@ -537,12 +861,12 @@ jquery中的 on()方法
 </svg>
 
             </i>
-            <span class="prev-text nav-default">学习子龙山人emacs视频</span>
+            <span class="prev-text nav-default">Mysql随机查询</span>
             <span class="prev-text nav-mobile">上一篇</span>
           </a>
         
-          <a class="next" href="/post/mysql_count%E5%87%BD%E6%95%B0%E5%8E%9F%E7%90%86%E6%B5%85%E6%9E%90/">
-            <span class="next-text nav-default">Mysql中count原理浅析</span>
+          <a class="next" href="/post/%E5%AD%A6%E4%B9%A0%E5%AD%90%E9%BE%99%E5%B1%B1%E4%BA%BA%E8%A7%86%E9%A2%91%E7%AC%94%E8%AE%B0/">
+            <span class="next-text nav-default">学习子龙山人emacs视频</span>
             <span class="prev-text nav-mobile">下一篇</span>
             
             <i class="iconfont">
@@ -590,7 +914,7 @@ jquery中的 on()方法
   <div id="disqus_thread"></div>
   <script type="text/javascript">
     var disqus_config = function () {
-      this.page.url = "https://sxqsfun.github.io/post/jquery%E4%BA%8B%E4%BB%B6%E5%A7%94%E6%89%98/";
+      this.page.url = "https://sxqsfun.github.io/post/hugo%E5%88%9B%E5%BB%BA%E9%9D%99%E6%80%81%E5%8D%9A%E5%AE%A2%E5%B9%B6%E5%8F%91%E5%B8%83%E5%88%B0github/";
     };
     function load_disqus() {
       
