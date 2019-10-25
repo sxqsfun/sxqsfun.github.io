@@ -13,19 +13,19 @@
     
     <item>
       <title>Mysql随机查询</title>
-      <link>https://sxqsfun.github.io/post/mysql%E9%9A%8F%E6%9C%BA%E6%9F%A5%E8%AF%A2/</link>
+      <link>https://sxqsfun.github.io/post/mysql_rand_query/</link>
       <pubDate>Fri, 25 Oct 2019 09:35:47 +0800</pubDate>
       
-      <guid>https://sxqsfun.github.io/post/mysql%E9%9A%8F%E6%9C%BA%E6%9F%A5%E8%AF%A2/</guid>
+      <guid>https://sxqsfun.github.io/post/mysql_rand_query/</guid>
       <description>昨天接到一个需求：点击换一批按钮，随机查询出200条数据。 mysql随机查询 1 2 3 4 #rand()函数随机生成一个[0,1)之间的数 #rou</description>
     </item>
     
     <item>
       <title>Mysql中count原理浅析</title>
-      <link>https://sxqsfun.github.io/post/mysql%E4%B8%ADcount%E5%8E%9F%E7%90%86%E6%B5%85%E6%9E%90/</link>
+      <link>https://sxqsfun.github.io/post/mysql_count/</link>
       <pubDate>Tue, 18 Jun 2019 07:39:12 +0800</pubDate>
       
-      <guid>https://sxqsfun.github.io/post/mysql%E4%B8%ADcount%E5%8E%9F%E7%90%86%E6%B5%85%E6%9E%90/</guid>
+      <guid>https://sxqsfun.github.io/post/mysql_count/</guid>
       <description>同事遇到mysql查询问题： 1 2 3 select count(0) from ( select *, b.id as bid, c.id as cid from table_a a, left join table_b b on b.a_id = a.id ) 左连接查询多张表后获取查询记录条数。 sql运行报错：Dup</description>
     </item>
     

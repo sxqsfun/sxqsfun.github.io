@@ -13,10 +13,10 @@
     
     <item>
       <title>Jquery事件委托</title>
-      <link>https://sxqsfun.github.io/post/jquery%E4%BA%8B%E4%BB%B6%E5%A7%94%E6%89%98/</link>
+      <link>https://sxqsfun.github.io/post/jquery_event/</link>
       <pubDate>Thu, 20 Jun 2019 17:57:42 +0800</pubDate>
       
-      <guid>https://sxqsfun.github.io/post/jquery%E4%BA%8B%E4%BB%B6%E5%A7%94%E6%89%98/</guid>
+      <guid>https://sxqsfun.github.io/post/jquery_event/</guid>
       <description>在很多时候，我们需要通过 AJAX 或者用户操作动态的增加或者去除列表项元素，那么在每一次改变的时候都需要重新给新增的元素绑定事件。 事件委托的其中一个</description>
     </item>
     
