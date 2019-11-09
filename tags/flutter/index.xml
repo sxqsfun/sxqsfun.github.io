@@ -6,10 +6,19 @@
     <description>Recent content in flutter on 上下求索</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sat, 09 Nov 2019 11:42:42 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 09 Nov 2019 11:58:24 +0800</lastBuildDate>
     
 	<atom:link href="https://sxqsfun.github.io/tags/flutter/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Flutter学习笔记之dart语言简介</title>
+      <link>https://sxqsfun.github.io/post/flutter%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%E4%B9%8Bdart%E8%AF%AD%E8%A8%80%E7%AE%80%E4%BB%8B/</link>
+      <pubDate>Sat, 09 Nov 2019 11:58:24 +0800</pubDate>
+      
+      <guid>https://sxqsfun.github.io/post/flutter%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%E4%B9%8Bdart%E8%AF%AD%E8%A8%80%E7%AE%80%E4%BB%8B/</guid>
+      <description>变量声明 var var定义的变量赋值后类型不能再被改变。 dynamic 和 Object Object 声明的对象可以是任意类型数据(类似 java 中的 Object 对象)，赋值后类型可变。 dynamic 赋值后类型可变</description>
+    </item>
     
     <item>
       <title>Flutter学习笔记之开发环境搭建(manjaro&#43;idea)</title>
