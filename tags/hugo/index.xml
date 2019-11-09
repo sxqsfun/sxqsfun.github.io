@@ -21,15 +21,6 @@
     </item>
     
     <item>
-      <title>hugo创建静态博客并发布到github.io上</title>
-      <link>https://sxqsfun.github.io/post/hugo%E5%88%9B%E5%BB%BA%E9%9D%99%E6%80%81%E5%8D%9A%E5%AE%A2%E5%B9%B6%E5%8F%91%E5%B8%83%E5%88%B0github/</link>
-      <pubDate>Thu, 24 Oct 2019 12:30:55 +0800</pubDate>
-      
-      <guid>https://sxqsfun.github.io/post/hugo%E5%88%9B%E5%BB%BA%E9%9D%99%E6%80%81%E5%8D%9A%E5%AE%A2%E5%B9%B6%E5%8F%91%E5%B8%83%E5%88%B0github/</guid>
-      <description>安装hugo 1 sudo pacman -S hugo 创建网站 1 hugo new site myBlog 安装主题 hugo-theme-jane 把这个主题克隆到 themes 文件夹 1 2 cd myBlog git clone https://github.com/xianmin/hugo-theme-jane.git --depth=1 themes/jane 复制一些示例文本 1 cp -r themes/jane/exampleSite/content ./ 复制默认的站点设置 1 cp</description>
-    </item>
-    
-    <item>
       <title>关于本站</title>
       <link>https://sxqsfun.github.io/about/</link>
       <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>

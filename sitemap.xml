@@ -3,56 +3,49 @@
   
   <url>
     <loc>https://sxqsfun.github.io/categories/</loc>
-    <lastmod>2019-10-28T21:35:33+08:00</lastmod>
+    <lastmod>2019-11-09T11:42:42+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://sxqsfun.github.io/categories/emacs/</loc>
-    <lastmod>2019-10-28T21:35:33+08:00</lastmod>
+    <loc>https://sxqsfun.github.io/tags/flutter/</loc>
+    <lastmod>2019-11-09T11:42:42+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://sxqsfun.github.io/tags/emacs/</loc>
-    <lastmod>2019-10-28T21:35:33+08:00</lastmod>
+    <loc>https://sxqsfun.github.io/categories/flutter/</loc>
+    <lastmod>2019-11-09T11:42:42+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://sxqsfun.github.io/post/emacs-config-org-download/</loc>
-    <lastmod>2019-10-28T21:35:33+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://sxqsfun.github.io/tags/org-download/</loc>
-    <lastmod>2019-10-28T21:35:33+08:00</lastmod>
+    <loc>https://sxqsfun.github.io/post/flutter%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%E4%B9%8B%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BAmanjaro&#43;idea/</loc>
+    <lastmod>2019-11-09T11:42:42+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://sxqsfun.github.io/post/</loc>
-    <lastmod>2019-10-28T21:35:33+08:00</lastmod>
+    <lastmod>2019-11-09T11:42:42+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://sxqsfun.github.io/tags/</loc>
-    <lastmod>2019-10-28T21:35:33+08:00</lastmod>
+    <lastmod>2019-11-09T11:42:42+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://sxqsfun.github.io/</loc>
-    <lastmod>2019-10-28T21:35:33+08:00</lastmod>
+    <lastmod>2019-11-09T11:42:42+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -72,14 +65,14 @@
   </url>
   
   <url>
-    <loc>https://sxqsfun.github.io/categories/hugo/</loc>
+    <loc>https://sxqsfun.github.io/tags/hugo/</loc>
     <lastmod>2019-10-25T15:04:06+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://sxqsfun.github.io/tags/hugo/</loc>
+    <loc>https://sxqsfun.github.io/categories/hugo/</loc>
     <lastmod>2019-10-25T15:04:06+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -93,14 +86,14 @@
   </url>
   
   <url>
-    <loc>https://sxqsfun.github.io/tags/mysql/</loc>
+    <loc>https://sxqsfun.github.io/categories/mysql/</loc>
     <lastmod>2019-10-25T09:35:47+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://sxqsfun.github.io/categories/mysql/</loc>
+    <loc>https://sxqsfun.github.io/tags/mysql/</loc>
     <lastmod>2019-10-25T09:35:47+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -116,13 +109,6 @@
   <url>
     <loc>https://sxqsfun.github.io/tags/%E9%9A%8F%E6%9C%BA%E6%9F%A5%E8%AF%A2/</loc>
     <lastmod>2019-10-25T09:35:47+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://sxqsfun.github.io/post/hugo%E5%88%9B%E5%BB%BA%E9%9D%99%E6%80%81%E5%8D%9A%E5%AE%A2%E5%B9%B6%E5%8F%91%E5%B8%83%E5%88%B0github/</loc>
-    <lastmod>2019-10-24T12:30:55+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -219,14 +205,14 @@
   </url>
   
   <url>
-    <loc>https://sxqsfun.github.io/categories/%E9%98%BF%E9%87%8C%E4%BA%91/</loc>
+    <loc>https://sxqsfun.github.io/tags/%E9%98%BF%E9%87%8C%E4%BA%91/</loc>
     <lastmod>2019-05-29T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://sxqsfun.github.io/tags/%E9%98%BF%E9%87%8C%E4%BA%91/</loc>
+    <loc>https://sxqsfun.github.io/categories/%E9%98%BF%E9%87%8C%E4%BA%91/</loc>
     <lastmod>2019-05-29T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -235,6 +221,18 @@
   <url>
     <loc>https://sxqsfun.github.io/post/%E9%98%BF%E9%87%8C%E4%BA%91%E5%AE%89%E5%85%A8%E7%BB%84/</loc>
     <lastmod>2019-05-29T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://sxqsfun.github.io/post/emacs-config-org-download/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://sxqsfun.github.io/post/hugo%E5%88%9B%E5%BB%BA%E9%9D%99%E6%80%81%E5%8D%9A%E5%AE%A2%E5%B9%B6%E5%8F%91%E5%B8%83%E5%88%B0github/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>

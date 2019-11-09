@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>flutter on 上下求索</title>
+    <link>https://sxqsfun.github.io/categories/flutter/</link>
+    <description>Recent content in flutter on 上下求索</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Sat, 09 Nov 2019 11:42:42 +0800</lastBuildDate>
+    
+	<atom:link href="https://sxqsfun.github.io/categories/flutter/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Flutter学习笔记之开发环境搭建(manjaro&#43;idea)</title>
+      <link>https://sxqsfun.github.io/post/flutter%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%E4%B9%8B%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BAmanjaro&#43;idea/</link>
+      <pubDate>Sat, 09 Nov 2019 11:42:42 +0800</pubDate>
+      
+      <guid>https://sxqsfun.github.io/post/flutter%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%E4%B9%8B%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BAmanjaro&#43;idea/</guid>
+      <description>安装 flutter 及版本更新 1 2 3 4 #安装 sudo pacman -S flutter #更新(可选) sudo flutter upgrade 安装 android-sdk 1 yay -S android-sdk idea配置flutter 下载插件并配置 flutter 配置 android-sdk 并安装 Android 模拟器 创建 flutter</description>
+    </item>
+    
+  </channel>
+</rss>
