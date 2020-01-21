@@ -32,7 +32,7 @@
 
 
 
-<meta name="generator" content="Hugo 0.58.3" />
+<meta name="generator" content="Hugo 0.62.2" />
 
 
 <link rel="canonical" href="https://sxqsfun.github.io/post/jquery%E4%BA%8B%E4%BB%B6%E5%A7%94%E6%89%98/" />
@@ -53,7 +53,7 @@
 
 
 
-<link rel="stylesheet" href="/sass/jane.min.af20b78e95c84de86b00a0242a4a77bd2601700e1b250edf27537d957ac0041d.css" integrity="sha256-ryC3jpXITehrAKAkKkp3vSYBcA4bJQ7fJ1N9lXrABB0=" media="screen" crossorigin="anonymous">
+<link rel="stylesheet" href="/sass/jane.min.0995afa14b62cd93e93cfc066b646c4c17a3eddca0e9d52a1d9dcf5d90aaacd3.css" integrity="sha256-CZWvoUtizZPpPPwGa2RsTBej7dyg6dUqHZ3PXZCqrNM=" media="screen" crossorigin="anonymous">
 
 
 
@@ -67,16 +67,13 @@
 <meta property="article:modified_time" content="2019-06-20T17:57:42+08:00" />
 <meta itemprop="name" content="Jquery事件委托">
 <meta itemprop="description" content="在很多时候，我们需要通过 AJAX 或者用户操作动态的增加或者去除列表项元素，那么在每一次改变的时候都需要重新给新增的元素绑定事件。 事件委托的其中一个">
-
-
 <meta itemprop="datePublished" content="2019-06-20T17:57:42&#43;08:00" />
 <meta itemprop="dateModified" content="2019-06-20T17:57:42&#43;08:00" />
 <meta itemprop="wordCount" content="610">
 
 
 
-<meta itemprop="keywords" content="jquery," />
-<meta name="twitter:card" content="summary"/>
+<meta itemprop="keywords" content="jquery," /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Jquery事件委托"/>
 <meta name="twitter:description" content="在很多时候，我们需要通过 AJAX 或者用户操作动态的增加或者去除列表项元素，那么在每一次改变的时候都需要重新给新增的元素绑定事件。 事件委托的其中一个"/>
 
@@ -380,9 +377,9 @@ if (!doNotTrack) {
 在很多时候，我们需要通过 AJAX 或者用户操作动态的增加或者去除列表项元素，那么在每一次改变的时候都需要重新给新增的元素绑定事件。
 事件委托的其中一个优点就是动态绑定事件，可以为“未来元素”绑定好事件。
 </p>
-<h3 id="headline-1">
+<h4 id="headline-1">
 入口函数
-</h3>
+</h4>
 <ul>
 <li>
 <p>
@@ -398,9 +395,9 @@ jQuery的入口函数只会等待文档树加载完成就开始执行，并不�
 <p>
 附注：JQ和JS中还有load方法，用于等待页面中资源完全加载，再执行相应代码。
 </p>
-<h3 id="headline-2">
+<h4 id="headline-2">
 事件委托
-</h3>
+</h4>
 <p>
 事件委托，通俗地来讲，就是把一个元素响应事件（click、keydown……）的函数委托到另一个元素。
 </p>
@@ -408,9 +405,9 @@ jQuery的入口函数只会等待文档树加载完成就开始执行，并不�
 一般来讲，会把一个或者一组元素的事件委托到它的父层或者更外层元素上，真正绑定事件的是外层元素，
 当事件响应到需要绑定的元素上时，会通过事件冒泡机制从而触发它的外层元素的绑定事件上，然后在外层元素上去执行函数。
 </p>
-<h3 id="headline-3">
+<h4 id="headline-3">
 jquery中的 on()方法
-</h3>
+</h4>
 <ul>
 <li>
 <p>
@@ -421,10 +418,10 @@ jquery中的 on()方法
 <div class="src src-js">
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code class="language-js" data-lang="js"><span class="lnt">1
+<pre class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-js" data-lang="js"> <span class="nx">$</span><span class="p">(</span><span class="nx">selector</span><span class="p">).</span><span class="nx">on</span><span class="p">(</span><span class="nx">event</span><span class="p">,</span><span class="nx">childSelector</span><span class="p">,</span><span class="nx">data</span><span class="p">,</span><span class="kd">function</span><span class="p">)</span>
+<pre class="chroma"><code class="language-js" data-lang="js"> <span class="nx">$</span><span class="p">(</span><span class="nx">selector</span><span class="p">)</span><span class="p">.</span><span class="nx">on</span><span class="p">(</span><span class="nx">event</span><span class="p">,</span><span class="nx">childSelector</span><span class="p">,</span><span class="nx">data</span><span class="p">,</span><span class="kd">function</span><span class="p">)</span>
 </code></pre></td></tr></table>
 </div>
 </div>
@@ -458,9 +455,9 @@ jquery中的 on()方法
 <p>
 自 jQuery 版本 1.7 起，on() 方法是 bind()、live() 和 delegate() 方法的新的替代品。
 </p>
-<h3 id="headline-4">
+<h4 id="headline-4">
 参考资料
-</h3>
+</h4>
 <ul>
 <li>
 <p>
@@ -657,7 +654,9 @@ jquery中的 on()方法
 
   <span class="copyright-year">
     &copy;
-    2019
+    
+      2019 -
+    2020
     <span class="heart">
       
       <i class="iconfont">

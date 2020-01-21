@@ -32,7 +32,7 @@
 
 
 
-<meta name="generator" content="Hugo 0.58.3" />
+<meta name="generator" content="Hugo 0.62.2" />
 
 
 <link rel="canonical" href="https://sxqsfun.github.io/post/mysql%E9%9A%8F%E6%9C%BA%E6%9F%A5%E8%AF%A2/" />
@@ -53,7 +53,7 @@
 
 
 
-<link rel="stylesheet" href="/sass/jane.min.af20b78e95c84de86b00a0242a4a77bd2601700e1b250edf27537d957ac0041d.css" integrity="sha256-ryC3jpXITehrAKAkKkp3vSYBcA4bJQ7fJ1N9lXrABB0=" media="screen" crossorigin="anonymous">
+<link rel="stylesheet" href="/sass/jane.min.0995afa14b62cd93e93cfc066b646c4c17a3eddca0e9d52a1d9dcf5d90aaacd3.css" integrity="sha256-CZWvoUtizZPpPPwGa2RsTBej7dyg6dUqHZ3PXZCqrNM=" media="screen" crossorigin="anonymous">
 
 
 
@@ -67,16 +67,13 @@
 <meta property="article:modified_time" content="2019-10-25T09:35:47+08:00" />
 <meta itemprop="name" content="Mysql随机查询">
 <meta itemprop="description" content="昨天接到一个需求：点击换一批按钮，随机查询出200条数据。 mysql随机查询 1 2 3 4 #rand()函数随机生成一个[0,1)之间的数 #rou">
-
-
 <meta itemprop="datePublished" content="2019-10-25T09:35:47&#43;08:00" />
 <meta itemprop="dateModified" content="2019-10-25T09:35:47&#43;08:00" />
 <meta itemprop="wordCount" content="144">
 
 
 
-<meta itemprop="keywords" content="mysql,随机查询," />
-<meta name="twitter:card" content="summary"/>
+<meta itemprop="keywords" content="mysql,随机查询," /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Mysql随机查询"/>
 <meta name="twitter:description" content="昨天接到一个需求：点击换一批按钮，随机查询出200条数据。 mysql随机查询 1 2 3 4 #rand()函数随机生成一个[0,1)之间的数 #rou"/>
 
@@ -375,28 +372,28 @@ if (!doNotTrack) {
 <p>
 昨天接到一个需求：点击换一批按钮，随机查询出200条数据。
 </p>
-<h2 id="headline-1">
+<h3 id="headline-1">
 mysql随机查询
-</h2>
+</h3>
 <div class="src src-sql">
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code class="language-sql" data-lang="sql"><span class="lnt">1
+<pre class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
 </span><span class="lnt">3
 </span><span class="lnt">4
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-sql" data-lang="sql"><span class="o">#</span><span class="n">rand</span><span class="p">()</span><span class="err">函数随机生成一个</span><span class="p">[</span><span class="mi">0</span><span class="p">,</span><span class="mi">1</span><span class="p">)</span><span class="err">之间的数</span>
-<span class="o">#</span><span class="n">round</span><span class="p">(</span><span class="n">rand</span><span class="p">())</span><span class="err">函数对随机数进行四舍五入生成</span><span class="mi">0</span><span class="err">或</span><span class="mi">1</span>
-<span class="o">#</span><span class="err">然后对随机生成的</span><span class="mi">0</span><span class="err">或</span><span class="mi">1</span><span class="err">进行排序即可</span>
-<span class="k">select</span> <span class="o">*</span><span class="p">,</span> <span class="n">round</span><span class="p">(</span><span class="n">rand</span><span class="p">())</span> <span class="k">as</span> <span class="n">rou</span> <span class="k">from</span> <span class="err">表名</span> <span class="k">order</span> <span class="k">by</span> <span class="n">rou</span> <span class="k">limit</span> <span class="mi">200</span><span class="p">;</span></code></pre></td></tr></table>
+<pre class="chroma"><code class="language-sql" data-lang="sql"><span class="o">#</span><span class="n">rand</span><span class="p">(</span><span class="p">)</span><span class="err">函</span><span class="err">数</span><span class="err">随</span><span class="err">机</span><span class="err">生</span><span class="err">成</span><span class="err">一</span><span class="err">个</span><span class="p">[</span><span class="mi">0</span><span class="p">,</span><span class="mi">1</span><span class="p">)</span><span class="err">之</span><span class="err">间</span><span class="err">的</span><span class="err">数</span>
+<span class="o">#</span><span class="n">round</span><span class="p">(</span><span class="n">rand</span><span class="p">(</span><span class="p">)</span><span class="p">)</span><span class="err">函</span><span class="err">数</span><span class="err">对</span><span class="err">随</span><span class="err">机</span><span class="err">数</span><span class="err">进</span><span class="err">行</span><span class="err">四</span><span class="err">舍</span><span class="err">五</span><span class="err">入</span><span class="err">生</span><span class="err">成</span><span class="mi">0</span><span class="err">或</span><span class="mi">1</span>
+<span class="o">#</span><span class="err">然</span><span class="err">后</span><span class="err">对</span><span class="err">随</span><span class="err">机</span><span class="err">生</span><span class="err">成</span><span class="err">的</span><span class="mi">0</span><span class="err">或</span><span class="mi">1</span><span class="err">进</span><span class="err">行</span><span class="err">排</span><span class="err">序</span><span class="err">即</span><span class="err">可</span>
+<span class="k">select</span> <span class="o">*</span><span class="p">,</span> <span class="n">round</span><span class="p">(</span><span class="n">rand</span><span class="p">(</span><span class="p">)</span><span class="p">)</span> <span class="k">as</span> <span class="n">rou</span> <span class="k">from</span> <span class="err">表</span><span class="err">名</span> <span class="k">order</span> <span class="k">by</span> <span class="n">rou</span> <span class="k">limit</span> <span class="mi">200</span><span class="p">;</span></code></pre></td></tr></table>
 </div>
 </div>
 </div>
-<h2 id="headline-2">
+<h3 id="headline-2">
 参考资料
-</h2>
+</h3>
 <ul>
 <li>
 <p>
@@ -589,7 +586,9 @@ mysql随机查询
 
   <span class="copyright-year">
     &copy;
-    2019
+    
+      2019 -
+    2020
     <span class="heart">
       
       <i class="iconfont">

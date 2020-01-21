@@ -32,7 +32,7 @@
 
 
 
-<meta name="generator" content="Hugo 0.58.3" />
+<meta name="generator" content="Hugo 0.62.2" />
 
 
 <link rel="canonical" href="https://sxqsfun.github.io/post/%E5%AD%A6%E4%B9%A0%E5%AD%90%E9%BE%99%E5%B1%B1%E4%BA%BA%E8%A7%86%E9%A2%91%E7%AC%94%E8%AE%B0/" />
@@ -53,7 +53,7 @@
 
 
 
-<link rel="stylesheet" href="/sass/jane.min.af20b78e95c84de86b00a0242a4a77bd2601700e1b250edf27537d957ac0041d.css" integrity="sha256-ryC3jpXITehrAKAkKkp3vSYBcA4bJQ7fJ1N9lXrABB0=" media="screen" crossorigin="anonymous">
+<link rel="stylesheet" href="/sass/jane.min.0995afa14b62cd93e93cfc066b646c4c17a3eddca0e9d52a1d9dcf5d90aaacd3.css" integrity="sha256-CZWvoUtizZPpPPwGa2RsTBej7dyg6dUqHZ3PXZCqrNM=" media="screen" crossorigin="anonymous">
 
 
 
@@ -67,16 +67,13 @@
 <meta property="article:modified_time" content="2019-07-04T19:00:56+08:00" />
 <meta itemprop="name" content="学习子龙山人emacs视频">
 <meta itemprop="description" content="day1 C-h k 查询快捷键 C-h v 查询变量 c-h f 查询方法 elisp s表达式：(方法名 变量1 变量2 …) C-x C-e 光标放在elisp函数后面，执行这个函数 定义变量：（setq">
-
-
 <meta itemprop="datePublished" content="2019-07-04T19:00:56&#43;08:00" />
 <meta itemprop="dateModified" content="2019-07-04T19:00:56&#43;08:00" />
 <meta itemprop="wordCount" content="674">
 
 
 
-<meta itemprop="keywords" content="," />
-<meta name="twitter:card" content="summary"/>
+<meta itemprop="keywords" content="," /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="学习子龙山人emacs视频"/>
 <meta name="twitter:description" content="day1 C-h k 查询快捷键 C-h v 查询变量 c-h f 查询方法 elisp s表达式：(方法名 变量1 变量2 …) C-x C-e 光标放在elisp函数后面，执行这个函数 定义变量：（setq"/>
 
@@ -371,9 +368,9 @@ if (!doNotTrack) {
     
     <div class="post-content">
       
-<h2 id="headline-1">
+<h3 id="headline-1">
 day1
-</h2>
+</h3>
 <ul>
 <li>
 <p>
@@ -456,7 +453,7 @@ hack emacs
 <div class="src src-emacs-lisp">
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code class="language-emacs-lisp" data-lang="emacs-lisp"><span class="lnt"> 1
+<pre class="chroma"><code><span class="lnt"> 1
 </span><span class="lnt"> 2
 </span><span class="lnt"> 3
 </span><span class="lnt"> 4
@@ -522,26 +519,26 @@ hack emacs
 <span class="c1">;; 开启文本选择替换</span>
 <span class="p">(</span><span class="nv">delete-selection-mode</span> <span class="mi">1</span><span class="p">)</span>
 <span class="c1">;; 设置软件打开全屏显示</span>
-<span class="p">(</span><span class="nb">setq</span> <span class="nv">initial-frame-alist</span> <span class="p">(</span><span class="nb">quote</span> <span class="p">((</span><span class="nv">fullscreen</span> <span class="o">.</span> <span class="nv">maximized</span><span class="p">))))</span>
+<span class="p">(</span><span class="nb">setq</span> <span class="nv">initial-frame-alist</span> <span class="p">(</span><span class="nb">quote</span> <span class="p">(</span><span class="p">(</span><span class="nv">fullscreen</span> <span class="o">.</span> <span class="nv">maximized</span><span class="p">)</span><span class="p">)</span><span class="p">)</span><span class="p">)</span>
 <span class="c1">;; 开启括号匹配</span>
 <span class="p">(</span><span class="nv">add-hook</span> <span class="ss">&#39;emacs-lisp-mode-hook</span> <span class="ss">&#39;show-paren-mode</span><span class="p">)</span>
 <span class="c1">;; 定义打开init.el的函数并绑定快捷键</span>
-<span class="p">(</span><span class="nb">defun</span> <span class="nv">open-my-init-file</span><span class="p">()</span>
+<span class="p">(</span><span class="nb">defun</span> <span class="nv">open-my-init-file</span><span class="p">(</span><span class="p">)</span>
    <span class="p">(</span><span class="nb">interactive</span><span class="p">)</span>
-   <span class="p">(</span><span class="nv">find-file</span> <span class="s">&#34;~/.emacs.d/init.el&#34;</span><span class="p">))</span>
-<span class="p">(</span><span class="nv">global-set-key</span> <span class="p">(</span><span class="nv">kbd</span> <span class="s">&#34;&lt;f2&gt;&#34;</span><span class="p">)</span> <span class="ss">&#39;open-my-init-file</span><span class="p">)</span>
+   <span class="p">(</span><span class="nv">find-file</span> <span class="s">&#34;</span><span class="s">~/.emacs.d/init.el</span><span class="s">&#34;</span><span class="p">)</span><span class="p">)</span>
+<span class="p">(</span><span class="nv">global-set-key</span> <span class="p">(</span><span class="nv">kbd</span> <span class="s">&#34;</span><span class="s">&lt;f2&gt;</span><span class="s">&#34;</span><span class="p">)</span> <span class="ss">&#39;open-my-init-file</span><span class="p">)</span>
 <span class="c1">;; 开启recentf-mode(打开最近打开的文件)并绑定快捷键</span>
 <span class="p">(</span><span class="nb">require</span> <span class="ss">&#39;recentf</span><span class="p">)</span>
 <span class="p">(</span><span class="nv">recentf-mode</span> <span class="mi">1</span><span class="p">)</span>
 <span class="p">(</span><span class="nb">setq</span> <span class="nv">recentf-max-menu-items</span> <span class="mi">25</span><span class="p">)</span>
-<span class="p">(</span><span class="nv">global-set-key</span> <span class="s">&#34;\C-x\ \C-r&#34;</span> <span class="ss">&#39;recentf-open-files</span><span class="p">)</span>
+<span class="p">(</span><span class="nv">global-set-key</span> <span class="s">&#34;</span><span class="s">\C</span><span class="s">-x</span><span class="s">\ </span><span class="s">\C</span><span class="s">-r</span><span class="s">&#34;</span> <span class="ss">&#39;recentf-open-files</span><span class="p">)</span>
 
 <span class="c1">;; 安装company插件(补全),开启全局补全</span>
 <span class="p">(</span><span class="nv">global-company-mode</span> <span class="mi">1</span><span class="p">)</span>
 <span class="c1">;; 设置查找变量、方法、快捷键的快捷键</span>
-<span class="p">(</span><span class="nv">global-set-key</span> <span class="p">(</span><span class="nv">kbd</span> <span class="s">&#34;C-h C-v&#34;</span><span class="p">)</span> <span class="ss">&#39;find-variable</span><span class="p">)</span>
-<span class="p">(</span><span class="nv">global-set-key</span> <span class="p">(</span><span class="nv">kbd</span> <span class="s">&#34;C-h C-f&#34;</span><span class="p">)</span> <span class="ss">&#39;find-function</span><span class="p">)</span>
-<span class="p">(</span><span class="nv">global-set-key</span> <span class="p">(</span><span class="nv">kbd</span> <span class="s">&#34;C-h C-k&#34;</span><span class="p">)</span> <span class="ss">&#39;find-function-on-key</span><span class="p">)</span></code></pre></td></tr></table>
+<span class="p">(</span><span class="nv">global-set-key</span> <span class="p">(</span><span class="nv">kbd</span> <span class="s">&#34;</span><span class="s">C-h C-v</span><span class="s">&#34;</span><span class="p">)</span> <span class="ss">&#39;find-variable</span><span class="p">)</span>
+<span class="p">(</span><span class="nv">global-set-key</span> <span class="p">(</span><span class="nv">kbd</span> <span class="s">&#34;</span><span class="s">C-h C-f</span><span class="s">&#34;</span><span class="p">)</span> <span class="ss">&#39;find-function</span><span class="p">)</span>
+<span class="p">(</span><span class="nv">global-set-key</span> <span class="p">(</span><span class="nv">kbd</span> <span class="s">&#34;</span><span class="s">C-h C-k</span><span class="s">&#34;</span><span class="p">)</span> <span class="ss">&#39;find-function-on-key</span><span class="p">)</span></code></pre></td></tr></table>
 </div>
 </div>
 </div>
@@ -568,9 +565,9 @@ C-c C-t 切换 TODO 状态
 </p>
 </li>
 </ol>
-<h2 id="headline-2">
+<h3 id="headline-2">
 day2
-</h2>
+</h3>
 <ul>
 <li>
 <p>
@@ -842,7 +839,9 @@ C-c C-d 设置选中标题项结束时间
 
   <span class="copyright-year">
     &copy;
-    2019
+    
+      2019 -
+    2020
     <span class="heart">
       
       <i class="iconfont">

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on 上下求索</title>
@@ -6,7 +6,7 @@
     <description>Recent content in Categories on 上下求索</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sat, 09 Nov 2019 11:58:24 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 12 Nov 2019 17:29:13 +0800</lastBuildDate>
     
 	<atom:link href="https://sxqsfun.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,7 +14,7 @@
     <item>
       <title>flutter</title>
       <link>https://sxqsfun.github.io/categories/flutter/</link>
-      <pubDate>Sat, 09 Nov 2019 11:58:24 +0800</pubDate>
+      <pubDate>Mon, 11 Nov 2019 15:55:37 +0800</pubDate>
       
       <guid>https://sxqsfun.github.io/categories/flutter/</guid>
       <description></description>

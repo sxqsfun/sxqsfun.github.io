@@ -32,7 +32,7 @@
 
 
 
-<meta name="generator" content="Hugo 0.58.3" />
+<meta name="generator" content="Hugo 0.62.2" />
 
 
 <link rel="canonical" href="https://sxqsfun.github.io/post/flutter%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%E4%B9%8Bdart%E8%AF%AD%E8%A8%80%E7%AE%80%E4%BB%8B/" />
@@ -53,7 +53,7 @@
 
 
 
-<link rel="stylesheet" href="/sass/jane.min.af20b78e95c84de86b00a0242a4a77bd2601700e1b250edf27537d957ac0041d.css" integrity="sha256-ryC3jpXITehrAKAkKkp3vSYBcA4bJQ7fJ1N9lXrABB0=" media="screen" crossorigin="anonymous">
+<link rel="stylesheet" href="/sass/jane.min.0995afa14b62cd93e93cfc066b646c4c17a3eddca0e9d52a1d9dcf5d90aaacd3.css" integrity="sha256-CZWvoUtizZPpPPwGa2RsTBej7dyg6dUqHZ3PXZCqrNM=" media="screen" crossorigin="anonymous">
 
 
 
@@ -67,16 +67,13 @@
 <meta property="article:modified_time" content="2019-11-09T11:58:24+08:00" />
 <meta itemprop="name" content="Flutter学习笔记之dart语言简介">
 <meta itemprop="description" content="变量声明 var var定义的变量赋值后类型不能再被改变。 dynamic 和 Object Object 声明的对象可以是任意类型数据(类似 java 中的 Object 对象)，赋值后类型可变。 dynamic 赋值后类型可变">
-
-
 <meta itemprop="datePublished" content="2019-11-09T11:58:24&#43;08:00" />
 <meta itemprop="dateModified" content="2019-11-09T11:58:24&#43;08:00" />
-<meta itemprop="wordCount" content="806">
+<meta itemprop="wordCount" content="805">
 
 
 
-<meta itemprop="keywords" content="flutter,dart," />
-<meta name="twitter:card" content="summary"/>
+<meta itemprop="keywords" content="flutter,dart," /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Flutter学习笔记之dart语言简介"/>
 <meta name="twitter:description" content="变量声明 var var定义的变量赋值后类型不能再被改变。 dynamic 和 Object Object 声明的对象可以是任意类型数据(类似 java 中的 Object 对象)，赋值后类型可变。 dynamic 赋值后类型可变"/>
 
@@ -337,7 +334,7 @@ if (!doNotTrack) {
             <a href="https://sxqsfun.github.io/categories/flutter/"> flutter </a>
             
           </div>
-        <span class="more-meta"> 约 806 字 </span>
+        <span class="more-meta"> 约 805 字 </span>
           <span class="more-meta"> 预计阅读 2 分钟 </span>
 
         
@@ -390,12 +387,12 @@ if (!doNotTrack) {
     
     <div class="post-content">
       
-<h1 id="headline-1">
+<h2 id="headline-1">
 变量声明
-</h1>
-<h2 id="headline-2">
-var
 </h2>
+<h3 id="headline-2">
+var
+</h3>
 <ul>
 <li>
 <p>
@@ -403,9 +400,9 @@ var定义的变量赋值后类型不能再被改变。
 </p>
 </li>
 </ul>
-<h2 id="headline-3">
+<h3 id="headline-3">
 dynamic 和 Object
-</h2>
+</h3>
 <ul>
 <li>
 <p>
@@ -418,9 +415,9 @@ dynamic 赋值后类型可变，声明的对象编译器会提供所有可能的
 </p>
 </li>
 </ul>
-<h2 id="headline-4">
+<h3 id="headline-4">
 final 和 const
-</h2>
+</h3>
 <ul>
 <li>
 <p>
@@ -433,9 +430,9 @@ const 定义的常量在编译时就被初始化。
 </p>
 </li>
 </ul>
-<h1 id="headline-5">
+<h2 id="headline-5">
 函数
-</h1>
+</h2>
 <ul>
 <li>
 <p>
@@ -463,17 +460,17 @@ const 定义的常量在编译时就被初始化。
 </p>
 </li>
 </ul>
-<h1 id="headline-6">
+<h2 id="headline-6">
 异步函数
-</h1>
+</h2>
 <ul>
 <li>
 <p>
 异步函数：返回 Future 或 Steam 对象的函数。
 </p>
-<h2 id="headline-7">
+<h3 id="headline-7">
 Futrue
-</h2>
+</h3>
 </li>
 <li>
 <p>
@@ -489,7 +486,7 @@ Futrue.delayed、Futrue.then、Futrue.catchError
 <div class="src src-dart">
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code class="language-dart" data-lang="dart"><span class="lnt"> 1
+<pre class="chroma"><code><span class="lnt"> 1
 </span><span class="lnt"> 2
 </span><span class="lnt"> 3
 </span><span class="lnt"> 4
@@ -509,22 +506,22 @@ Futrue.delayed、Futrue.then、Futrue.catchError
 </span></code></pre></td>
 <td class="lntd">
 <pre class="chroma"><code class="language-dart" data-lang="dart"><span class="c1">// Future.delayed 创建了一个延时任务
-</span><span class="c1">// Future.then 异步成功时调用 (then方法还有一个可选参数onError，我们也可以它来捕获异常)
-</span><span class="c1">// Future.catchError 异步失败时调用
-</span><span class="c1">// Future.whenComplete 异步完成时调用(成功或失败都会调用)
+</span><span class="c1"></span><span class="c1">// Future.then 异步成功时调用 (then方法还有一个可选参数onError，我们也可以它来捕获异常)
+</span><span class="c1"></span><span class="c1">// Future.catchError 异步失败时调用
+</span><span class="c1"></span><span class="c1">// Future.whenComplete 异步完成时调用(成功或失败都会调用)
 </span><span class="c1"></span>
-<span class="n">Future</span><span class="p">.</span><span class="n">delayed</span><span class="p">(</span><span class="k">new</span> <span class="n">Duration</span><span class="p">(</span><span class="nl">seconds:</span> <span class="m">2</span><span class="p">),(){</span>
+<span class="n">Future</span><span class="p">.</span><span class="n">delayed</span><span class="p">(</span><span class="k">new</span> <span class="n">Duration</span><span class="p">(</span><span class="nl">seconds:</span> <span class="m">2</span><span class="p">)</span><span class="p">,</span><span class="p">(</span><span class="p">)</span><span class="p">{</span>
    <span class="c1">//return &#34;hi world!&#34;;
-</span><span class="c1"></span>   <span class="k">throw</span> <span class="n">AssertionError</span><span class="p">(</span><span class="s2">&#34;Error&#34;</span><span class="p">);</span>
-<span class="p">}).</span><span class="n">then</span><span class="p">((</span><span class="n">data</span><span class="p">){</span>
+</span><span class="c1"></span>   <span class="k">throw</span> <span class="n">AssertionError</span><span class="p">(</span><span class="s2">&#34;</span><span class="s2">Error</span><span class="s2">&#34;</span><span class="p">)</span><span class="p">;</span>
+<span class="p">}</span><span class="p">)</span><span class="p">.</span><span class="n">then</span><span class="p">(</span><span class="p">(</span><span class="n">data</span><span class="p">)</span><span class="p">{</span>
    <span class="c1">//执行成功会走到这里 
-</span><span class="c1"></span>   <span class="n">print</span><span class="p">(</span><span class="n">data</span><span class="p">);</span>
-<span class="p">}).</span><span class="n">catchError</span><span class="p">((</span><span class="n">e</span><span class="p">){</span>
+</span><span class="c1"></span>   <span class="n">print</span><span class="p">(</span><span class="n">data</span><span class="p">)</span><span class="p">;</span>
+<span class="p">}</span><span class="p">)</span><span class="p">.</span><span class="n">catchError</span><span class="p">(</span><span class="p">(</span><span class="n">e</span><span class="p">)</span><span class="p">{</span>
    <span class="c1">//执行失败会走到这里   
-</span><span class="c1"></span>   <span class="n">print</span><span class="p">(</span><span class="n">e</span><span class="p">);</span>
-<span class="p">}).</span><span class="n">whenComplete</span><span class="p">((){</span>
+</span><span class="c1"></span>   <span class="n">print</span><span class="p">(</span><span class="n">e</span><span class="p">)</span><span class="p">;</span>
+<span class="p">}</span><span class="p">)</span><span class="p">.</span><span class="n">whenComplete</span><span class="p">(</span><span class="p">(</span><span class="p">)</span><span class="p">{</span>
    <span class="c1">//无论成功或失败都会走到这里
-</span><span class="c1"></span><span class="p">});</span></code></pre></td></tr></table>
+</span><span class="c1"></span><span class="p">}</span><span class="p">)</span><span class="p">;</span></code></pre></td></tr></table>
 </div>
 </div>
 </div>
@@ -538,7 +535,7 @@ Future.wait
 <div class="src src-dart">
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code class="language-dart" data-lang="dart"><span class="lnt"> 1
+<pre class="chroma"><code><span class="lnt"> 1
 </span><span class="lnt"> 2
 </span><span class="lnt"> 3
 </span><span class="lnt"> 4
@@ -556,20 +553,20 @@ Future.wait
 </span></code></pre></td>
 <td class="lntd">
 <pre class="chroma"><code class="language-dart" data-lang="dart"><span class="c1">// Future.wait 接收一个 Futrue 数组，只有数组中所有 Future 都执行成功后才触发 then，否则触发 catchError
-</span><span class="c1"></span><span class="n">Future</span><span class="p">.</span><span class="n">wait</span><span class="p">([</span>
+</span><span class="c1"></span><span class="n">Future</span><span class="p">.</span><span class="n">wait</span><span class="p">(</span><span class="p">[</span>
   <span class="c1">// 2秒后返回结果  
-</span><span class="c1"></span>  <span class="n">Future</span><span class="p">.</span><span class="n">delayed</span><span class="p">(</span><span class="k">new</span> <span class="n">Duration</span><span class="p">(</span><span class="nl">seconds:</span> <span class="m">2</span><span class="p">),</span> <span class="p">()</span> <span class="p">{</span>
-    <span class="k">return</span> <span class="s2">&#34;hello&#34;</span><span class="p">;</span>
-  <span class="p">}),</span>
+</span><span class="c1"></span>  <span class="n">Future</span><span class="p">.</span><span class="n">delayed</span><span class="p">(</span><span class="k">new</span> <span class="n">Duration</span><span class="p">(</span><span class="nl">seconds:</span> <span class="m">2</span><span class="p">)</span><span class="p">,</span> <span class="p">(</span><span class="p">)</span> <span class="p">{</span>
+    <span class="k">return</span> <span class="s2">&#34;</span><span class="s2">hello</span><span class="s2">&#34;</span><span class="p">;</span>
+  <span class="p">}</span><span class="p">)</span><span class="p">,</span>
   <span class="c1">// 4秒后返回结果  
-</span><span class="c1"></span>  <span class="n">Future</span><span class="p">.</span><span class="n">delayed</span><span class="p">(</span><span class="k">new</span> <span class="n">Duration</span><span class="p">(</span><span class="nl">seconds:</span> <span class="m">4</span><span class="p">),</span> <span class="p">()</span> <span class="p">{</span>
-    <span class="k">return</span> <span class="s2">&#34; world&#34;</span><span class="p">;</span>
-  <span class="p">})</span>
-<span class="p">]).</span><span class="n">then</span><span class="p">((</span><span class="n">results</span><span class="p">){</span>
-  <span class="n">print</span><span class="p">(</span><span class="n">results</span><span class="p">[</span><span class="m">0</span><span class="p">]</span><span class="o">+</span><span class="n">results</span><span class="p">[</span><span class="m">1</span><span class="p">]);</span>
-<span class="p">}).</span><span class="n">catchError</span><span class="p">((</span><span class="n">e</span><span class="p">){</span>
-  <span class="n">print</span><span class="p">(</span><span class="n">e</span><span class="p">);</span>
-<span class="p">});</span></code></pre></td></tr></table>
+</span><span class="c1"></span>  <span class="n">Future</span><span class="p">.</span><span class="n">delayed</span><span class="p">(</span><span class="k">new</span> <span class="n">Duration</span><span class="p">(</span><span class="nl">seconds:</span> <span class="m">4</span><span class="p">)</span><span class="p">,</span> <span class="p">(</span><span class="p">)</span> <span class="p">{</span>
+    <span class="k">return</span> <span class="s2">&#34;</span><span class="s2"> world</span><span class="s2">&#34;</span><span class="p">;</span>
+  <span class="p">}</span><span class="p">)</span>
+<span class="p">]</span><span class="p">)</span><span class="p">.</span><span class="n">then</span><span class="p">(</span><span class="p">(</span><span class="n">results</span><span class="p">)</span><span class="p">{</span>
+  <span class="n">print</span><span class="p">(</span><span class="n">results</span><span class="p">[</span><span class="m">0</span><span class="p">]</span><span class="o">+</span><span class="n">results</span><span class="p">[</span><span class="m">1</span><span class="p">]</span><span class="p">)</span><span class="p">;</span>
+<span class="p">}</span><span class="p">)</span><span class="p">.</span><span class="n">catchError</span><span class="p">(</span><span class="p">(</span><span class="n">e</span><span class="p">)</span><span class="p">{</span>
+  <span class="n">print</span><span class="p">(</span><span class="n">e</span><span class="p">)</span><span class="p">;</span>
+<span class="p">}</span><span class="p">)</span><span class="p">;</span></code></pre></td></tr></table>
 </div>
 </div>
 </div>
@@ -583,7 +580,7 @@ async/await
 <div class="src src-dart">
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code class="language-dart" data-lang="dart"><span class="lnt"> 1
+<pre class="chroma"><code><span class="lnt"> 1
 </span><span class="lnt"> 2
 </span><span class="lnt"> 3
 </span><span class="lnt"> 4
@@ -596,27 +593,27 @@ async/await
 </span><span class="lnt">11
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-dart" data-lang="dart"><span class="n">task</span><span class="p">()</span> <span class="kd">async</span> <span class="p">{</span>
+<pre class="chroma"><code class="language-dart" data-lang="dart"><span class="n">task</span><span class="p">(</span><span class="p">)</span> <span class="kd">async</span> <span class="p">{</span>
    <span class="k">try</span><span class="p">{</span>
-    <span class="kt">String</span> <span class="n">id</span> <span class="o">=</span> <span class="kd">await</span> <span class="n">login</span><span class="p">(</span><span class="s2">&#34;alice&#34;</span><span class="p">,</span><span class="s2">&#34;******&#34;</span><span class="p">);</span>
-    <span class="kt">String</span> <span class="n">userInfo</span> <span class="o">=</span> <span class="kd">await</span> <span class="n">getUserInfo</span><span class="p">(</span><span class="n">id</span><span class="p">);</span>
-    <span class="kd">await</span> <span class="n">saveUserInfo</span><span class="p">(</span><span class="n">userInfo</span><span class="p">);</span>
+    <span class="kt">String</span> <span class="n">id</span> <span class="o">=</span> <span class="kd">await</span> <span class="n">login</span><span class="p">(</span><span class="s2">&#34;</span><span class="s2">alice</span><span class="s2">&#34;</span><span class="p">,</span><span class="s2">&#34;</span><span class="s2">******</span><span class="s2">&#34;</span><span class="p">)</span><span class="p">;</span>
+    <span class="kt">String</span> <span class="n">userInfo</span> <span class="o">=</span> <span class="kd">await</span> <span class="n">getUserInfo</span><span class="p">(</span><span class="n">id</span><span class="p">)</span><span class="p">;</span>
+    <span class="kd">await</span> <span class="n">saveUserInfo</span><span class="p">(</span><span class="n">userInfo</span><span class="p">)</span><span class="p">;</span>
     <span class="c1">//执行接下来的操作   
-</span><span class="c1"></span>   <span class="p">}</span> <span class="k">catch</span><span class="p">(</span><span class="n">e</span><span class="p">){</span>
+</span><span class="c1"></span>   <span class="p">}</span> <span class="k">catch</span><span class="p">(</span><span class="n">e</span><span class="p">)</span><span class="p">{</span>
     <span class="c1">//错误处理   
-</span><span class="c1"></span>    <span class="n">print</span><span class="p">(</span><span class="n">e</span><span class="p">);</span>   
+</span><span class="c1"></span>    <span class="n">print</span><span class="p">(</span><span class="n">e</span><span class="p">)</span><span class="p">;</span>   
    <span class="p">}</span>  
 <span class="p">}</span></code></pre></td></tr></table>
 </div>
 </div>
 </div>
-<h2 id="headline-8">
+<h3 id="headline-8">
 Steam
-</h2>
+</h3>
 <div class="src src-dart">
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code class="language-dart" data-lang="dart"><span class="lnt"> 1
+<pre class="chroma"><code><span class="lnt"> 1
 </span><span class="lnt"> 2
 </span><span class="lnt"> 3
 </span><span class="lnt"> 4
@@ -640,32 +637,32 @@ Steam
 </span></code></pre></td>
 <td class="lntd">
 <pre class="chroma"><code class="language-dart" data-lang="dart"><span class="c1">//Steam可以接收多个异步操作的结果。常用于会多次读取数据的异步任务场景，如网络内容下载、文件读写等。
-</span><span class="c1"></span><span class="n">Stream</span><span class="p">.</span><span class="n">fromFutures</span><span class="p">([</span>
+</span><span class="c1"></span><span class="n">Stream</span><span class="p">.</span><span class="n">fromFutures</span><span class="p">(</span><span class="p">[</span>
   <span class="c1">// 1秒后返回结果
-</span><span class="c1"></span>  <span class="n">Future</span><span class="p">.</span><span class="n">delayed</span><span class="p">(</span><span class="k">new</span> <span class="n">Duration</span><span class="p">(</span><span class="nl">seconds:</span> <span class="m">1</span><span class="p">),</span> <span class="p">()</span> <span class="p">{</span>
-    <span class="k">return</span> <span class="s2">&#34;hello 1&#34;</span><span class="p">;</span>
-  <span class="p">}),</span>
+</span><span class="c1"></span>  <span class="n">Future</span><span class="p">.</span><span class="n">delayed</span><span class="p">(</span><span class="k">new</span> <span class="n">Duration</span><span class="p">(</span><span class="nl">seconds:</span> <span class="m">1</span><span class="p">)</span><span class="p">,</span> <span class="p">(</span><span class="p">)</span> <span class="p">{</span>
+    <span class="k">return</span> <span class="s2">&#34;</span><span class="s2">hello 1</span><span class="s2">&#34;</span><span class="p">;</span>
+  <span class="p">}</span><span class="p">)</span><span class="p">,</span>
   <span class="c1">// 抛出一个异常
-</span><span class="c1"></span>  <span class="n">Future</span><span class="p">.</span><span class="n">delayed</span><span class="p">(</span><span class="k">new</span> <span class="n">Duration</span><span class="p">(</span><span class="nl">seconds:</span> <span class="m">2</span><span class="p">),(){</span>
-    <span class="k">throw</span> <span class="n">AssertionError</span><span class="p">(</span><span class="s2">&#34;Error&#34;</span><span class="p">);</span>
-  <span class="p">}),</span>
+</span><span class="c1"></span>  <span class="n">Future</span><span class="p">.</span><span class="n">delayed</span><span class="p">(</span><span class="k">new</span> <span class="n">Duration</span><span class="p">(</span><span class="nl">seconds:</span> <span class="m">2</span><span class="p">)</span><span class="p">,</span><span class="p">(</span><span class="p">)</span><span class="p">{</span>
+    <span class="k">throw</span> <span class="n">AssertionError</span><span class="p">(</span><span class="s2">&#34;</span><span class="s2">Error</span><span class="s2">&#34;</span><span class="p">)</span><span class="p">;</span>
+  <span class="p">}</span><span class="p">)</span><span class="p">,</span>
   <span class="c1">// 3秒后返回结果
-</span><span class="c1"></span>  <span class="n">Future</span><span class="p">.</span><span class="n">delayed</span><span class="p">(</span><span class="k">new</span> <span class="n">Duration</span><span class="p">(</span><span class="nl">seconds:</span> <span class="m">3</span><span class="p">),</span> <span class="p">()</span> <span class="p">{</span>
-    <span class="k">return</span> <span class="s2">&#34;hello 3&#34;</span><span class="p">;</span>
-  <span class="p">})</span>
-<span class="p">]).</span><span class="n">listen</span><span class="p">((</span><span class="n">data</span><span class="p">){</span>
-   <span class="n">print</span><span class="p">(</span><span class="n">data</span><span class="p">);</span>
-<span class="p">},</span> <span class="nl">onError:</span> <span class="p">(</span><span class="n">e</span><span class="p">){</span>
-   <span class="n">print</span><span class="p">(</span><span class="n">e</span><span class="p">.</span><span class="n">message</span><span class="p">);</span>
-<span class="p">},</span><span class="nl">onDone:</span> <span class="p">(){</span>
+</span><span class="c1"></span>  <span class="n">Future</span><span class="p">.</span><span class="n">delayed</span><span class="p">(</span><span class="k">new</span> <span class="n">Duration</span><span class="p">(</span><span class="nl">seconds:</span> <span class="m">3</span><span class="p">)</span><span class="p">,</span> <span class="p">(</span><span class="p">)</span> <span class="p">{</span>
+    <span class="k">return</span> <span class="s2">&#34;</span><span class="s2">hello 3</span><span class="s2">&#34;</span><span class="p">;</span>
+  <span class="p">}</span><span class="p">)</span>
+<span class="p">]</span><span class="p">)</span><span class="p">.</span><span class="n">listen</span><span class="p">(</span><span class="p">(</span><span class="n">data</span><span class="p">)</span><span class="p">{</span>
+   <span class="n">print</span><span class="p">(</span><span class="n">data</span><span class="p">)</span><span class="p">;</span>
+<span class="p">}</span><span class="p">,</span> <span class="nl">onError:</span> <span class="p">(</span><span class="n">e</span><span class="p">)</span><span class="p">{</span>
+   <span class="n">print</span><span class="p">(</span><span class="n">e</span><span class="p">.</span><span class="n">message</span><span class="p">)</span><span class="p">;</span>
+<span class="p">}</span><span class="p">,</span><span class="nl">onDone:</span> <span class="p">(</span><span class="p">)</span><span class="p">{</span>
 
-<span class="p">});</span></code></pre></td></tr></table>
+<span class="p">}</span><span class="p">)</span><span class="p">;</span></code></pre></td></tr></table>
 </div>
 </div>
 </div>
-<h1 id="headline-9">
+<h2 id="headline-9">
 参考资料
-</h1>
+</h2>
 <ul>
 <li>
 <p>
@@ -728,6 +725,19 @@ Steam
       
       <nav class="post-nav">
         
+          <a class="prev" href="/post/flutter%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%E4%B9%8B%E8%AE%A1%E6%95%B0%E5%99%A8%E7%A4%BA%E4%BE%8B/">
+            
+            <i class="iconfont">
+              <svg  class="icon" viewBox="0 0 1024 1024" version="1.1"
+  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+  width="18" height="18">
+  <path d="M691.908486 949.511495l75.369571-89.491197c10.963703-12.998035 10.285251-32.864502-1.499144-44.378743L479.499795 515.267417 757.434875 204.940602c11.338233-12.190647 11.035334-32.285311-0.638543-44.850487l-80.46666-86.564541c-11.680017-12.583596-30.356378-12.893658-41.662889-0.716314L257.233596 494.235404c-11.332093 12.183484-11.041474 32.266891 0.657986 44.844348l80.46666 86.564541c1.772366 1.910513 3.706415 3.533476 5.750981 4.877077l306.620399 321.703933C662.505829 963.726242 680.945807 962.528973 691.908486 949.511495z"></path>
+</svg>
+
+            </i>
+            <span class="prev-text nav-default">Flutter学习笔记之计数器示例</span>
+            <span class="prev-text nav-mobile">上一篇</span>
+          </a>
         
           <a class="next" href="/post/flutter%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%E4%B9%8B%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BAmanjaro&#43;idea/">
             <span class="next-text nav-default">Flutter学习笔记之开发环境搭建(manjaro&#43;idea)</span>
@@ -845,7 +855,9 @@ Steam
 
   <span class="copyright-year">
     &copy;
-    2019
+    
+      2019 -
+    2020
     <span class="heart">
       
       <i class="iconfont">
