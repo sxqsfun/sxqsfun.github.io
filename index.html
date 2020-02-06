@@ -517,7 +517,27 @@ if (!doNotTrack) {
   <div class="post-content">
     
     <div class="post-summary">
-      同事遇到mysql查询问题： 1 2 3 select count(0) from ( select *, b.id as bid, c.id as cid from table_a a, left join table_b b on b.a_id = a.id ) 左连接查询多张表后获取查询记录条数。 sql运行报错：Dup
+      <p>
+同事遇到mysql查询问题：
+</p>
+<div class="src src-sql">
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-sql" data-lang="sql">  <span class="k">select</span> <span class="k">count</span><span class="p">(</span><span class="mi">0</span><span class="p">)</span> <span class="k">from</span> <span class="p">(</span>
+	 <span class="k">select</span> <span class="o">*</span><span class="p">,</span> <span class="n">b</span><span class="p">.</span><span class="n">id</span> <span class="k">as</span> <span class="n">bid</span><span class="p">,</span> <span class="k">c</span><span class="p">.</span><span class="n">id</span> <span class="k">as</span> <span class="n">cid</span> <span class="k">from</span> <span class="n">table_a</span> <span class="n">a</span><span class="p">,</span> <span class="k">left</span> <span class="k">join</span> <span class="n">table_b</span> <span class="n">b</span> <span class="k">on</span> <span class="n">b</span><span class="p">.</span><span class="n">a_id</span> <span class="o">=</span> <span class="n">a</span><span class="p">.</span><span class="n">id</span>
+  <span class="p">)</span></code></pre></td></tr></table>
+</div>
+</div>
+</div>
+<p>
+左连接查询多张表后获取查询记录条数。
+sql运行报错：Duplicate column name &#39;id&#39;.
+</p>
     </div>
     <div class="read-more">
       <a href="/post/mysql_count%E5%87%BD%E6%95%B0%E5%8E%9F%E7%90%86%E6%B5%85%E6%9E%90/" class="read-more-link">阅读全文</a>
