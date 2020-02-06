@@ -394,9 +394,9 @@ if (!doNotTrack) {
 左连接查询多张表后获取查询记录条数。
 sql运行报错：Duplicate column name &#39;id&#39;.
 </p>
-<h4 id="headline-1">
+<h2 id="headline-1">
 原因
-</h4>
+</h2>
 <p>
 根据错误信息，可以看出：查询记录条数的时候，有两列名称都为 &#39;id&#39;。
 只执行里面的左连接查询
@@ -414,15 +414,15 @@ sql运行报错：Duplicate column name &#39;id&#39;.
 <p>
 可以看到查询结果中确实有多个列名为&#39;id&#39;, 把 &#39;select <strong>&#39; 改为 &#39;select a.</strong>&#39;即可。
 </p>
-<h4 id="headline-2">
+<h2 id="headline-2">
 引申疑问
-</h4>
+</h2>
 <p>
 我对&#39;count(0)&#39;的实现细节不是很清楚，于是我在网上搜索了一下
 </p>
-<h4 id="headline-3">
+<h2 id="headline-3">
 总结
-</h4>
+</h2>
 <ol>
 <li>
 <p>
@@ -445,9 +445,9 @@ sql运行报错：Duplicate column name &#39;id&#39;.
 </p>
 </li>
 </ol>
-<h4 id="headline-4">
+<h2 id="headline-4">
 参考资料
-</h4>
+</h2>
 <ul>
 <li>
 <p>
