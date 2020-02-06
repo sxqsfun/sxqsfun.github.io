@@ -23,7 +23,7 @@
 <meta name="mobile-web-app-capable" content="yes">
 
 <meta name="author" content="dany" />
-  <meta name="description" content="问题 公司的一个项目由两个小组进行开发，客户用一个阿里云账号买了两台服务器， 一个小组一台。 一直都相安无事，突然今天下午有一个服务无法访问了，排" />
+  <meta name="description" content="问题   公司的一个项目由两个小组进行开发，客户用一个阿里云账号买了两台服务器， 一个小组一台。 一直都相安无事，突然今天下午有一个服务无法访问了，排查半天，最后排查到安全组，登录阿里 云一看，之前配置好的端口有几个都不见了。然后看到新加的配置里有个备注里写的是另一个组的服务 名，创建时间是今天下午。经过询问，确实是另一个组修改了安全组。 " />
 
   <meta name="keywords" content="linux, emacs, program, journal, 博客, 笔记" />
 
@@ -60,13 +60,29 @@
 
 
 <meta property="og:title" content="阿里云安全组" />
-<meta property="og:description" content="问题 公司的一个项目由两个小组进行开发，客户用一个阿里云账号买了两台服务器， 一个小组一台。 一直都相安无事，突然今天下午有一个服务无法访问了，排" />
+<meta property="og:description" content="
+问题
+
+
+公司的一个项目由两个小组进行开发，客户用一个阿里云账号买了两台服务器， 一个小组一台。
+一直都相安无事，突然今天下午有一个服务无法访问了，排查半天，最后排查到安全组，登录阿里
+云一看，之前配置好的端口有几个都不见了。然后看到新加的配置里有个备注里写的是另一个组的服务
+名，创建时间是今天下午。经过询问，确实是另一个组修改了安全组。
+" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://sxqsfun.github.io/post/%E9%98%BF%E9%87%8C%E4%BA%91%E5%AE%89%E5%85%A8%E7%BB%84/" />
 <meta property="article:published_time" content="2019-05-28T00:00:00+00:00" />
 <meta property="article:modified_time" content="2019-05-29T00:00:00+00:00" />
 <meta itemprop="name" content="阿里云安全组">
-<meta itemprop="description" content="问题 公司的一个项目由两个小组进行开发，客户用一个阿里云账号买了两台服务器， 一个小组一台。 一直都相安无事，突然今天下午有一个服务无法访问了，排">
+<meta itemprop="description" content="
+问题
+
+
+公司的一个项目由两个小组进行开发，客户用一个阿里云账号买了两台服务器， 一个小组一台。
+一直都相安无事，突然今天下午有一个服务无法访问了，排查半天，最后排查到安全组，登录阿里
+云一看，之前配置好的端口有几个都不见了。然后看到新加的配置里有个备注里写的是另一个组的服务
+名，创建时间是今天下午。经过询问，确实是另一个组修改了安全组。
+">
 <meta itemprop="datePublished" content="2019-05-28T00:00:00&#43;00:00" />
 <meta itemprop="dateModified" content="2019-05-29T00:00:00&#43;00:00" />
 <meta itemprop="wordCount" content="889">
@@ -75,7 +91,15 @@
 
 <meta itemprop="keywords" content="阿里云,安全组," /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="阿里云安全组"/>
-<meta name="twitter:description" content="问题 公司的一个项目由两个小组进行开发，客户用一个阿里云账号买了两台服务器， 一个小组一台。 一直都相安无事，突然今天下午有一个服务无法访问了，排"/>
+<meta name="twitter:description" content="
+问题
+
+
+公司的一个项目由两个小组进行开发，客户用一个阿里云账号买了两台服务器， 一个小组一台。
+一直都相安无事，突然今天下午有一个服务无法访问了，排查半天，最后排查到安全组，登录阿里
+云一看，之前配置好的端口有几个都不见了。然后看到新加的配置里有个备注里写的是另一个组的服务
+名，创建时间是今天下午。经过询问，确实是另一个组修改了安全组。
+"/>
 
 <!--[if lte IE 9]>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
@@ -384,34 +408,33 @@ if (!doNotTrack) {
 
     
     <div class="post-content">
-      
-<h3 id="headline-1">
+      <h2 id="headline-1">
 问题
-</h3>
+</h2>
 <p>
 公司的一个项目由两个小组进行开发，客户用一个阿里云账号买了两台服务器， 一个小组一台。
 一直都相安无事，突然今天下午有一个服务无法访问了，排查半天，最后排查到安全组，登录阿里
 云一看，之前配置好的端口有几个都不见了。然后看到新加的配置里有个备注里写的是另一个组的服务
 名，创建时间是今天下午。经过询问，确实是另一个组修改了安全组。
 </p>
-<h3 id="headline-2">
+<h2 id="headline-2">
 为什么
-</h3>
+</h2>
 <p>
 之前对安全组的了解：只知道它是配置端口用的，服务器防火墙开放端口后，如果不在
 安全组中配置，同样是访问不了的。像是给服务器多加了一道防线。
 我以为的安全组，应该是一个服务器一个安全组。不存在修改了一个服务器里的安全组，另一个服务器
 里的安全组也会修改的情况。
 </p>
-<h3 id="headline-3">
+<h2 id="headline-3">
 原因
-</h3>
+</h2>
 <p>
 带着疑问，看了一下阿里云的 <a href="https://help.aliyun.com/knowledge_detail/40570.html">安全组说明文档</a>
 </p>
-<h4 id="headline-4">
+<h3 id="headline-4">
 以下摘自文档内容
-</h4>
+</h3>
 <ul>
 <li>
 <p>
@@ -430,30 +453,29 @@ if (!doNotTrack) {
 </p>
 </li>
 </ul>
-<h3 id="headline-5">
+<h2 id="headline-5">
 总结一下
-</h3>
+</h2>
 <p>
 同一个阿里云账户购买阿里云服务器默认会帮你配置一个安全组(一台或多台都在这个默认的安全组下)。你可以配置不同的
 服务器在不同的安全组下，同一个安全组之间的服务器内网互通，不同安全组之间的服务器默认内网不通，授权后可互通。
 </p>
-<h3 id="headline-6">
+<h2 id="headline-6">
 怎么办
-</h3>
-<h4 id="headline-7">
+</h2>
+<h3 id="headline-7">
 如果要想一个服务器一个安全组
-</h4>
+</h3>
 <p>
 登录阿里云账号——控制台——云服务器ECS——网络与安全——安全组——创建安全组——管理实例，添加指定服务器实例到安全组即可。
 为了区分，可以给安全组设置一个别名或标签。
 </p>
-<h4 id="headline-8">
+<h3 id="headline-8">
 如果要删除一个安全组
-</h4>
+</h3>
 <p>
 登录阿里云账号——控制台——云服务器ECS——网络与安全——安全组——勾选要删除的安全组，点击列表左下方的删除按钮即可。
 </p>
-
     </div>
 
     
@@ -522,19 +544,6 @@ if (!doNotTrack) {
             <span class="prev-text nav-mobile">上一篇</span>
           </a>
         
-          <a class="next" href="/post/flutter%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%E4%B9%8Bcontainer%E5%AE%B9%E5%99%A8/">
-            <span class="next-text nav-default"></span>
-            <span class="prev-text nav-mobile">下一篇</span>
-            
-            <i class="iconfont">
-              <svg class="icon" viewBox="0 0 1024 1024" version="1.1"
-  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-  width="18" height="18">
-  <path d="M332.091514 74.487481l-75.369571 89.491197c-10.963703 12.998035-10.285251 32.864502 1.499144 44.378743l286.278095 300.375162L266.565125 819.058374c-11.338233 12.190647-11.035334 32.285311 0.638543 44.850487l80.46666 86.564541c11.680017 12.583596 30.356378 12.893658 41.662889 0.716314l377.434212-421.426145c11.332093-12.183484 11.041474-32.266891-0.657986-44.844348l-80.46666-86.564541c-1.772366-1.910513-3.706415-3.533476-5.750981-4.877077L373.270379 71.774697C361.493148 60.273758 343.054193 61.470003 332.091514 74.487481z"></path>
-</svg>
-
-            </i>
-          </a>
       </nav>
     </footer>
   </article>
