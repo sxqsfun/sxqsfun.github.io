@@ -2,6 +2,62 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://sxqsfun.github.io/categories/</loc>
+    <lastmod>2019-10-28T21:35:33+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://sxqsfun.github.io/categories/emacs/</loc>
+    <lastmod>2019-10-28T21:35:33+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://sxqsfun.github.io/tags/emacs/</loc>
+    <lastmod>2019-10-28T21:35:33+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://sxqsfun.github.io/post/emacs-config-org-download/</loc>
+    <lastmod>2019-10-28T21:35:33+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://sxqsfun.github.io/tags/org-download/</loc>
+    <lastmod>2019-10-28T21:35:33+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://sxqsfun.github.io/post/</loc>
+    <lastmod>2019-10-28T21:35:33+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://sxqsfun.github.io/tags/</loc>
+    <lastmod>2019-10-28T21:35:33+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://sxqsfun.github.io/</loc>
+    <lastmod>2019-10-28T21:35:33+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://sxqsfun.github.io/categories/blog/</loc>
     <lastmod>2019-10-25T15:04:06+08:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -10,13 +66,6 @@
   
   <url>
     <loc>https://sxqsfun.github.io/tags/blog/</loc>
-    <lastmod>2019-10-25T15:04:06+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://sxqsfun.github.io/categories/</loc>
     <lastmod>2019-10-25T15:04:06+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -44,35 +93,14 @@
   </url>
   
   <url>
-    <loc>https://sxqsfun.github.io/post/</loc>
-    <lastmod>2019-10-25T15:04:06+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://sxqsfun.github.io/tags/</loc>
-    <lastmod>2019-10-25T15:04:06+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://sxqsfun.github.io/</loc>
-    <lastmod>2019-10-25T15:04:06+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://sxqsfun.github.io/tags/mysql/</loc>
+    <loc>https://sxqsfun.github.io/categories/mysql/</loc>
     <lastmod>2019-10-25T09:35:47+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://sxqsfun.github.io/categories/mysql/</loc>
+    <loc>https://sxqsfun.github.io/tags/mysql/</loc>
     <lastmod>2019-10-25T09:35:47+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -184,14 +212,14 @@
   </url>
   
   <url>
-    <loc>https://sxqsfun.github.io/tags/%E9%98%BF%E9%87%8C%E4%BA%91/</loc>
+    <loc>https://sxqsfun.github.io/categories/%E9%98%BF%E9%87%8C%E4%BA%91/</loc>
     <lastmod>2019-05-29T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://sxqsfun.github.io/categories/%E9%98%BF%E9%87%8C%E4%BA%91/</loc>
+    <loc>https://sxqsfun.github.io/tags/%E9%98%BF%E9%87%8C%E4%BA%91/</loc>
     <lastmod>2019-05-29T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -200,12 +228,6 @@
   <url>
     <loc>https://sxqsfun.github.io/post/%E9%98%BF%E9%87%8C%E4%BA%91%E5%AE%89%E5%85%A8%E7%BB%84/</loc>
     <lastmod>2019-05-29T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://sxqsfun.github.io/post/emacs-config-org-download/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
