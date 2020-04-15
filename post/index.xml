@@ -17,7 +17,7 @@
       <pubDate>Wed, 15 Apr 2020 17:53:48 +0800</pubDate>
       
       <guid>https://sxqsfun.github.io/post/springboot%E9%85%8D%E7%BD%AEhttps/</guid>
-      <description>&amp;lt;!– more –&amp;gt; 步骤 购买并申请好SSL证书 下载tomcat证书文件 解压证书文件 配置 复制 .pfx文件 到项目 resources 目录 上传 .pfx文件 到服务</description>
+      <description>步骤 购买并申请好SSL证书 下载tomcat证书文件 解压证书文件 配置 复制 .pfx文件 到项目 resources 目录 上传 .pfx文件 到服务器 jar包 同级目录 配置 application-pro.yml</description>
     </item>
     
     <item>
