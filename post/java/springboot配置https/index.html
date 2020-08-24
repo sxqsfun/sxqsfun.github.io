@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>关于本站 - 上下求索</title>
+  <title>SpringBoot配置HTTPS - 上下求索</title>
   
 
 <meta name="renderer" content="webkit" />
@@ -22,8 +22,7 @@
 
 <meta name="mobile-web-app-capable" content="yes">
 
-<meta name="author" content="dany" />
-  <meta name="description" content="本站主要记录个人的学习笔记，以及一些在工作、生活中遇到的问题等。" />
+<meta name="author" content="dany" /><meta name="description" content="Short description" />
 
   <meta name="keywords" content="linux, emacs, program, journal, 博客, 笔记" />
 
@@ -35,7 +34,7 @@
 <meta name="generator" content="Hugo 0.74.3" />
 
 
-<link rel="canonical" href="https://sxqsfun.github.io/about/" />
+<link rel="canonical" href="https://sxqsfun.github.io/post/java/springboot%E9%85%8D%E7%BD%AEhttps/" />
 
 
 
@@ -59,24 +58,24 @@
 
 
 
-<meta property="og:title" content="关于本站" />
-<meta property="og:description" content="本站主要记录个人的学习笔记，以及一些在工作、生活中遇到的问题等。" />
+<meta property="og:title" content="SpringBoot配置HTTPS" />
+<meta property="og:description" content="Short description" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://sxqsfun.github.io/about/" />
-<meta property="article:published_time" content="2019-05-28T00:00:00+00:00" />
-<meta property="article:modified_time" content="2019-05-29T00:00:00+00:00" />
-<meta itemprop="name" content="关于本站">
-<meta itemprop="description" content="本站主要记录个人的学习笔记，以及一些在工作、生活中遇到的问题等。">
-<meta itemprop="datePublished" content="2019-05-28T00:00:00+00:00" />
-<meta itemprop="dateModified" content="2019-05-29T00:00:00+00:00" />
-<meta itemprop="wordCount" content="32">
+<meta property="og:url" content="https://sxqsfun.github.io/post/java/springboot%E9%85%8D%E7%BD%AEhttps/" />
+<meta property="article:published_time" content="2020-04-15T17:53:48+08:00" />
+<meta property="article:modified_time" content="2020-04-15T17:53:48+08:00" />
+<meta itemprop="name" content="SpringBoot配置HTTPS">
+<meta itemprop="description" content="Short description">
+<meta itemprop="datePublished" content="2020-04-15T17:53:48+08:00" />
+<meta itemprop="dateModified" content="2020-04-15T17:53:48+08:00" />
+<meta itemprop="wordCount" content="249">
 
 
 
-<meta itemprop="keywords" content="hugo,github," />
+<meta itemprop="keywords" content="nil,,nil," />
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="关于本站"/>
-<meta name="twitter:description" content="本站主要记录个人的学习笔记，以及一些在工作、生活中遇到的问题等。"/>
+<meta name="twitter:title" content="SpringBoot配置HTTPS"/>
+<meta name="twitter:description" content="Short description"/>
 
 <!--[if lte IE 9]>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
@@ -323,34 +322,228 @@ if (!doNotTrack) {
       <div class="content-wrapper">
         <div id="content" class="content container">
           <article class="post bg-white">
-  
-  <header class="post-header">
-    <h1 class="post-title">关于本站</h1>
     
-    <div class="post-meta">
-      <time datetime="2019-05-28" class="post-time">
-        2019-05-28
-      </time>
-    </div>
-  </header>
+    <header class="post-header">
+      <h1 class="post-title">SpringBoot配置HTTPS</h1>
+      
+      <div class="post-meta">
+        <time datetime="2020-04-15" class="post-time">
+          2020-04-15
+        </time>
+        
+        <span class="more-meta"> 约 249 字 </span>
+          <span class="more-meta"> 预计阅读 1 分钟 </span>
 
-  
-  
+        
+        
+
+        
+        
+          <span id="/post/java/springboot%E9%85%8D%E7%BD%AEhttps/" class="leancloud_visitors" data-flag-title="SpringBoot配置HTTPS">
+            <span class="post-meta-item-text"> | 阅读 </span>
+            <span class="leancloud-visitors-count"></span>
+          </span>
+        
+      </div>
+    </header>
+
+    
+    
 <div class="post-toc" id="post-toc">
   <h2 class="post-toc-title">文章目录</h2>
   <div class="post-toc-content">
-    <nav id="TableOfContents"></nav>
+    <nav id="TableOfContents">
+<ul>
+<li><a href="#headline-1">步骤</a>
+<ul>
+<li><a href="#headline-2">购买并申请好SSL证书</a>
+</li>
+<li><a href="#headline-3">下载tomcat证书文件</a>
+</li>
+<li><a href="#headline-4">解压证书文件</a>
+</li>
+<li><a href="#headline-5">配置</a>
+</li>
+</ul>
+</li>
+</ul>
+</nav>
   </div>
 </div>
 
-  
-  <div class="post-content">
-      <p>本站主要记录个人的学习笔记，以及一些在工作、生活中遇到的问题等。</p>
+    
+    <div class="post-content">
+      
+<div id="outline-container-headline-1" class="outline-2">
+<h2 id="headline-1">
+步骤
+</h2>
+<div id="outline-text-headline-1" class="outline-text-2">
+<div id="outline-container-headline-2" class="outline-3">
+<h3 id="headline-2">
+购买并申请好SSL证书
+</h3>
+</div>
+<div id="outline-container-headline-3" class="outline-3">
+<h3 id="headline-3">
+下载tomcat证书文件
+</h3>
+</div>
+<div id="outline-container-headline-4" class="outline-3">
+<h3 id="headline-4">
+解压证书文件
+</h3>
+</div>
+<div id="outline-container-headline-5" class="outline-3">
+<h3 id="headline-5">
+配置
+</h3>
+<div id="outline-text-headline-5" class="outline-text-3">
+<ul>
+<li>
+<p>复制 .pfx文件 到项目 resources 目录</p>
+</li>
+<li>
+<p>上传 .pfx文件 到服务器 jar包 同级目录</p>
+</li>
+<li>
+<p>配置 application-pro.yml</p>
+</li>
+</ul>
+<div class="src src-java">
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span><span class="lnt">8
+</span><span class="lnt">9
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-java" data-lang="java"><span class="nl">server:</span>
+  <span class="n">port</span><span class="o">:</span> <span class="n">443</span>
+  <span class="n">ssl</span><span class="o">:</span>
+    <span class="err">#</span> <span class="n">服务器</span><span class="o">.</span><span class="na">pfx文件路径</span>
+    <span class="n">key</span><span class="o">-</span><span class="n">store</span><span class="o">:</span> <span class="o">/</span><span class="n">usr</span><span class="o">/</span><span class="n">java</span><span class="o">/</span><span class="n">jar</span><span class="o">/</span><span class="n">3770607_jiafuxun</span><span class="o">.</span><span class="na">top</span><span class="o">.</span><span class="na">pfx</span>
+    <span class="err">#</span> <span class="o">.</span><span class="na">txt文件内容</span>
+    <span class="n">key</span><span class="o">-</span><span class="n">store</span><span class="o">-</span><span class="n">password</span><span class="o">:</span> <span class="n">JfILF2mp</span>
+    <span class="err">#</span> <span class="n">文件类型</span><span class="o">(</span><span class="n">填PKCS12</span><span class="o">)</span>
+    <span class="n">key</span><span class="o">-</span><span class="n">store</span><span class="o">-</span><span class="n">type</span><span class="o">:</span> <span class="n">PKCS12</span></code></pre></td></tr></table>
+</div>
+</div>
+</div>
+<ul>
+<li>
+<p>HTTP自动转HTTPS</p>
+</li>
+</ul>
+<div class="src src-java">
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span><span class="lnt">22
+</span><span class="lnt">23
+</span><span class="lnt">24
+</span><span class="lnt">25
+</span><span class="lnt">26
+</span><span class="lnt">27
+</span><span class="lnt">28
+</span><span class="lnt">29
+</span><span class="lnt">30
+</span><span class="lnt">31
+</span><span class="lnt">32
+</span><span class="lnt">33
+</span><span class="lnt">34
+</span><span class="lnt">35
+</span><span class="lnt">36
+</span><span class="lnt">37
+</span><span class="lnt">38
+</span><span class="lnt">39
+</span><span class="lnt">40
+</span><span class="lnt">41
+</span><span class="lnt">42
+</span><span class="lnt">43
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-java" data-lang="java"><span class="kn">package</span> <span class="nn">com.wing.common.config</span><span class="o">;</span>
 
-  </div>
+<span class="kn">import</span> <span class="nn">org.apache.catalina.Context</span><span class="o">;</span>
+<span class="kn">import</span> <span class="nn">org.apache.catalina.connector.Connector</span><span class="o">;</span>
+<span class="kn">import</span> <span class="nn">org.apache.tomcat.util.descriptor.web.SecurityCollection</span><span class="o">;</span>
+<span class="kn">import</span> <span class="nn">org.apache.tomcat.util.descriptor.web.SecurityConstraint</span><span class="o">;</span>
+<span class="kn">import</span> <span class="nn">org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory</span><span class="o">;</span>
+<span class="kn">import</span> <span class="nn">org.springframework.context.annotation.Bean</span><span class="o">;</span>
+<span class="kn">import</span> <span class="nn">org.springframework.context.annotation.Configuration</span><span class="o">;</span>
 
-  
-  
+<span class="cm">/**
+</span><span class="cm"> * @author
+</span><span class="cm"> */</span>
+<span class="nd">@Configuration</span>
+<span class="kd">public</span> <span class="kd">class</span> <span class="nc">HttpsConfig</span> <span class="o">{</span>
+
+    <span class="nd">@Bean</span>
+    <span class="kd">public</span> <span class="n">Connector</span> <span class="nf">connector</span><span class="o">(){</span>
+        <span class="n">Connector</span> <span class="n">connector</span><span class="o">=</span><span class="k">new</span> <span class="n">Connector</span><span class="o">(</span><span class="s">&#34;org.apache.coyote.http11.Http11NioProtocol&#34;</span><span class="o">);</span>
+        <span class="n">connector</span><span class="o">.</span><span class="na">setScheme</span><span class="o">(</span><span class="s">&#34;http&#34;</span><span class="o">);</span>
+        <span class="n">connector</span><span class="o">.</span><span class="na">setPort</span><span class="o">(</span><span class="n">80</span><span class="o">);</span>
+        <span class="n">connector</span><span class="o">.</span><span class="na">setSecure</span><span class="o">(</span><span class="kc">false</span><span class="o">);</span>
+        <span class="n">connector</span><span class="o">.</span><span class="na">setRedirectPort</span><span class="o">(</span><span class="n">443</span><span class="o">);</span>
+        <span class="k">return</span> <span class="n">connector</span><span class="o">;</span>
+    <span class="o">}</span>
+
+    <span class="nd">@Bean</span>
+    <span class="kd">public</span> <span class="n">TomcatServletWebServerFactory</span> <span class="nf">tomcatServletWebServerFactory</span><span class="o">(</span><span class="n">Connector</span> <span class="n">connector</span><span class="o">){</span>
+        <span class="n">TomcatServletWebServerFactory</span> <span class="n">tomcat</span><span class="o">=</span><span class="k">new</span> <span class="n">TomcatServletWebServerFactory</span><span class="o">(){</span>
+            <span class="nd">@Override</span>
+            <span class="kd">protected</span> <span class="kt">void</span> <span class="nf">postProcessContext</span><span class="o">(</span><span class="n">Context</span> <span class="n">context</span><span class="o">)</span> <span class="o">{</span>
+                <span class="n">SecurityConstraint</span> <span class="n">securityConstraint</span><span class="o">=</span><span class="k">new</span> <span class="n">SecurityConstraint</span><span class="o">();</span>
+                <span class="n">securityConstraint</span><span class="o">.</span><span class="na">setUserConstraint</span><span class="o">(</span><span class="s">&#34;CONFIDENTIAL&#34;</span><span class="o">);</span>
+                <span class="n">SecurityCollection</span> <span class="n">collection</span><span class="o">=</span><span class="k">new</span> <span class="n">SecurityCollection</span><span class="o">();</span>
+                <span class="n">collection</span><span class="o">.</span><span class="na">addPattern</span><span class="o">(</span><span class="s">&#34;/*&#34;</span><span class="o">);</span>
+                <span class="n">securityConstraint</span><span class="o">.</span><span class="na">addCollection</span><span class="o">(</span><span class="n">collection</span><span class="o">);</span>
+                <span class="n">context</span><span class="o">.</span><span class="na">addConstraint</span><span class="o">(</span><span class="n">securityConstraint</span><span class="o">);</span>
+            <span class="o">}</span>
+        <span class="o">};</span>
+        <span class="n">tomcat</span><span class="o">.</span><span class="na">addAdditionalTomcatConnectors</span><span class="o">(</span><span class="n">connector</span><span class="o">);</span>
+        <span class="k">return</span> <span class="n">tomcat</span><span class="o">;</span>
+    <span class="o">}</span>
+<span class="o">}</span></code></pre></td></tr></table>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+    </div>
+
+    
+    
 <div class="post-copyright">
   <p class="copyright-item">
     <span class="item-title">文章作者</span>
@@ -359,7 +552,7 @@ if (!doNotTrack) {
   <p class="copyright-item">
     <span class="item-title">上次更新</span>
     <span class="item-content">
-      2019-05-29
+      2020-04-15
       
     </span>
   </p>
@@ -371,8 +564,8 @@ if (!doNotTrack) {
 </div>
 
 
-  
-  
+    
+    
 <div class="post-reward">
   <input type="checkbox" name="reward" id="reward" hidden />
   <label class="reward-button" for="reward">赞赏支持</label>
@@ -390,10 +583,40 @@ if (!doNotTrack) {
       </label>
   </div>
 </div>
-</article>
 
+    <footer class="post-footer">
+      <div class="post-tags">
+          <a href="https://sxqsfun.github.io/tags/nil/">nil,</a>
+          <a href="https://sxqsfun.github.io/tags/nil/">nil</a>
+          
+        </div>
 
+      
+      <nav class="post-nav">
+        
+        
+          <a class="next" href="/post/%E9%A2%84%E8%A7%81%E6%AD%BB%E4%BA%A1/">
+            <span class="next-text nav-default">预见死亡</span>
+            <span class="prev-text nav-mobile">下一篇</span>
+            
+            <i class="iconfont">
+              <svg class="icon" viewBox="0 0 1024 1024" version="1.1"
+  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+  width="18" height="18">
+  <path d="M332.091514 74.487481l-75.369571 89.491197c-10.963703 12.998035-10.285251 32.864502 1.499144 44.378743l286.278095 300.375162L266.565125 819.058374c-11.338233 12.190647-11.035334 32.285311 0.638543 44.850487l80.46666 86.564541c11.680017 12.583596 30.356378 12.893658 41.662889 0.716314l377.434212-421.426145c11.332093-12.183484 11.041474-32.266891-0.657986-44.844348l-80.46666-86.564541c-1.772366-1.910513-3.706415-3.533476-5.750981-4.877077L373.270379 71.774697C361.493148 60.273758 343.054193 61.470003 332.091514 74.487481z"></path>
+</svg>
 
+            </i>
+          </a>
+      </nav>
+    </footer>
+  </article>
+
+  
+  
+
+  
+  
 
   
 
@@ -421,7 +644,7 @@ if (!doNotTrack) {
   <div id="disqus_thread"></div>
   <script type="text/javascript">
     var disqus_config = function () {
-      this.page.url = "https://sxqsfun.github.io/about/";
+      this.page.url = "https://sxqsfun.github.io/post/java/springboot%E9%85%8D%E7%BD%AEhttps/";
     };
     function load_disqus() {
       
