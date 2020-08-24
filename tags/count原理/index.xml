@@ -13,10 +13,10 @@
     
     <item>
       <title>Mysql中count原理浅析</title>
-      <link>https://sxqsfun.github.io/post/mysql_count%E5%87%BD%E6%95%B0%E5%8E%9F%E7%90%86%E6%B5%85%E6%9E%90/</link>
+      <link>https://sxqsfun.github.io/post/mysql/mysql_count%E5%87%BD%E6%95%B0%E5%8E%9F%E7%90%86%E6%B5%85%E6%9E%90/</link>
       <pubDate>Tue, 18 Jun 2019 07:39:12 +0800</pubDate>
       
-      <guid>https://sxqsfun.github.io/post/mysql_count%E5%87%BD%E6%95%B0%E5%8E%9F%E7%90%86%E6%B5%85%E6%9E%90/</guid>
+      <guid>https://sxqsfun.github.io/post/mysql/mysql_count%E5%87%BD%E6%95%B0%E5%8E%9F%E7%90%86%E6%B5%85%E6%9E%90/</guid>
       <description>&lt;p&gt;
 同事遇到mysql查询问题：&lt;/p&gt;
 &lt;div class=&#34;src src-sql&#34;&gt;

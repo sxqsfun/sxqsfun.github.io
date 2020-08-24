@@ -13,20 +13,20 @@
     
     <item>
       <title>Mysql随机查询</title>
-      <link>https://sxqsfun.github.io/post/mysql%E9%9A%8F%E6%9C%BA%E6%9F%A5%E8%AF%A2/</link>
+      <link>https://sxqsfun.github.io/post/mysql/mysql%E9%9A%8F%E6%9C%BA%E6%9F%A5%E8%AF%A2/</link>
       <pubDate>Fri, 25 Oct 2019 09:35:47 +0800</pubDate>
       
-      <guid>https://sxqsfun.github.io/post/mysql%E9%9A%8F%E6%9C%BA%E6%9F%A5%E8%AF%A2/</guid>
+      <guid>https://sxqsfun.github.io/post/mysql/mysql%E9%9A%8F%E6%9C%BA%E6%9F%A5%E8%AF%A2/</guid>
       <description>&lt;p&gt;
 昨天接到一个需求：点击换一批按钮，随机查询出200条数据。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Mysql中count原理浅析</title>
-      <link>https://sxqsfun.github.io/post/mysql_count%E5%87%BD%E6%95%B0%E5%8E%9F%E7%90%86%E6%B5%85%E6%9E%90/</link>
+      <link>https://sxqsfun.github.io/post/mysql/mysql_count%E5%87%BD%E6%95%B0%E5%8E%9F%E7%90%86%E6%B5%85%E6%9E%90/</link>
       <pubDate>Tue, 18 Jun 2019 07:39:12 +0800</pubDate>
       
-      <guid>https://sxqsfun.github.io/post/mysql_count%E5%87%BD%E6%95%B0%E5%8E%9F%E7%90%86%E6%B5%85%E6%9E%90/</guid>
+      <guid>https://sxqsfun.github.io/post/mysql/mysql_count%E5%87%BD%E6%95%B0%E5%8E%9F%E7%90%86%E6%B5%85%E6%9E%90/</guid>
       <description>&lt;p&gt;
 同事遇到mysql查询问题：&lt;/p&gt;
 &lt;div class=&#34;src src-sql&#34;&gt;
