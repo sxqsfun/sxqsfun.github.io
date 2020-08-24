@@ -6,81 +6,18 @@
     <description>Recent content in flutter on 上下求索</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Mon, 11 Nov 2019 15:55:37 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 12 Nov 2019 20:42:20 +0800</lastBuildDate>
     
 	<atom:link href="https://sxqsfun.github.io/tags/flutter/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Flutter学习笔记之Widget简介</title>
-      <link>https://sxqsfun.github.io/post/flutter%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%E4%B9%8Bwidget%E7%AE%80%E4%BB%8B/</link>
-      <pubDate>Mon, 11 Nov 2019 15:55:37 +0800</pubDate>
+      <title>Flutter学习笔记之进度指示器</title>
+      <link>https://sxqsfun.github.io/post/flutter%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/flutter%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%E4%B9%8B%E8%BF%9B%E5%BA%A6%E6%8C%87%E7%A4%BA%E5%99%A8/</link>
+      <pubDate>Tue, 12 Nov 2019 20:42:20 +0800</pubDate>
       
-      <guid>https://sxqsfun.github.io/post/flutter%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%E4%B9%8Bwidget%E7%AE%80%E4%BB%8B/</guid>
-      <description>Widget Widget与Element Widget只是UI元素的一个配置数据，并且一个Widget可以对应多个Element Widget实际上就是E</description>
-    </item>
-    
-    <item>
-      <title>Flutter学习笔记之Dart线程模型及异常捕获</title>
-      <link>https://sxqsfun.github.io/post/flutter%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%E4%B9%8Bdart%E7%BA%BF%E7%A8%8B%E6%A8%A1%E5%9E%8B%E5%8F%8A%E5%BC%82%E5%B8%B8%E6%8D%95%E8%8E%B7/</link>
-      <pubDate>Mon, 11 Nov 2019 14:31:10 +0800</pubDate>
-      
-      <guid>https://sxqsfun.github.io/post/flutter%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%E4%B9%8Bdart%E7%BA%BF%E7%A8%8B%E6%A8%A1%E5%9E%8B%E5%8F%8A%E5%BC%82%E5%B8%B8%E6%8D%95%E8%8E%B7/</guid>
-      <description>Dart单线程模型 Dart 在单线程中是以消息循环机制来运行的， 其中包含两个任务队列，一个是“微任务队列” microtask queue，另一个叫做“事件队列” event qu</description>
-    </item>
-    
-    <item>
-      <title>Flutter学习笔记之调试Flutter应用</title>
-      <link>https://sxqsfun.github.io/post/flutter%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%E4%B9%8B%E8%B0%83%E8%AF%95flutter%E5%BA%94%E7%94%A8/</link>
-      <pubDate>Mon, 11 Nov 2019 12:20:20 +0800</pubDate>
-      
-      <guid>https://sxqsfun.github.io/post/flutter%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%E4%B9%8B%E8%B0%83%E8%AF%95flutter%E5%BA%94%E7%94%A8/</guid>
-      <description>调试Flutter应用 Dart 分析器 Dart 分析器： 在运行应用程序前，请运行flutter analyze测试你的代码。这个工具是一个静态代码检查工具。 idea</description>
-    </item>
-    
-    <item>
-      <title>Flutter学习笔记之资源管理</title>
-      <link>https://sxqsfun.github.io/post/flutter%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%E4%B9%8B%E8%B5%84%E6%BA%90%E7%AE%A1%E7%90%86/</link>
-      <pubDate>Mon, 11 Nov 2019 11:12:14 +0800</pubDate>
-      
-      <guid>https://sxqsfun.github.io/post/flutter%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%E4%B9%8B%E8%B5%84%E6%BA%90%E7%AE%A1%E7%90%86/</guid>
-      <description>资源管理 assets（资源）是会打包到程序安装包中的，可在运行时访问。 常见类型的 assets 包括静态数据（例如JSON文件）、配置文件、图标和图片（J</description>
-    </item>
-    
-    <item>
-      <title>Flutter学习笔记之包管理</title>
-      <link>https://sxqsfun.github.io/post/flutter%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%E4%B9%8B%E5%8C%85%E7%AE%A1%E7%90%86/</link>
-      <pubDate>Mon, 11 Nov 2019 10:47:05 +0800</pubDate>
-      
-      <guid>https://sxqsfun.github.io/post/flutter%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%E4%B9%8B%E5%8C%85%E7%AE%A1%E7%90%86/</guid>
-      <description>包管理 Flutter用yaml文件作为其配置文件。Flutter项目默认的配置文件是pubspec.yaml 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16</description>
-    </item>
-    
-    <item>
-      <title>Flutter学习笔记之路由管理</title>
-      <link>https://sxqsfun.github.io/post/flutter%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%E4%B9%8B%E8%B7%AF%E7%94%B1%E7%AE%A1%E7%90%86/</link>
-      <pubDate>Sat, 09 Nov 2019 15:46:47 +0800</pubDate>
-      
-      <guid>https://sxqsfun.github.io/post/flutter%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%E4%B9%8B%E8%B7%AF%E7%94%B1%E7%AE%A1%E7%90%86/</guid>
-      <description>路由管理 路由(Route): 在Android中通常指一个Activity，在iOS中指一个ViewController。 路由管理(Navig</description>
-    </item>
-    
-    <item>
-      <title>Flutter学习笔记之dart语言简介</title>
-      <link>https://sxqsfun.github.io/post/flutter%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%E4%B9%8Bdart%E8%AF%AD%E8%A8%80%E7%AE%80%E4%BB%8B/</link>
-      <pubDate>Sat, 09 Nov 2019 11:58:24 +0800</pubDate>
-      
-      <guid>https://sxqsfun.github.io/post/flutter%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%E4%B9%8Bdart%E8%AF%AD%E8%A8%80%E7%AE%80%E4%BB%8B/</guid>
-      <description>变量声明 var var定义的变量赋值后类型不能再被改变。 dynamic 和 Object Object 声明的对象可以是任意类型数据(类似 java 中的 Object 对象)，赋值后类型可变。 dynamic 赋值后类型可变</description>
-    </item>
-    
-    <item>
-      <title>Flutter学习笔记之开发环境搭建(manjaro&#43;idea)</title>
-      <link>https://sxqsfun.github.io/post/flutter%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%E4%B9%8B%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BAmanjaro&#43;idea/</link>
-      <pubDate>Sat, 09 Nov 2019 11:42:42 +0800</pubDate>
-      
-      <guid>https://sxqsfun.github.io/post/flutter%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%E4%B9%8B%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BAmanjaro&#43;idea/</guid>
-      <description>安装 flutter 及版本更新 1 2 3 4 #安装 sudo pacman -S flutter #更新(可选) sudo flutter upgrade 安装 android-sdk 1 yay -S android-sdk idea配置flutter 下载 flutter 插件并配置 flutter 配置 android-sdk 并安装 Android 模拟器 创建</description>
+      <guid>https://sxqsfun.github.io/post/flutter%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/flutter%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%E4%B9%8B%E8%BF%9B%E5%BA%A6%E6%8C%87%E7%A4%BA%E5%99%A8/</guid>
+      <description>Flutter学习笔记之进度指示器 LinearProgressIndicator LinearProgressIndicator是一个线性、条状的进度条。 value：value表示当前的</description>
     </item>
     
   </channel>

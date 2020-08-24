@@ -30,14 +30,22 @@
     </item>
     
     <item>
+      <title>Flutter学习笔记之进度指示器</title>
+      <link>https://sxqsfun.github.io/post/flutter%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/flutter%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%E4%B9%8B%E8%BF%9B%E5%BA%A6%E6%8C%87%E7%A4%BA%E5%99%A8/</link>
+      <pubDate>Tue, 12 Nov 2019 20:42:20 +0800</pubDate>
+      
+      <guid>https://sxqsfun.github.io/post/flutter%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/flutter%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%E4%B9%8B%E8%BF%9B%E5%BA%A6%E6%8C%87%E7%A4%BA%E5%99%A8/</guid>
+      <description>Flutter学习笔记之进度指示器 LinearProgressIndicator LinearProgressIndicator是一个线性、条状的进度条。 value：value表示当前的</description>
+    </item>
+    
+    <item>
       <title>hugo-theme-jane主题支持文章阅读数</title>
       <link>https://sxqsfun.github.io/post/hugo-theme-jane%E4%B8%BB%E9%A2%98%E6%94%AF%E6%8C%81%E6%96%87%E7%AB%A0%E9%98%85%E8%AF%BB%E6%95%B0/</link>
       <pubDate>Fri, 25 Oct 2019 15:04:06 +0800</pubDate>
       
       <guid>https://sxqsfun.github.io/post/hugo-theme-jane%E4%B8%BB%E9%A2%98%E6%94%AF%E6%8C%81%E6%96%87%E7%AB%A0%E9%98%85%E8%AF%BB%E6%95%B0/</guid>
       <description>&lt;p&gt;
-我用的 &lt;a href=&#34;https://github.com/xianmin/hugo-theme-jane&#34;&gt;hugo-theme-jane&lt;/a&gt; 主题已支持阅读数，只需简单配置即可。
-&lt;/p&gt;</description>
+我用的 &lt;a href=&#34;https://github.com/xianmin/hugo-theme-jane&#34;&gt;hugo-theme-jane&lt;/a&gt; 主题已支持阅读数，只需简单配置即可。&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -47,8 +55,7 @@
       
       <guid>https://sxqsfun.github.io/post/mysql%E9%9A%8F%E6%9C%BA%E6%9F%A5%E8%AF%A2/</guid>
       <description>&lt;p&gt;
-昨天接到一个需求：点击换一批按钮，随机查询出200条数据。
-&lt;/p&gt;</description>
+昨天接到一个需求：点击换一批按钮，随机查询出200条数据。&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -68,8 +75,7 @@
       <guid>https://sxqsfun.github.io/post/jquery%E4%BA%8B%E4%BB%B6%E5%A7%94%E6%89%98/</guid>
       <description>&lt;p&gt;
 在很多时候，我们需要通过 AJAX 或者用户操作动态的增加或者去除列表项元素，那么在每一次改变的时候都需要重新给新增的元素绑定事件。
-事件委托的其中一个优点就是动态绑定事件，可以为“未来元素”绑定好事件。
-&lt;/p&gt;</description>
+事件委托的其中一个优点就是动态绑定事件，可以为“未来元素”绑定好事件。&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -79,8 +85,7 @@
       
       <guid>https://sxqsfun.github.io/post/mysql_count%E5%87%BD%E6%95%B0%E5%8E%9F%E7%90%86%E6%B5%85%E6%9E%90/</guid>
       <description>&lt;p&gt;
-同事遇到mysql查询问题：
-&lt;/p&gt;
+同事遇到mysql查询问题：&lt;/p&gt;
 &lt;div class=&#34;src src-sql&#34;&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
@@ -95,10 +100,8 @@
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;p&gt;
-左连接查询多张表后获取查询记录条数。
-sql运行报错：Duplicate column name &amp;#39;id&amp;#39;.
-&lt;/p&gt;</description>
+&lt;p&gt;左连接查询多张表后获取查询记录条数。
+sql运行报错：Duplicate column name &amp;#39;id&amp;#39;.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -116,15 +119,15 @@ sql运行报错：Duplicate column name &amp;#39;id&amp;#39;.
       <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
       
       <guid>https://sxqsfun.github.io/post/%E9%98%BF%E9%87%8C%E4%BA%91%E5%AE%89%E5%85%A8%E7%BB%84/</guid>
-      <description>&lt;h2 id=&#34;headline-1&#34;&gt;
+      <description>&lt;div id=&#34;outline-container-headline-1&#34; class=&#34;outline-2&#34;&gt;
+&lt;h2 id=&#34;headline-1&#34;&gt;
 问题
 &lt;/h2&gt;
-&lt;p&gt;
-公司的一个项目由两个小组进行开发，客户用一个阿里云账号买了两台服务器， 一个小组一台。
+&lt;div id=&#34;outline-text-headline-1&#34; class=&#34;outline-text-2&#34;&gt;
+&lt;p&gt;公司的一个项目由两个小组进行开发，客户用一个阿里云账号买了两台服务器， 一个小组一台。
 一直都相安无事，突然今天下午有一个服务无法访问了，排查半天，最后排查到安全组，登录阿里
 云一看，之前配置好的端口有几个都不见了。然后看到新加的配置里有个备注里写的是另一个组的服务
-名，创建时间是今天下午。经过询问，确实是另一个组修改了安全组。
-&lt;/p&gt;</description>
+名，创建时间是今天下午。经过询问，确实是另一个组修改了安全组。&lt;/p&gt;</description>
     </item>
     
   </channel>

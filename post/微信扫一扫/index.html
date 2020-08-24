@@ -32,7 +32,7 @@
 
 
 
-<meta name="generator" content="Hugo 0.65.3" />
+<meta name="generator" content="Hugo 0.74.3" />
 
 
 <link rel="canonical" href="https://sxqsfun.github.io/post/%E5%BE%AE%E4%BF%A1%E6%89%AB%E4%B8%80%E6%89%AB/" />
@@ -67,13 +67,14 @@
 <meta property="article:modified_time" content="2019-06-13T20:34:03+08:00" />
 <meta itemprop="name" content="微信JS-SDK 扫一扫">
 <meta itemprop="description" content="基本流程 配置js安全域名 后台接口生成 config 数据 前端页面获取接口数据，调用 微信js-sdk 获取相应权限 配置js安全域名 登录微信公众平台进入“公众号">
-<meta itemprop="datePublished" content="2019-06-13T20:34:03&#43;08:00" />
-<meta itemprop="dateModified" content="2019-06-13T20:34:03&#43;08:00" />
+<meta itemprop="datePublished" content="2019-06-13T20:34:03+08:00" />
+<meta itemprop="dateModified" content="2019-06-13T20:34:03+08:00" />
 <meta itemprop="wordCount" content="480">
 
 
 
-<meta itemprop="keywords" content="微信公众号扫一扫,微信JS-SDK," /><meta name="twitter:card" content="summary"/>
+<meta itemprop="keywords" content="微信公众号扫一扫,微信JS-SDK," />
+<meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="微信JS-SDK 扫一扫"/>
 <meta name="twitter:description" content="基本流程 配置js安全域名 后台接口生成 config 数据 前端页面获取接口数据，调用 微信js-sdk 获取相应权限 配置js安全域名 登录微信公众平台进入“公众号"/>
 
@@ -377,62 +378,50 @@ if (!doNotTrack) {
     
     <div class="post-content">
       
+<div id="outline-container-headline-1" class="outline-2">
 <h2 id="headline-1">
 基本流程
 </h2>
+<div id="outline-text-headline-1" class="outline-text-2">
 <ol>
 <li>
-<p>
-配置js安全域名
-</p>
+<p>配置js安全域名</p>
 </li>
 <li>
-<p>
-后台接口生成 config 数据
-</p>
+<p>后台接口生成 config 数据</p>
 </li>
 <li>
-<p>
-前端页面获取接口数据，调用 微信js-sdk 获取相应权限
-</p>
+<p>前端页面获取接口数据，调用 微信js-sdk 获取相应权限</p>
+<div id="outline-container-headline-2" class="outline-3">
 <h3 id="headline-2">
 配置js安全域名
 </h3>
+</div>
 </li>
 </ol>
-<p>
-登录微信公众平台进入“公众号设置”的“功能设置”里填写“JS接口安全域名”。
-</p>
+<p>登录微信公众平台进入“公众号设置”的“功能设置”里填写“JS接口安全域名”。</p>
+<div id="outline-container-headline-3" class="outline-3">
 <h3 id="headline-3">
 后台接口生成 config 数据
 </h3>
+<div id="outline-text-headline-3" class="outline-text-3">
 <ol>
 <li>
-<p>
-获取access_token
-</p>
+<p>获取access_token</p>
 </li>
 <li>
-<p>
-通过access_token获取jsapi_ticket
-</p>
+<p>通过access_token获取jsapi_ticket</p>
 </li>
 <li>
-<p>
-通过jsapi_ticket生成签名
-</p>
+<p>通过jsapi_ticket生成签名</p>
 </li>
 <li>
-<p>
-通过签名生成 config 数据
-</p>
+<p>通过签名生成 config 数据</p>
 </li>
 </ol>
 <ul>
 <li>
-<p>
-引入 <a href="https://github.com/liyiorg/weixin-popular">weixin-popular.jar</a> 包
-</p>
+<p>引入 <a href="https://github.com/liyiorg/weixin-popular">weixin-popular.jar</a> 包</p>
 </li>
 </ul>
 <div class="src src-java">
@@ -455,9 +444,7 @@ if (!doNotTrack) {
 </div>
 <ul>
 <li>
-<p>
-后台接口(ActionResult 是我自定义的接口返回格式实体类，根据实际情况修改即可)
-</p>
+<p>后台接口(ActionResult 是我自定义的接口返回格式实体类，根据实际情况修改即可)</p>
 </li>
 </ul>
 <div class="src src-java">
@@ -514,9 +501,13 @@ if (!doNotTrack) {
 </div>
 </div>
 </div>
+</div>
+</div>
+<div id="outline-container-headline-4" class="outline-3">
 <h3 id="headline-4">
 前端页面获取接口数据，调用 微信 js-sdk 获取相应权限
 </h3>
+<div id="outline-text-headline-4" class="outline-text-3">
 <div class="src src-js">
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
@@ -590,16 +581,22 @@ if (!doNotTrack) {
 </div>
 </div>
 </div>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-headline-5" class="outline-2">
 <h2 id="headline-5">
 参考资料
 </h2>
+<div id="outline-text-headline-5" class="outline-text-2">
 <ul>
 <li>
-<p>
-<a href="https://mp.weixin.qq.com/wiki?t=resource/res_main&amp;id=mp1421141115">微信JS-SDK说明文档</a>
-</p>
+<p><a href="https://mp.weixin.qq.com/wiki?t=resource/res_main&amp;id=mp1421141115">微信JS-SDK说明文档</a></p>
 </li>
 </ul>
+</div>
+</div>
 
     </div>
 
