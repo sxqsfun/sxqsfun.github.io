@@ -18,8 +18,7 @@
       
       <guid>https://sxqsfun.github.io/post/mysql_count%E5%87%BD%E6%95%B0%E5%8E%9F%E7%90%86%E6%B5%85%E6%9E%90/</guid>
       <description>&lt;p&gt;
-同事遇到mysql查询问题：
-&lt;/p&gt;
+同事遇到mysql查询问题：&lt;/p&gt;
 &lt;div class=&#34;src src-sql&#34;&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
@@ -34,10 +33,8 @@
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;p&gt;
-左连接查询多张表后获取查询记录条数。
-sql运行报错：Duplicate column name &amp;#39;id&amp;#39;.
-&lt;/p&gt;</description>
+&lt;p&gt;左连接查询多张表后获取查询记录条数。
+sql运行报错：Duplicate column name &amp;#39;id&amp;#39;.&lt;/p&gt;</description>
     </item>
     
   </channel>
