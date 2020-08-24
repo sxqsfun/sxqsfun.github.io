@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Mysql中count原理浅析 - 上下求索</title>
+  <title>微信JS-SDK 扫一扫 - 上下求索</title>
   
 
 <meta name="renderer" content="webkit" />
@@ -23,9 +23,7 @@
 <meta name="mobile-web-app-capable" content="yes">
 
 <meta name="author" content="dany" />
-  <meta name="description" content=" 同事遇到mysql查询问题：
-1 2 3  select count(0) from ( select *, b.id as bid, c.id as cid from table_a a, left join table_b b on b.a_id = a.id )    左连接查询多张表后获取查询记录条数。 sql运行报错：Duplicate column name &amp;#39;id&amp;#39;.
-" />
+  <meta name="description" content="基本流程 配置js安全域名 后台接口生成 config 数据 前端页面获取接口数据，调用 微信js-sdk 获取相应权限 配置js安全域名 登录微信公众平台进入“公众号" />
 
   <meta name="keywords" content="linux, emacs, program, journal, 博客, 笔记" />
 
@@ -37,7 +35,7 @@
 <meta name="generator" content="Hugo 0.74.3" />
 
 
-<link rel="canonical" href="https://sxqsfun.github.io/post/mysql_count%E5%87%BD%E6%95%B0%E5%8E%9F%E7%90%86%E6%B5%85%E6%9E%90/" />
+<link rel="canonical" href="https://sxqsfun.github.io/post/js/%E5%BE%AE%E4%BF%A1%E6%89%AB%E4%B8%80%E6%89%AB/" />
 
 
 
@@ -60,78 +58,25 @@
 
 
 
-<link rel="stylesheet" href="/css/custom.css">
 
-
-<meta property="og:title" content="Mysql中count原理浅析" />
-<meta property="og:description" content="
-同事遇到mysql查询问题：
-
-
-
-1
-2
-3
-
-
-  select count(0) from (
-	 select *, b.id as bid, c.id as cid from table_a a, left join table_b b on b.a_id = a.id
-  )
-
-
-
-左连接查询多张表后获取查询记录条数。
-sql运行报错：Duplicate column name &#39;id&#39;." />
+<meta property="og:title" content="微信JS-SDK 扫一扫" />
+<meta property="og:description" content="基本流程 配置js安全域名 后台接口生成 config 数据 前端页面获取接口数据，调用 微信js-sdk 获取相应权限 配置js安全域名 登录微信公众平台进入“公众号" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://sxqsfun.github.io/post/mysql_count%E5%87%BD%E6%95%B0%E5%8E%9F%E7%90%86%E6%B5%85%E6%9E%90/" />
-<meta property="article:published_time" content="2019-06-18T07:39:12+08:00" />
-<meta property="article:modified_time" content="2019-06-18T07:39:12+08:00" />
-<meta itemprop="name" content="Mysql中count原理浅析">
-<meta itemprop="description" content="
-同事遇到mysql查询问题：
+<meta property="og:url" content="https://sxqsfun.github.io/post/js/%E5%BE%AE%E4%BF%A1%E6%89%AB%E4%B8%80%E6%89%AB/" />
+<meta property="article:published_time" content="2019-06-13T20:34:03+08:00" />
+<meta property="article:modified_time" content="2019-06-13T20:34:03+08:00" />
+<meta itemprop="name" content="微信JS-SDK 扫一扫">
+<meta itemprop="description" content="基本流程 配置js安全域名 后台接口生成 config 数据 前端页面获取接口数据，调用 微信js-sdk 获取相应权限 配置js安全域名 登录微信公众平台进入“公众号">
+<meta itemprop="datePublished" content="2019-06-13T20:34:03+08:00" />
+<meta itemprop="dateModified" content="2019-06-13T20:34:03+08:00" />
+<meta itemprop="wordCount" content="480">
 
 
 
-1
-2
-3
-
-
-  select count(0) from (
-	 select *, b.id as bid, c.id as cid from table_a a, left join table_b b on b.a_id = a.id
-  )
-
-
-
-左连接查询多张表后获取查询记录条数。
-sql运行报错：Duplicate column name &#39;id&#39;.">
-<meta itemprop="datePublished" content="2019-06-18T07:39:12+08:00" />
-<meta itemprop="dateModified" content="2019-06-18T07:39:12+08:00" />
-<meta itemprop="wordCount" content="342">
-
-
-
-<meta itemprop="keywords" content="mysql,count原理," />
+<meta itemprop="keywords" content="微信公众号扫一扫,微信JS-SDK," />
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Mysql中count原理浅析"/>
-<meta name="twitter:description" content="
-同事遇到mysql查询问题：
-
-
-
-1
-2
-3
-
-
-  select count(0) from (
-	 select *, b.id as bid, c.id as cid from table_a a, left join table_b b on b.a_id = a.id
-  )
-
-
-
-左连接查询多张表后获取查询记录条数。
-sql运行报错：Duplicate column name &#39;id&#39;."/>
+<meta name="twitter:title" content="微信JS-SDK 扫一扫"/>
+<meta name="twitter:description" content="基本流程 配置js安全域名 后台接口生成 config 数据 前端页面获取接口数据，调用 微信js-sdk 获取相应权限 配置js安全域名 登录微信公众平台进入“公众号"/>
 
 <!--[if lte IE 9]>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
@@ -380,17 +325,17 @@ if (!doNotTrack) {
           <article class="post bg-white">
     
     <header class="post-header">
-      <h1 class="post-title">Mysql中count原理浅析</h1>
+      <h1 class="post-title">微信JS-SDK 扫一扫</h1>
       
       <div class="post-meta">
-        <time datetime="2019-06-18" class="post-time">
-          2019-06-18
+        <time datetime="2019-06-13" class="post-time">
+          2019-06-13
         </time>
         <div class="post-category">
-            <a href="https://sxqsfun.github.io/categories/mysql/"> mysql </a>
+            <a href="https://sxqsfun.github.io/categories/%E5%BE%AE%E4%BF%A1%E5%BC%80%E5%8F%91/"> 微信开发 </a>
             
           </div>
-        <span class="more-meta"> 约 342 字 </span>
+        <span class="more-meta"> 约 480 字 </span>
           <span class="more-meta"> 预计阅读 1 分钟 </span>
 
         
@@ -398,7 +343,7 @@ if (!doNotTrack) {
 
         
         
-          <span id="/post/mysql_count%E5%87%BD%E6%95%B0%E5%8E%9F%E7%90%86%E6%B5%85%E6%9E%90/" class="leancloud_visitors" data-flag-title="Mysql中count原理浅析">
+          <span id="/post/js/%E5%BE%AE%E4%BF%A1%E6%89%AB%E4%B8%80%E6%89%AB/" class="leancloud_visitors" data-flag-title="微信JS-SDK 扫一扫">
             <span class="post-meta-item-text"> | 阅读 </span>
             <span class="leancloud-visitors-count"></span>
           </span>
@@ -413,13 +358,17 @@ if (!doNotTrack) {
   <div class="post-toc-content">
     <nav id="TableOfContents">
 <ul>
-<li><a href="#headline-1">原因</a>
+<li><a href="#headline-1">基本流程</a>
+<ul>
+<li><a href="#headline-2">配置js安全域名</a>
 </li>
-<li><a href="#headline-2">引申疑问</a>
+<li><a href="#headline-3">后台接口生成 config 数据</a>
 </li>
-<li><a href="#headline-3">总结</a>
+<li><a href="#headline-4">前端页面获取接口数据，调用 微信 js-sdk 获取相应权限</a>
 </li>
-<li><a href="#headline-4">参考资料</a>
+</ul>
+</li>
+<li><a href="#headline-5">参考资料</a>
 </li>
 </ul>
 </nav>
@@ -428,85 +377,227 @@ if (!doNotTrack) {
 
     
     <div class="post-content">
-      <p>
-同事遇到mysql查询问题：</p>
-<div class="src src-sql">
+      
+<div id="outline-container-headline-1" class="outline-2">
+<h2 id="headline-1">
+基本流程
+</h2>
+<div id="outline-text-headline-1" class="outline-text-2">
+<ol>
+<li>
+<p>配置js安全域名</p>
+</li>
+<li>
+<p>后台接口生成 config 数据</p>
+</li>
+<li>
+<p>前端页面获取接口数据，调用 微信js-sdk 获取相应权限</p>
+<div id="outline-container-headline-2" class="outline-3">
+<h3 id="headline-2">
+配置js安全域名
+</h3>
+</div>
+</li>
+</ol>
+<p>登录微信公众平台进入“公众号设置”的“功能设置”里填写“JS接口安全域名”。</p>
+<div id="outline-container-headline-3" class="outline-3">
+<h3 id="headline-3">
+后台接口生成 config 数据
+</h3>
+<div id="outline-text-headline-3" class="outline-text-3">
+<ol>
+<li>
+<p>获取access_token</p>
+</li>
+<li>
+<p>通过access_token获取jsapi_ticket</p>
+</li>
+<li>
+<p>通过jsapi_ticket生成签名</p>
+</li>
+<li>
+<p>通过签名生成 config 数据</p>
+</li>
+</ol>
+<ul>
+<li>
+<p>引入 <a href="https://github.com/liyiorg/weixin-popular">weixin-popular.jar</a> 包</p>
+</li>
+</ul>
+<div class="src src-java">
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
 </span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-sql" data-lang="sql">  <span class="k">select</span> <span class="k">count</span><span class="p">(</span><span class="mi">0</span><span class="p">)</span> <span class="k">from</span> <span class="p">(</span>
-	 <span class="k">select</span> <span class="o">*</span><span class="p">,</span> <span class="n">b</span><span class="p">.</span><span class="n">id</span> <span class="k">as</span> <span class="n">bid</span><span class="p">,</span> <span class="k">c</span><span class="p">.</span><span class="n">id</span> <span class="k">as</span> <span class="n">cid</span> <span class="k">from</span> <span class="n">table_a</span> <span class="n">a</span><span class="p">,</span> <span class="k">left</span> <span class="k">join</span> <span class="n">table_b</span> <span class="n">b</span> <span class="k">on</span> <span class="n">b</span><span class="p">.</span><span class="n">a_id</span> <span class="o">=</span> <span class="n">a</span><span class="p">.</span><span class="n">id</span>
-  <span class="p">)</span></code></pre></td></tr></table>
+<pre class="chroma"><code class="language-java" data-lang="java">       <span class="o">&lt;</span><span class="n">dependency</span><span class="o">&gt;</span>
+           <span class="o">&lt;</span><span class="n">groupId</span><span class="o">&gt;</span><span class="n">com</span><span class="o">.</span><span class="na">github</span><span class="o">.</span><span class="na">liyiorg</span><span class="o">&lt;/</span><span class="n">groupId</span><span class="o">&gt;</span>
+           <span class="o">&lt;</span><span class="n">artifactId</span><span class="o">&gt;</span><span class="n">weixin</span><span class="o">-</span><span class="n">popular</span><span class="o">&lt;/</span><span class="n">artifactId</span><span class="o">&gt;</span>
+           <span class="o">&lt;</span><span class="n">version</span><span class="o">&gt;</span><span class="n">2</span><span class="o">.</span><span class="na">8</span><span class="o">.</span><span class="na">26</span><span class="o">&lt;/</span><span class="n">version</span><span class="o">&gt;</span>
+       <span class="o">&lt;/</span><span class="n">dependency</span><span class="o">&gt;</span></code></pre></td></tr></table>
 </div>
 </div>
 </div>
-<p>左连接查询多张表后获取查询记录条数。
-sql运行报错：Duplicate column name &#39;id&#39;.</p>
-<div id="outline-container-headline-1" class="outline-2">
-<h2 id="headline-1">
-原因
-</h2>
-<div id="outline-text-headline-1" class="outline-text-2">
-<p>根据错误信息，可以看出：查询记录条数的时候，有两列名称都为 &#39;id&#39;。
-只执行里面的左连接查询</p>
-<div class="src src-sql">
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
-</span></code></pre></td>
-<td class="lntd">
-<pre class="chroma"><code class="language-sql" data-lang="sql"><span class="k">select</span> <span class="o">*</span><span class="p">,</span> <span class="n">b</span><span class="p">.</span><span class="n">id</span> <span class="k">as</span> <span class="n">bid</span><span class="p">,</span> <span class="k">c</span><span class="p">.</span><span class="n">id</span> <span class="k">as</span> <span class="n">cid</span> <span class="k">from</span> <span class="n">table_a</span> <span class="n">a</span><span class="p">,</span> <span class="k">left</span> <span class="k">join</span> <span class="n">table_b</span> <span class="n">b</span> <span class="k">on</span> <span class="n">b</span><span class="p">.</span><span class="n">a_id</span> <span class="o">=</span> <span class="n">a</span><span class="p">.</span><span class="n">id</span></code></pre></td></tr></table>
-</div>
-</div>
-</div>
-<p>可以看到查询结果中确实有多个列名为&#39;id&#39;, 把 &#39;select <strong>&#39; 改为 &#39;select a.</strong>&#39;即可。</p>
-</div>
-</div>
-<div id="outline-container-headline-2" class="outline-2">
-<h2 id="headline-2">
-引申疑问
-</h2>
-<div id="outline-text-headline-2" class="outline-text-2">
-<p>我对&#39;count(0)&#39;的实现细节不是很清楚，于是我在网上搜索了一下</p>
-</div>
-</div>
-<div id="outline-container-headline-3" class="outline-2">
-<h2 id="headline-3">
-总结
-</h2>
-<div id="outline-text-headline-3" class="outline-text-2">
-<ol>
-<li>
-<p>表无任何索引,则执行全表扫描。</p>
-</li>
-<li>
-<p>表有主键，则使用主键进行扫描。</p>
-</li>
-<li>
-<p>表有二级索引，则使用二级索引进行扫描。</p>
-</li>
-<li>
-<p>表有多个二级索引，则使用key_len小的二级索引进行扫描。</p>
-</li>
-</ol>
-</div>
-</div>
-<div id="outline-container-headline-4" class="outline-2">
-<h2 id="headline-4">
-参考资料
-</h2>
-<div id="outline-text-headline-4" class="outline-text-2">
 <ul>
 <li>
-<p><a href="https://www.cnblogs.com/xuty/p/10189614.html">mysql count(*)原理</a></p>
+<p>后台接口(ActionResult 是我自定义的接口返回格式实体类，根据实际情况修改即可)</p>
+</li>
+</ul>
+<div class="src src-java">
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span><span class="lnt">22
+</span><span class="lnt">23
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-java" data-lang="java">    <span class="cm">/**
+</span><span class="cm">     * 微信授权签名
+</span><span class="cm">     *
+</span><span class="cm">     * @return
+</span><span class="cm">     * */</span>
+    <span class="nd">@RequestMapping</span><span class="o">(</span><span class="n">value</span> <span class="o">=</span> <span class="s">&#34;/wxOAuthSign&#34;</span><span class="o">)</span>
+    <span class="kd">public</span> <span class="n">ActionResult</span> <span class="nf">wxOAuthSign</span><span class="o">(</span><span class="n">String</span> <span class="n">url</span><span class="o">)</span> <span class="o">{</span>
+        <span class="k">try</span><span class="o">{</span>
+            <span class="n">Token</span> <span class="n">token</span> <span class="o">=</span> <span class="n">TokenAPI</span><span class="o">.</span><span class="na">token</span><span class="o">(</span><span class="n">appid</span><span class="o">,</span> <span class="n">appsecret</span><span class="o">);</span>
+            <span class="k">if</span><span class="o">(</span><span class="n">token</span> <span class="o">==</span> <span class="kc">null</span> <span class="o">||</span> <span class="n">StringUtils</span><span class="o">.</span><span class="na">isEmpty</span><span class="o">(</span><span class="n">token</span><span class="o">.</span><span class="na">getAccess_token</span><span class="o">())){</span>
+                <span class="k">return</span> <span class="n">ActionResult</span><span class="o">.</span><span class="na">fail</span><span class="o">();</span>
+            <span class="o">}</span>
+            <span class="n">Ticket</span> <span class="n">ticket</span> <span class="o">=</span> <span class="n">TicketAPI</span><span class="o">.</span><span class="na">ticketGetticket</span><span class="o">(</span><span class="n">token</span><span class="o">.</span><span class="na">getAccess_token</span><span class="o">());</span>
+            <span class="k">if</span><span class="o">(</span><span class="n">ticket</span> <span class="o">==</span> <span class="kc">null</span> <span class="o">||</span> <span class="n">StringUtils</span><span class="o">.</span><span class="na">isEmpty</span><span class="o">(</span><span class="n">ticket</span><span class="o">.</span><span class="na">getTicket</span><span class="o">())){</span>
+                <span class="k">return</span> <span class="n">ActionResult</span><span class="o">.</span><span class="na">fail</span><span class="o">();</span>
+            <span class="o">}</span>
+            <span class="n">JSONObject</span> <span class="n">data</span> <span class="o">=</span> <span class="n">JSONObject</span><span class="o">.</span><span class="na">parseObject</span><span class="o">(</span><span class="n">JsUtil</span><span class="o">.</span><span class="na">generateConfigJson</span><span class="o">(</span><span class="n">ticket</span><span class="o">.</span><span class="na">getTicket</span><span class="o">(),</span> <span class="kc">false</span><span class="o">,</span> <span class="n">appid</span><span class="o">,</span> <span class="n">URLDecoder</span><span class="o">.</span><span class="na">decode</span><span class="o">(</span><span class="n">url</span><span class="o">,</span> <span class="s">&#34;UTF-8&#34;</span><span class="o">),</span> <span class="kc">null</span><span class="o">));</span>
+            <span class="k">return</span> <span class="n">ActionResult</span><span class="o">.</span><span class="na">success</span><span class="o">(</span><span class="n">data</span><span class="o">);</span>
+        <span class="o">}</span><span class="k">catch</span><span class="o">(</span><span class="n">Exception</span> <span class="n">ex</span><span class="o">){</span>
+            <span class="n">ex</span><span class="o">.</span><span class="na">printStackTrace</span><span class="o">();</span>
+            <span class="k">return</span> <span class="n">ActionResult</span><span class="o">.</span><span class="na">exception</span><span class="o">();</span>
+        <span class="o">}</span>
+    <span class="o">}</span></code></pre></td></tr></table>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-headline-4" class="outline-3">
+<h3 id="headline-4">
+前端页面获取接口数据，调用 微信 js-sdk 获取相应权限
+</h3>
+<div id="outline-text-headline-4" class="outline-text-3">
+<div class="src src-js">
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span><span class="lnt">22
+</span><span class="lnt">23
+</span><span class="lnt">24
+</span><span class="lnt">25
+</span><span class="lnt">26
+</span><span class="lnt">27
+</span><span class="lnt">28
+</span><span class="lnt">29
+</span><span class="lnt">30
+</span><span class="lnt">31
+</span><span class="lnt">32
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-js" data-lang="js"><span class="o">&lt;</span><span class="nx">script</span> <span class="nx">type</span><span class="o">=</span><span class="s2">&#34;text/javascript&#34;</span> <span class="nx">src</span><span class="o">=</span><span class="s2">&#34;http://res.wx.qq.com/open/js/jweixin-1.4.0.js&#34;</span><span class="o">&gt;&lt;</span><span class="err">/script&gt;</span>
+<span class="o">&lt;</span><span class="nx">script</span><span class="o">&gt;</span>
+        <span class="c1">//点击按钮扫描二维码
+</span><span class="c1"></span>        <span class="nx">$</span><span class="p">(</span><span class="s2">&#34;#scanQRCode&#34;</span><span class="p">).</span><span class="nx">click</span><span class="p">(</span><span class="kd">function</span><span class="p">(){</span>
+            <span class="nx">$</span><span class="p">.</span><span class="nx">ajax</span><span class="p">({</span>
+                <span class="nx">url</span><span class="o">:</span> <span class="s1">&#39;wxOAuthSign&#39;</span><span class="p">,</span>
+                <span class="nx">type</span><span class="o">:</span> <span class="s1">&#39;POST&#39;</span><span class="p">,</span>
+                <span class="nx">data</span><span class="o">:</span><span class="p">{</span><span class="nx">url</span><span class="o">:</span> <span class="nb">encodeURIComponent</span><span class="p">(</span><span class="nx">location</span><span class="p">.</span><span class="nx">href</span><span class="p">.</span><span class="nx">split</span><span class="p">(</span><span class="s1">&#39;#&#39;</span><span class="p">)[</span><span class="mi">0</span><span class="p">])},</span>
+                <span class="nx">dataType</span><span class="o">:</span> <span class="s2">&#34;json&#34;</span><span class="p">,</span>
+                <span class="nx">sync</span><span class="o">:</span> <span class="kc">false</span><span class="p">,</span>
+                <span class="nx">success</span> <span class="o">:</span> <span class="kd">function</span><span class="p">(</span><span class="nx">data</span><span class="p">)</span> <span class="p">{</span>
+                    <span class="k">if</span><span class="p">(</span><span class="nx">data</span><span class="p">.</span><span class="nx">code</span> <span class="o">==</span> <span class="mi">200</span><span class="p">){</span>
+                        <span class="k">if</span><span class="p">(</span><span class="o">!</span><span class="nx">config</span><span class="p">.</span><span class="nx">isEmptyObject</span><span class="p">(</span><span class="nx">data</span><span class="p">.</span><span class="nx">data</span><span class="p">)){</span>
+                            <span class="nx">wx</span><span class="p">.</span><span class="nx">config</span><span class="p">(</span><span class="nx">data</span><span class="p">.</span><span class="nx">data</span><span class="p">);</span>
+                            <span class="nx">wx</span><span class="p">.</span><span class="nx">ready</span><span class="p">(</span><span class="kd">function</span><span class="p">()</span> <span class="p">{</span>
+                                <span class="nx">wx</span><span class="p">.</span><span class="nx">scanQRCode</span><span class="p">({</span>
+                                    <span class="nx">needResult</span> <span class="o">:</span> <span class="mi">1</span><span class="p">,</span> <span class="c1">// 默认为0，扫描结果由微信处理，1则直接返回扫描结果
+</span><span class="c1"></span>                                    <span class="nx">scanType</span> <span class="o">:</span> <span class="p">[</span> <span class="s2">&#34;qrCode&#34;</span><span class="p">],</span>
+                                    <span class="nx">success</span> <span class="o">:</span> <span class="kd">function</span><span class="p">(</span><span class="nx">res</span><span class="p">)</span> <span class="p">{</span>
+				        <span class="nx">alert</span><span class="p">(</span><span class="nx">res</span><span class="p">.</span><span class="nx">resultStr</span><span class="p">);</span>
+                                    <span class="p">}</span>
+                                <span class="p">});</span>
+                            <span class="p">});</span>
+                        <span class="p">}</span>
+                    <span class="p">}</span>
+                <span class="p">},</span>
+                <span class="nx">error</span><span class="o">:</span> <span class="kd">function</span> <span class="p">()</span> <span class="p">{</span>
+                    <span class="nx">layer</span><span class="p">.</span><span class="nx">closeAll</span><span class="p">();</span>
+                <span class="p">}</span>
+            <span class="p">});</span>
+        <span class="p">});</span>
+<span class="o">&lt;</span><span class="err">/script&gt;</span>
+</code></pre></td></tr></table>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-headline-5" class="outline-2">
+<h2 id="headline-5">
+参考资料
+</h2>
+<div id="outline-text-headline-5" class="outline-text-2">
+<ul>
+<li>
+<p><a href="https://mp.weixin.qq.com/wiki?t=resource/res_main&amp;id=mp1421141115">微信JS-SDK说明文档</a></p>
 </li>
 </ul>
 </div>
 </div>
+
     </div>
 
     
@@ -519,7 +610,7 @@ sql运行报错：Duplicate column name &#39;id&#39;.</p>
   <p class="copyright-item">
     <span class="item-title">上次更新</span>
     <span class="item-content">
-      2019-06-18
+      2019-06-13
       
     </span>
   </p>
@@ -553,15 +644,15 @@ sql运行报错：Duplicate column name &#39;id&#39;.</p>
 
     <footer class="post-footer">
       <div class="post-tags">
-          <a href="https://sxqsfun.github.io/tags/mysql/">mysql</a>
-          <a href="https://sxqsfun.github.io/tags/count%E5%8E%9F%E7%90%86/">count原理</a>
+          <a href="https://sxqsfun.github.io/tags/%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7%E6%89%AB%E4%B8%80%E6%89%AB/">微信公众号扫一扫</a>
+          <a href="https://sxqsfun.github.io/tags/%E5%BE%AE%E4%BF%A1js-sdk/">微信JS-SDK</a>
           
         </div>
 
       
       <nav class="post-nav">
         
-          <a class="prev" href="/post/jquery%E4%BA%8B%E4%BB%B6%E5%A7%94%E6%89%98/">
+          <a class="prev" href="/post/mysql/mysql_count%E5%87%BD%E6%95%B0%E5%8E%9F%E7%90%86%E6%B5%85%E6%9E%90/">
             
             <i class="iconfont">
               <svg  class="icon" viewBox="0 0 1024 1024" version="1.1"
@@ -571,12 +662,12 @@ sql运行报错：Duplicate column name &#39;id&#39;.</p>
 </svg>
 
             </i>
-            <span class="prev-text nav-default">Jquery事件委托</span>
+            <span class="prev-text nav-default">Mysql中count原理浅析</span>
             <span class="prev-text nav-mobile">上一篇</span>
           </a>
         
-          <a class="next" href="/post/%E5%BE%AE%E4%BF%A1%E6%89%AB%E4%B8%80%E6%89%AB/">
-            <span class="next-text nav-default">微信JS-SDK 扫一扫</span>
+          <a class="next" href="/post/linux/%E9%98%BF%E9%87%8C%E4%BA%91%E5%AE%89%E5%85%A8%E7%BB%84/">
+            <span class="next-text nav-default">阿里云安全组</span>
             <span class="prev-text nav-mobile">下一篇</span>
             
             <i class="iconfont">
@@ -624,7 +715,7 @@ sql运行报错：Duplicate column name &#39;id&#39;.</p>
   <div id="disqus_thread"></div>
   <script type="text/javascript">
     var disqus_config = function () {
-      this.page.url = "https://sxqsfun.github.io/post/mysql_count%E5%87%BD%E6%95%B0%E5%8E%9F%E7%90%86%E6%B5%85%E6%9E%90/";
+      this.page.url = "https://sxqsfun.github.io/post/js/%E5%BE%AE%E4%BF%A1%E6%89%AB%E4%B8%80%E6%89%AB/";
     };
     function load_disqus() {
       
@@ -764,7 +855,7 @@ sql运行报错：Duplicate column name &#39;id&#39;.</p>
 
   <script src="https://cdn1.lncld.net/static/js/av-core-mini-0.6.4.js"></script>
   <script type="text/javascript">
-    AV.initialize("Nk31IezBK4khyFJzdlpNXOWQ-gzGzoHsz", "mbguey5SuDVuHoxTE8poel57");
+    AV.initialize("NE2dg5x3MyCQQjJwxnnXEXCO-gzGzoHsz", "kR9gWdMT0JOjYlOxj0Wd0fbH");
   </script>
 
   <script>
@@ -877,8 +968,6 @@ sql运行报错：Duplicate column name &#39;id&#39;.</p>
 
 
 
-
-  <script src="/js/custom.js"></script>
 
 
 </body>
