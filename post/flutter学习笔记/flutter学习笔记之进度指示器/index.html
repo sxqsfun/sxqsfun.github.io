@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title> - 上下求索</title>
+  <title>Flutter学习笔记之进度指示器 - 上下求索</title>
   
 
 <meta name="renderer" content="webkit" />
@@ -23,7 +23,7 @@
 <meta name="mobile-web-app-capable" content="yes">
 
 <meta name="author" content="dany" />
-  <meta name="description" content=":&#43;&#43;&#43; categories = [&amp;#34;flutter&amp;#34;] tags = [&amp;#34;flutter&amp;#34;] title = &amp;#34;Flutter学习笔记之进度指示器&amp;#34; date = &amp;#34;2019-11-12T20:42:20&#43;08:00&amp;#34; draft = false &#43; Flutter学习笔记之进度指示器 LinearProgressIndicator LinearPro" />
+  <meta name="description" content="Flutter学习笔记之进度指示器 LinearProgressIndicator LinearProgressIndicator是一个线性、条状的进度条。 value：value表示当前的" />
 
   <meta name="keywords" content="linux, emacs, program, journal, 博客, 笔记" />
 
@@ -59,22 +59,24 @@
 
 
 
-<meta property="og:title" content="" />
-<meta property="og:description" content=":&#43;&#43;&#43; categories = [&#34;flutter&#34;] tags = [&#34;flutter&#34;] title = &#34;Flutter学习笔记之进度指示器&#34; date = &#34;2019-11-12T20:42:20&#43;08:00&#34; draft = false &#43; Flutter学习笔记之进度指示器 LinearProgressIndicator LinearPro" />
+<meta property="og:title" content="Flutter学习笔记之进度指示器" />
+<meta property="og:description" content="Flutter学习笔记之进度指示器 LinearProgressIndicator LinearProgressIndicator是一个线性、条状的进度条。 value：value表示当前的" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://sxqsfun.github.io/post/flutter%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/flutter%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%E4%B9%8B%E8%BF%9B%E5%BA%A6%E6%8C%87%E7%A4%BA%E5%99%A8/" />
+<meta property="article:published_time" content="2019-11-12T20:42:20+08:00" />
+<meta property="article:modified_time" content="2019-11-12T20:42:20+08:00" />
+<meta itemprop="name" content="Flutter学习笔记之进度指示器">
+<meta itemprop="description" content="Flutter学习笔记之进度指示器 LinearProgressIndicator LinearProgressIndicator是一个线性、条状的进度条。 value：value表示当前的">
+<meta itemprop="datePublished" content="2019-11-12T20:42:20+08:00" />
+<meta itemprop="dateModified" content="2019-11-12T20:42:20+08:00" />
+<meta itemprop="wordCount" content="480">
 
-<meta itemprop="name" content="">
-<meta itemprop="description" content=":&#43;&#43;&#43; categories = [&#34;flutter&#34;] tags = [&#34;flutter&#34;] title = &#34;Flutter学习笔记之进度指示器&#34; date = &#34;2019-11-12T20:42:20&#43;08:00&#34; draft = false &#43; Flutter学习笔记之进度指示器 LinearProgressIndicator LinearPro">
-
-<meta itemprop="wordCount" content="523">
 
 
-
-<meta itemprop="keywords" content="" />
+<meta itemprop="keywords" content="flutter," />
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content=""/>
-<meta name="twitter:description" content=":&#43;&#43;&#43; categories = [&#34;flutter&#34;] tags = [&#34;flutter&#34;] title = &#34;Flutter学习笔记之进度指示器&#34; date = &#34;2019-11-12T20:42:20&#43;08:00&#34; draft = false &#43; Flutter学习笔记之进度指示器 LinearProgressIndicator LinearPro"/>
+<meta name="twitter:title" content="Flutter学习笔记之进度指示器"/>
+<meta name="twitter:description" content="Flutter学习笔记之进度指示器 LinearProgressIndicator LinearProgressIndicator是一个线性、条状的进度条。 value：value表示当前的"/>
 
 <!--[if lte IE 9]>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
@@ -323,22 +325,25 @@ if (!doNotTrack) {
           <article class="post bg-white">
     
     <header class="post-header">
-      <h1 class="post-title"></h1>
+      <h1 class="post-title">Flutter学习笔记之进度指示器</h1>
       
       <div class="post-meta">
-        <time datetime="0001-01-01" class="post-time">
-          0001-01-01
+        <time datetime="2019-11-12" class="post-time">
+          2019-11-12
         </time>
-        
-        <span class="more-meta"> 约 523 字 </span>
-          <span class="more-meta"> 预计阅读 2 分钟 </span>
+        <div class="post-category">
+            <a href="https://sxqsfun.github.io/categories/flutter/"> flutter </a>
+            
+          </div>
+        <span class="more-meta"> 约 480 字 </span>
+          <span class="more-meta"> 预计阅读 1 分钟 </span>
 
         
         
 
         
         
-          <span id="/post/flutter%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/flutter%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%E4%B9%8B%E8%BF%9B%E5%BA%A6%E6%8C%87%E7%A4%BA%E5%99%A8/" class="leancloud_visitors" data-flag-title="">
+          <span id="/post/flutter%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/flutter%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%E4%B9%8B%E8%BF%9B%E5%BA%A6%E6%8C%87%E7%A4%BA%E5%99%A8/" class="leancloud_visitors" data-flag-title="Flutter学习笔记之进度指示器">
             <span class="post-meta-item-text"> | 阅读 </span>
             <span class="leancloud-visitors-count"></span>
           </span>
@@ -377,13 +382,6 @@ if (!doNotTrack) {
     
     <div class="post-content">
       
-<p>:+++
-categories = [&#34;flutter&#34;]
-tags = [&#34;flutter&#34;]
-title = &#34;Flutter学习笔记之进度指示器&#34;
-date = &#34;2019-11-12T20:42:20+08:00&#34;
-draft = false
-<del>+</del></p>
 <div id="outline-container-headline-1" class="outline-2">
 <h2 id="headline-1">
 Flutter学习笔记之进度指示器
@@ -478,7 +476,7 @@ CircularProgressIndicator
   <p class="copyright-item">
     <span class="item-title">上次更新</span>
     <span class="item-content">
-      0001-01-01
+      2019-11-12
       
     </span>
   </p>
@@ -511,12 +509,15 @@ CircularProgressIndicator
 </div>
 
     <footer class="post-footer">
-      
+      <div class="post-tags">
+          <a href="https://sxqsfun.github.io/tags/flutter/">flutter</a>
+          
+        </div>
 
       
       <nav class="post-nav">
         
-          <a class="prev" href="/post/%E9%98%BF%E9%87%8C%E4%BA%91%E5%AE%89%E5%85%A8%E7%BB%84/">
+          <a class="prev" href="/post/%E9%A2%84%E8%A7%81%E6%AD%BB%E4%BA%A1/">
             
             <i class="iconfont">
               <svg  class="icon" viewBox="0 0 1024 1024" version="1.1"
@@ -526,10 +527,23 @@ CircularProgressIndicator
 </svg>
 
             </i>
-            <span class="prev-text nav-default">阿里云安全组</span>
+            <span class="prev-text nav-default">预见死亡</span>
             <span class="prev-text nav-mobile">上一篇</span>
           </a>
         
+          <a class="next" href="/post/hugo-theme-jane%E4%B8%BB%E9%A2%98%E6%94%AF%E6%8C%81%E6%96%87%E7%AB%A0%E9%98%85%E8%AF%BB%E6%95%B0/">
+            <span class="next-text nav-default">hugo-theme-jane主题支持文章阅读数</span>
+            <span class="prev-text nav-mobile">下一篇</span>
+            
+            <i class="iconfont">
+              <svg class="icon" viewBox="0 0 1024 1024" version="1.1"
+  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+  width="18" height="18">
+  <path d="M332.091514 74.487481l-75.369571 89.491197c-10.963703 12.998035-10.285251 32.864502 1.499144 44.378743l286.278095 300.375162L266.565125 819.058374c-11.338233 12.190647-11.035334 32.285311 0.638543 44.850487l80.46666 86.564541c11.680017 12.583596 30.356378 12.893658 41.662889 0.716314l377.434212-421.426145c11.332093-12.183484 11.041474-32.266891-0.657986-44.844348l-80.46666-86.564541c-1.772366-1.910513-3.706415-3.533476-5.750981-4.877077L373.270379 71.774697C361.493148 60.273758 343.054193 61.470003 332.091514 74.487481z"></path>
+</svg>
+
+            </i>
+          </a>
       </nav>
     </footer>
   </article>

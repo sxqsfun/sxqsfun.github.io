@@ -44,6 +44,34 @@
   </url>
   
   <url>
+    <loc>https://sxqsfun.github.io/categories/</loc>
+    <lastmod>2019-11-12T20:42:20+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://sxqsfun.github.io/tags/flutter/</loc>
+    <lastmod>2019-11-12T20:42:20+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://sxqsfun.github.io/categories/flutter/</loc>
+    <lastmod>2019-11-12T20:42:20+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://sxqsfun.github.io/post/flutter%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/flutter%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%E4%B9%8B%E8%BF%9B%E5%BA%A6%E6%8C%87%E7%A4%BA%E5%99%A8/</loc>
+    <lastmod>2019-11-12T20:42:20+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://sxqsfun.github.io/tags/blog/</loc>
     <lastmod>2019-10-25T15:04:06+08:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -52,13 +80,6 @@
   
   <url>
     <loc>https://sxqsfun.github.io/categories/blog/</loc>
-    <lastmod>2019-10-25T15:04:06+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://sxqsfun.github.io/categories/</loc>
     <lastmod>2019-10-25T15:04:06+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -221,12 +242,6 @@
   <url>
     <loc>https://sxqsfun.github.io/post/%E9%98%BF%E9%87%8C%E4%BA%91%E5%AE%89%E5%85%A8%E7%BB%84/</loc>
     <lastmod>2019-05-29T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://sxqsfun.github.io/post/flutter%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/flutter%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%E4%B9%8B%E8%BF%9B%E5%BA%A6%E6%8C%87%E7%A4%BA%E5%99%A8/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
