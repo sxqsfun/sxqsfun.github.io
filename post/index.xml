@@ -121,14 +121,5 @@ sql运行报错：Duplicate column name &amp;#39;id&amp;#39;.&lt;/p&gt;</descrip
 名，创建时间是今天下午。经过询问，确实是另一个组修改了安全组。&lt;/p&gt;</description>
     </item>
     
-    <item>
-      <title></title>
-      <link>https://sxqsfun.github.io/post/about/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://sxqsfun.github.io/post/about/</guid>
-      <description>+ categories = [&amp;#34;&amp;#34;] tags = [&amp;#34;&amp;#34;] title = &amp;#34;About&amp;#34; date = &amp;#34;2020-08-24T21:06:43+08:00&amp;#34; draft = true + About &amp;lt;!–more–&amp;gt; About 参考资料 About</description>
-    </item>
-    
   </channel>
 </rss>
