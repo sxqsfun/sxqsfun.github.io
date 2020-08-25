@@ -20,14 +20,5 @@
       <description>步骤 购买并申请好SSL证书 下载tomcat证书文件 解压证书文件 配置 复制 .pfx文件 到项目 resources 目录 上传 .pfx文件 到服务器 jar包 同级目录 配置 application-pro.yml</description>
     </item>
     
-    <item>
-      <title>预见死亡</title>
-      <link>https://sxqsfun.github.io/post/think/%E9%A2%84%E8%A7%81%E6%AD%BB%E4%BA%A1/</link>
-      <pubDate>Sat, 07 Mar 2020 10:42:30 +0800</pubDate>
-      
-      <guid>https://sxqsfun.github.io/post/think/%E9%A2%84%E8%A7%81%E6%AD%BB%E4%BA%A1/</guid>
-      <description></description>
-    </item>
-    
   </channel>
 </rss>
