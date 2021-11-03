@@ -6,18 +6,14 @@
     <description>Recent content in nil on 上下求索</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 15 Apr 2020 17:53:48 +0800</lastBuildDate>
-    
-	<atom:link href="https://sxqsfun.github.io/tags/nil/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Wed, 15 Apr 2020 17:53:48 +0800</lastBuildDate><atom:link href="https://sxqsfun.github.io/tags/nil/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>SpringBoot配置HTTPS</title>
       <link>https://sxqsfun.github.io/post/java/springboot%E9%85%8D%E7%BD%AEhttps/</link>
       <pubDate>Wed, 15 Apr 2020 17:53:48 +0800</pubDate>
       
       <guid>https://sxqsfun.github.io/post/java/springboot%E9%85%8D%E7%BD%AEhttps/</guid>
-      <description>步骤 购买并申请好SSL证书 下载tomcat证书文件 解压证书文件 配置 复制 .pfx文件 到项目 resources 目录 上传 .pfx文件 到服务器 jar包 同级目录 配置 application-pro.yml</description>
+      <description>步骤 购买并申请好SSL证书 下载tomcat证书文件 SSL证书 .pem转.pfx 1 2 //执行会提示设置密码(即 .txt文件内容) openssl pkcs12 -export -out xxx.pfx -inkey private.key</description>
     </item>
     
   </channel>
