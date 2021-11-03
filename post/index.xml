@@ -13,7 +13,7 @@
       <pubDate>Wed, 15 Apr 2020 17:53:48 +0800</pubDate>
       
       <guid>https://sxqsfun.github.io/post/java/springboot%E9%85%8D%E7%BD%AEhttps/</guid>
-      <description>步骤 购买并申请好SSL证书 下载tomcat证书文件 SSL证书 .pem转.pfx 1 2 //执行会提示设置密码(即 .txt文件内容) openssl pkcs12 -export -out xxx.pfx -inkey private.key</description>
+      <description>步骤 购买并申请好SSL证书 下载tomcat证书文件(.pfx) SSL证书 .pem转.pfx 1 2 //执行会提示设置密码(即 .txt文件内容) openssl</description>
     </item>
     
     <item>
