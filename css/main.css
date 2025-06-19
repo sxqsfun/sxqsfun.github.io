@@ -501,6 +501,7 @@ dd {
 }
 
 .table-container {
+  width: 100%;
   overflow: auto;
 }
 
@@ -508,8 +509,9 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
   font-size: 0.875em;
-  margin: 0 0 20px;
+  margin: 0 0 20px 0;
   width: 100%;
+  word-wrap: anywhere;
 }
 
 tbody tr:nth-of-type(odd) {
@@ -613,6 +615,7 @@ td {
 }
 
 .highlight {
+  position: relative;
   background: var(--highlight-background);
   margin-bottom: 26px;
   line-height: 1.25;
@@ -658,11 +661,11 @@ td {
 }
 
 .highlight > .code-header .collapse-btn::before {
-  content: "\f102";
+  content: "\f103";
 }
 
 .highlight > .code-header .collapse-btn.collapse::before {
-  content: "\f103";
+  content: "\f102";
 }
 
 .highlight > .code-header.language-bash .code-lang::after {
@@ -874,19 +877,16 @@ td {
 }
 
 .highlight > .chroma {
-  position: relative;
-  max-height: 500px;
+  max-height: 200px;
+  overflow-y: auto;
   opacity: 1;
   visibility: visible;
-  transition: max-height 0.8s ease-in-out, opacity 0.7s ease-in-out;
 }
 
 .highlight > .chroma.hidden-code {
-  max-height: 0;
-  opacity: 0;
-  visibility: hidden;
-  animation-name: slideInUp;
-  animation-duration: 1s;
+  max-height: none;
+  animation-name: fadeInDown;
+  animation-duration: 0.5s;
 }
 
 .highlight > .chroma pre {
@@ -908,18 +908,18 @@ td {
 }
 
 .highlight > .chroma .lntd:last-child pre {
-  overflow-wrap: break-word;
-  white-space: pre-wrap;
-  line-break: anywhere;
-  word-break: break-all;
+  overflow-wrap: normal;
+  white-space: pre;
+  word-break: normal;
+  line-break: auto;
   overflow-x: auto;
 }
 
 .highlight > .chroma > code > span {
-  overflow-wrap: break-word;
-  white-space: pre-wrap;
-  line-break: anywhere;
-  word-break: break-all;
+  overflow-wrap: normal;
+  white-space: pre;
+  word-break: normal;
+  line-break: auto;
 }
 
 .highlight > .chroma:hover .copy-btn {
@@ -933,8 +933,8 @@ td {
   opacity: 0;
   padding: 2px 6px;
   position: absolute;
-  right: 8px;
-  top: 4px;
+  right: 24px;
+  top: 32px;
   border-radius: 3px;
   font-size: 1em;
   transition: opacity 0.2s ease-in-out;
@@ -3291,6 +3291,10 @@ header.header {
   visibility: hidden;
 }
 
+.autonumber {
+  counter-reset: h2;
+}
+
 .autonumber h2 {
   counter-reset: h3;
 }
@@ -3440,7 +3444,7 @@ header.header {
 .post-body {
   font-family: posts, global, "PingFang SC", "Microsoft YaHei", sans-serif;
   overflow-wrap: break-word;
-  /** Defined speical border properties for top card of post **/
+  /** Defined special border properties for top card of post **/
 }
 
 @media (min-width: 1200px) {
@@ -3535,7 +3539,7 @@ header.header {
   border-left: 5px solid #4A90E2;
   border-top: 5px solid #4A90E2;
   box-shadow: 0.6rem 0.5rem 0.3rem var(--body-bg-color);
-  margin: 0 0 0.85em 0;
+  margin: .85em .05em;
   padding: 0.65em 0.15em 0.65em 0.95em;
   display: none;
 }
@@ -3553,7 +3557,7 @@ header.header {
 }
 
 .post-body .post-summary-wrapper {
-  margin: 0 0 .85em 0;
+  margin: .85em .05em;
   border-radius: 8px;
   border: 1px solid #ea6733;
   border-right: 5px solid #ea6733;
@@ -3753,7 +3757,7 @@ header.header {
   margin: 0 .5em;
 }
 
-/* Make post meta dislay in oneline
+/* Make post meta display in one line
 .post-meta-item-icon {
   margin-right: 3px;
 } */

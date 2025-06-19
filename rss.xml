@@ -1,22 +1,38 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Dany 的个人小站</title><link>https://sxqs.fun/</link><description>Recent content on Dany 的个人小站</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Thu, 20 Mar 2025 16:32:21 +0800</lastBuildDate><atom:link href="https://sxqs.fun/rss.xml" rel="self" type="application/rss+xml"/><item><title>博客再出发</title><link>https://sxqs.fun/post/%E5%8D%9A%E5%AE%A2%E5%86%8D%E5%87%BA%E5%8F%91/</link><pubDate>Wed, 19 Mar 2025 16:25:49 +0800</pubDate><guid>https://sxqs.fun/post/%E5%8D%9A%E5%AE%A2%E5%86%8D%E5%87%BA%E5%8F%91/</guid><description>&lt;p>更换 Hugo NexT 主题&lt;/p>
-&lt;h2 id="下载-hugo-theme-next-starter">下载 hugo-theme-next-starter
-&lt;a class="header-anchor" href="#%e4%b8%8b%e8%bd%bd-hugo-theme-next-starter">&lt;/a>
-&lt;/h2>&lt;p>
-&lt;a href="https://github.com/hugo-next/hugo-theme-next-starter" title="https://github.com/hugo-next/hugo-theme-next-starter" rel="noopener external nofollow noreferrer" target="_blank" class=" exturl">
- https://github.com/hugo-next/hugo-theme-next-starter
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Dany 的个人小站</title><link>https://sxqs.fun/</link><description>Recent content on Dany 的个人小站</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Thu, 19 Jun 2025 15:52:34 +0800</lastBuildDate><atom:link href="https://sxqs.fun/rss.xml" rel="self" type="application/rss+xml"/><item><title>世界，你好！</title><link>https://sxqs.fun/demo/hello-world.html</link><pubDate>Thu, 02 Jun 2022 11:52:03 +0800</pubDate><guid>https://sxqs.fun/demo/hello-world.html</guid><description>&lt;blockquote>
+ &lt;p>“使用 &lt;code>weight&lt;/code> 关键字置顶文章。”&lt;/p>
+ &lt;/blockquote>
+&lt;p>
+&lt;a href="https://gohugo.io/" title="Hugo" rel="noopener external nofollow noreferrer" target="_blank" class=" exturl">
+ Hugo
  
  &lt;i class="fa fa-external-link-alt">&lt;/i>
  
-&lt;/a>&lt;/p>
+&lt;/a> 是现今世界上最快的网站建设框架，也是最流行的开源静态站点生成器之一。 凭借其惊人的速度和灵活性，Hugo 让建设网站再次变得有趣起来。&lt;/p></description></item><item><title>test11</title><link>https://sxqs.fun/post/test11/</link><pubDate>Thu, 18 Jun 2020 18:01:00 +0800</pubDate><guid>https://sxqs.fun/post/test11/</guid><description>&lt;h2 id="测试行货111">测试行货111
+&lt;a class="header-anchor" href="#%e6%b5%8b%e8%af%95%e8%a1%8c%e8%b4%a7111">&lt;/a>
+&lt;/h2>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt" id="hl-0-1">&lt;a class="lnlinks" href="#hl-0-1">1&lt;/a>
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-emacs-lisp" data-lang="emacs-lisp">&lt;span class="line">&lt;span class="cl">&lt;span class="nv">eeeeeeeeeeeeeeee&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>
 
+&lt;figure>&lt;img src="https://sxqs.fun/post/test11/%E6%88%AA%E5%9B%BE%202025-06-19%2012-55-13.png">
+&lt;/figure></description></item><item><title>更换Hugo Next 主题</title><link>https://sxqs.fun/post/%E6%9B%B4%E6%8D%A2hugo-next-%E4%B8%BB%E9%A2%98/</link><pubDate>Thu, 18 Jun 2020 18:01:00 +0800</pubDate><guid>https://sxqs.fun/post/%E6%9B%B4%E6%8D%A2hugo-next-%E4%B8%BB%E9%A2%98/</guid><description>&lt;h2 id="下载-hugo-theme-next-starter">下载 hugo-theme-next-starter
+&lt;a class="header-anchor" href="#%e4%b8%8b%e8%bd%bd-hugo-theme-next-starter">&lt;/a>
+&lt;/h2>
 &lt;div class="highlight">&lt;div class="chroma">
 &lt;table class="lntable">&lt;tr>&lt;td class="lntd">
 &lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt" id="hl-0-1">&lt;a class="lnlinks" href="#hl-0-1">1&lt;/a>
 &lt;/span>&lt;span class="lnt" id="hl-0-2">&lt;a class="lnlinks" href="#hl-0-2">2&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-0-3">&lt;a class="lnlinks" href="#hl-0-3">3&lt;/a>
 &lt;/span>&lt;/code>&lt;/pre>&lt;/td>
 &lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-yaml" data-lang="yaml">&lt;span class="line">&lt;span class="cl">&lt;span class="l">cd hugo-theme-next-starter&lt;/span>&lt;span class="w">
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">&lt;/span>&lt;span class="l">git submodule update --init --recursive&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-emacs-lisp" data-lang="emacs-lisp">&lt;span class="line">&lt;span class="cl">&lt;span class="nv">git&lt;/span> &lt;span class="nv">clone&lt;/span> &lt;span class="nv">https://github.com/hugo-next/hugo-theme-next-starter&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nv">cd&lt;/span> &lt;span class="nv">hugo-theme-next-starter&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nv">git&lt;/span> &lt;span class="nv">submodule&lt;/span> &lt;span class="nv">update&lt;/span> &lt;span class="nv">--init&lt;/span> &lt;span class="nv">--recursive&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
 &lt;/div>
 
@@ -24,208 +40,151 @@
 &lt;a class="header-anchor" href="#%e9%85%8d%e7%bd%ae">&lt;/a>
 &lt;/h2>&lt;h3 id="编辑hugo-dot-yaml">编辑hugo.yaml
 &lt;a class="header-anchor" href="#%e7%bc%96%e8%be%91hugo-dot-yaml">&lt;/a>
-&lt;/h3>&lt;p>编辑 config/_default/hugo.yaml&lt;/p>
-
+&lt;/h3>
 &lt;div class="highlight">&lt;div class="chroma">
 &lt;table class="lntable">&lt;tr>&lt;td class="lntd">
 &lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt" id="hl-1-1">&lt;a class="lnlinks" href="#hl-1-1">1&lt;/a>
 &lt;/span>&lt;span class="lnt" id="hl-1-2">&lt;a class="lnlinks" href="#hl-1-2">2&lt;/a>
 &lt;/span>&lt;span class="lnt" id="hl-1-3">&lt;a class="lnlinks" href="#hl-1-3">3&lt;/a>
 &lt;/span>&lt;span class="lnt" id="hl-1-4">&lt;a class="lnlinks" href="#hl-1-4">4&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-1-5">&lt;a class="lnlinks" href="#hl-1-5">5&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-1-6">&lt;a class="lnlinks" href="#hl-1-6">6&lt;/a>
 &lt;/span>&lt;/code>&lt;/pre>&lt;/td>
 &lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-yaml" data-lang="yaml">&lt;span class="line">&lt;span class="cl">&lt;span class="c"># 站点域名&lt;/span>&lt;span class="w">
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">&lt;/span>&lt;span class="nt">baseURL&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">https://sxqs.fun&lt;/span>&lt;span class="w">
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">&lt;/span>&lt;span class="c"># 站点标题&lt;/span>&lt;span class="w">
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">&lt;/span>&lt;span class="nt">title&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">Dany 的个人小站&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-emacs-lisp" data-lang="emacs-lisp">&lt;span class="line">&lt;span class="cl">&lt;span class="nv">vim&lt;/span> &lt;span class="nv">config/_default/hugo.yaml&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="err">#&lt;/span> &lt;span class="nv">站点域名&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nv">baseURL:&lt;/span> &lt;span class="nv">https://sxqs.fun&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="err">#&lt;/span> &lt;span class="nv">站点标题&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nv">title:&lt;/span> &lt;span class="nv">Dany&lt;/span> &lt;span class="nv">的个人小站&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
 &lt;/div>
 
-&lt;h3 id="编辑-params-dot-yaml">编辑 params.yaml
-&lt;a class="header-anchor" href="#%e7%bc%96%e8%be%91-params-dot-yaml">&lt;/a>
+&lt;h3 id="编辑params-dot-yaml">编辑params.yaml
+&lt;a class="header-anchor" href="#%e7%bc%96%e8%be%91params-dot-yaml">&lt;/a>
 &lt;/h3>
 &lt;div class="highlight">&lt;div class="chroma">
 &lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt" id="hl-2-1">&lt;a class="lnlinks" href="#hl-2-1">1&lt;/a>
-&lt;/span>&lt;span class="lnt" id="hl-2-2">&lt;a class="lnlinks" href="#hl-2-2">2&lt;/a>
-&lt;/span>&lt;span class="lnt" id="hl-2-3">&lt;a class="lnlinks" href="#hl-2-3">3&lt;/a>
-&lt;/span>&lt;span class="lnt" id="hl-2-4">&lt;a class="lnlinks" href="#hl-2-4">4&lt;/a>
-&lt;/span>&lt;span class="lnt" id="hl-2-5">&lt;a class="lnlinks" href="#hl-2-5">5&lt;/a>
-&lt;/span>&lt;span class="lnt" id="hl-2-6">&lt;a class="lnlinks" href="#hl-2-6">6&lt;/a>
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt" id="hl-2-1">&lt;a class="lnlinks" href="#hl-2-1"> 1&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-2-2">&lt;a class="lnlinks" href="#hl-2-2"> 2&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-2-3">&lt;a class="lnlinks" href="#hl-2-3"> 3&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-2-4">&lt;a class="lnlinks" href="#hl-2-4"> 4&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-2-5">&lt;a class="lnlinks" href="#hl-2-5"> 5&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-2-6">&lt;a class="lnlinks" href="#hl-2-6"> 6&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-2-7">&lt;a class="lnlinks" href="#hl-2-7"> 7&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-2-8">&lt;a class="lnlinks" href="#hl-2-8"> 8&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-2-9">&lt;a class="lnlinks" href="#hl-2-9"> 9&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-2-10">&lt;a class="lnlinks" href="#hl-2-10">10&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-2-11">&lt;a class="lnlinks" href="#hl-2-11">11&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-2-12">&lt;a class="lnlinks" href="#hl-2-12">12&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-2-13">&lt;a class="lnlinks" href="#hl-2-13">13&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-2-14">&lt;a class="lnlinks" href="#hl-2-14">14&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-2-15">&lt;a class="lnlinks" href="#hl-2-15">15&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-2-16">&lt;a class="lnlinks" href="#hl-2-16">16&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-2-17">&lt;a class="lnlinks" href="#hl-2-17">17&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-2-18">&lt;a class="lnlinks" href="#hl-2-18">18&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-2-19">&lt;a class="lnlinks" href="#hl-2-19">19&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-2-20">&lt;a class="lnlinks" href="#hl-2-20">20&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-2-21">&lt;a class="lnlinks" href="#hl-2-21">21&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-2-22">&lt;a class="lnlinks" href="#hl-2-22">22&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-2-23">&lt;a class="lnlinks" href="#hl-2-23">23&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-2-24">&lt;a class="lnlinks" href="#hl-2-24">24&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-2-25">&lt;a class="lnlinks" href="#hl-2-25">25&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-2-26">&lt;a class="lnlinks" href="#hl-2-26">26&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-2-27">&lt;a class="lnlinks" href="#hl-2-27">27&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-2-28">&lt;a class="lnlinks" href="#hl-2-28">28&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-2-29">&lt;a class="lnlinks" href="#hl-2-29">29&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-2-30">&lt;a class="lnlinks" href="#hl-2-30">30&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-2-31">&lt;a class="lnlinks" href="#hl-2-31">31&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-2-32">&lt;a class="lnlinks" href="#hl-2-32">32&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-2-33">&lt;a class="lnlinks" href="#hl-2-33">33&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-2-34">&lt;a class="lnlinks" href="#hl-2-34">34&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-2-35">&lt;a class="lnlinks" href="#hl-2-35">35&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-2-36">&lt;a class="lnlinks" href="#hl-2-36">36&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-2-37">&lt;a class="lnlinks" href="#hl-2-37">37&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-2-38">&lt;a class="lnlinks" href="#hl-2-38">38&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-2-39">&lt;a class="lnlinks" href="#hl-2-39">39&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-2-40">&lt;a class="lnlinks" href="#hl-2-40">40&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-2-41">&lt;a class="lnlinks" href="#hl-2-41">41&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-2-42">&lt;a class="lnlinks" href="#hl-2-42">42&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-2-43">&lt;a class="lnlinks" href="#hl-2-43">43&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-2-44">&lt;a class="lnlinks" href="#hl-2-44">44&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-2-45">&lt;a class="lnlinks" href="#hl-2-45">45&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-2-46">&lt;a class="lnlinks" href="#hl-2-46">46&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-2-47">&lt;a class="lnlinks" href="#hl-2-47">47&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-2-48">&lt;a class="lnlinks" href="#hl-2-48">48&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-2-49">&lt;a class="lnlinks" href="#hl-2-49">49&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-2-50">&lt;a class="lnlinks" href="#hl-2-50">50&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-2-51">&lt;a class="lnlinks" href="#hl-2-51">51&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-2-52">&lt;a class="lnlinks" href="#hl-2-52">52&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-2-53">&lt;a class="lnlinks" href="#hl-2-53">53&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-2-54">&lt;a class="lnlinks" href="#hl-2-54">54&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-2-55">&lt;a class="lnlinks" href="#hl-2-55">55&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-2-56">&lt;a class="lnlinks" href="#hl-2-56">56&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-2-57">&lt;a class="lnlinks" href="#hl-2-57">57&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-2-58">&lt;a class="lnlinks" href="#hl-2-58">58&lt;/a>
 &lt;/span>&lt;/code>&lt;/pre>&lt;/td>
 &lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-yaml" data-lang="yaml">&lt;span class="line">&lt;span class="cl">&lt;span class="c"># 站点基本信息&lt;/span>&lt;span class="w">
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">&lt;/span>&lt;span class="c"># Site Information Settings&lt;/span>&lt;span class="w">
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">&lt;/span>&lt;span class="nt">author&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">Dany&lt;/span>&lt;span class="w">
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">&lt;/span>&lt;span class="nt">subtitle&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">上下求索&lt;/span>&lt;span class="w">
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">&lt;/span>&lt;span class="nt">description&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">你的要务不在于达成什么，而是待在当下此处。只管专注当下就行了。这能使你得到解脱，免于痛苦，免于恐惧，免于心智的束缚。&lt;/span>&lt;span class="w">
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">&lt;/span>&lt;span class="nt">keywords&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">emacs,elisp,java&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-emacs-lisp" data-lang="emacs-lisp">&lt;span class="line">&lt;span class="cl">&lt;span class="nv">vim&lt;/span> &lt;span class="nv">config/_default/params.yaml&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="err">#&lt;/span> &lt;span class="nv">站点基本信息&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="err">#&lt;/span> &lt;span class="nv">Site&lt;/span> &lt;span class="nv">Information&lt;/span> &lt;span class="nv">Settings&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nv">author:&lt;/span> &lt;span class="nv">Dany&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nv">subtitle:&lt;/span> &lt;span class="nv">上下求索&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nv">description:&lt;/span> &lt;span class="nv">你的要务不在于达成什么&lt;/span>&lt;span class="err">，&lt;/span>&lt;span class="nv">而是待在当下此处&lt;/span>&lt;span class="err">。&lt;/span>&lt;span class="nv">只管专注当下就行了&lt;/span>&lt;span class="err">。&lt;/span>&lt;span class="nv">这能使你得到解脱&lt;/span>&lt;span class="err">，&lt;/span>&lt;span class="nv">免于痛苦&lt;/span>&lt;span class="err">，&lt;/span>&lt;span class="nv">免于恐惧&lt;/span>&lt;span class="err">，&lt;/span>&lt;span class="nv">免于心智的束缚&lt;/span>&lt;span class="err">。&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nv">keywords:&lt;/span> &lt;span class="nv">emacs,elisp,java&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="err">#&lt;/span> &lt;span class="nv">知识共享国际许可&lt;/span> &lt;span class="mf">4.0&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="err">#&lt;/span> &lt;span class="nv">侧边栏显示&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nv">sidebar:&lt;/span> &lt;span class="nv">false&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="err">#&lt;/span> &lt;span class="nv">文章底部显示&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nv">post:&lt;/span> &lt;span class="nv">false&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="err">#&lt;/span> &lt;span class="nv">侧边栏头像&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="err">#&lt;/span> &lt;span class="nv">设置显示头像的相对路径&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nv">url:&lt;/span> &lt;span class="nv">/imgs/head.png&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nv">siteState:&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="err">#&lt;/span> &lt;span class="nv">是否在侧边栏显示文章&lt;/span>&lt;span class="err">、&lt;/span>&lt;span class="nv">分类&lt;/span>&lt;span class="err">、&lt;/span>&lt;span class="nv">标签信息&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nv">basic:&lt;/span> &lt;span class="nv">false&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="err">#&lt;/span> &lt;span class="nv">站点访问信息&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nv">views:&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nv">enable:&lt;/span> &lt;span class="nv">false&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="err">#&lt;/span> &lt;span class="nv">社交链接地址&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nv">social0:&lt;/span> &lt;span class="nv">Github&lt;/span> &lt;span class="nv">||&lt;/span> &lt;span class="nv">https://github.com/sxqsfun&lt;/span> &lt;span class="nv">||&lt;/span> &lt;span class="nv">fab&lt;/span> &lt;span class="nv">fa-github&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nv">social1:&lt;/span> &lt;span class="nv">E-Mail&lt;/span> &lt;span class="nv">||&lt;/span> &lt;span class="nv">mailto:78528291@qq.com&lt;/span> &lt;span class="nv">||&lt;/span> &lt;span class="nv">fa&lt;/span> &lt;span class="nv">fa-envelope&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="err">#&lt;/span> &lt;span class="nv">友情链接设置&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="err">#&lt;/span> &lt;span class="nv">显示标题&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="err">#&lt;/span> &lt;span class="nv">Show&lt;/span> &lt;span class="nv">title&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="err">#&lt;/span> &lt;span class="nv">友情链接地址&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nv">links:&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="err">#&lt;/span>&lt;span class="nv">link0:&lt;/span> &lt;span class="nv">Hugo-NexT&lt;/span> &lt;span class="nv">||&lt;/span> &lt;span class="nv">https://gitee.com/hugo-next/hugo-theme-next&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="err">#&lt;/span>&lt;span class="nv">link1:&lt;/span> &lt;span class="nv">凡梦星尘空间站&lt;/span> &lt;span class="nv">||&lt;/span> &lt;span class="nv">https://lisenhui.cn&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="err">#&lt;/span> &lt;span class="nv">站点开始年份&lt;/span>&lt;span class="err">，&lt;/span>&lt;span class="nv">默认为当下时间的年份&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nv">since:&lt;/span> &lt;span class="mi">2019&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="err">#&lt;/span> &lt;span class="nv">国内&lt;/span> &lt;span class="nv">ICP&lt;/span> &lt;span class="nv">备案和公安网备信息&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nv">beian:&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nv">enable:&lt;/span> &lt;span class="nv">false&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="err">#&lt;/span> &lt;span class="nv">站点支持供应商列表&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nv">vendors:&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nv">enable:&lt;/span> &lt;span class="nv">false&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="err">#&lt;/span> &lt;span class="nv">文章的在线编辑&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nv">postEdit:&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nv">enable:&lt;/span> &lt;span class="nv">false&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="err">#&lt;/span> &lt;span class="nv">右上角在&lt;/span> &lt;span class="nv">Github&lt;/span> &lt;span class="nv">上面关注我的横幅&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nv">githubBanner:&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nv">enable:&lt;/span> &lt;span class="nv">false&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
-&lt;/div>
-
-
-&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt" id="hl-3-1">&lt;a class="lnlinks" href="#hl-3-1">1&lt;/a>
-&lt;/span>&lt;span class="lnt" id="hl-3-2">&lt;a class="lnlinks" href="#hl-3-2">2&lt;/a>
-&lt;/span>&lt;span class="lnt" id="hl-3-3">&lt;a class="lnlinks" href="#hl-3-3">3&lt;/a>
-&lt;/span>&lt;span class="lnt" id="hl-3-4">&lt;a class="lnlinks" href="#hl-3-4">4&lt;/a>
-&lt;/span>&lt;span class="lnt" id="hl-3-5">&lt;a class="lnlinks" href="#hl-3-5">5&lt;/a>
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-yaml" data-lang="yaml">&lt;span class="line">&lt;span class="cl">&lt;span class="c"># 知识共享国际许可 4.0&lt;/span>&lt;span class="w">
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">&lt;/span>&lt;span class="c"># 侧边栏显示&lt;/span>&lt;span class="w">
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">&lt;/span>&lt;span class="nt">sidebar&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="kc">false&lt;/span>&lt;span class="w">
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">&lt;/span>&lt;span class="c"># 文章底部显示&lt;/span>&lt;span class="w">
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">&lt;/span>&lt;span class="nt">post&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="kc">false&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>
-
-
-&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt" id="hl-4-1">&lt;a class="lnlinks" href="#hl-4-1">1&lt;/a>
-&lt;/span>&lt;span class="lnt" id="hl-4-2">&lt;a class="lnlinks" href="#hl-4-2">2&lt;/a>
-&lt;/span>&lt;span class="lnt" id="hl-4-3">&lt;a class="lnlinks" href="#hl-4-3">3&lt;/a>
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-yaml" data-lang="yaml">&lt;span class="line">&lt;span class="cl">&lt;span class="c"># 侧边栏头像&lt;/span>&lt;span class="w">
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">&lt;/span>&lt;span class="c"># 设置显示头像的相对路径&lt;/span>&lt;span class="w">
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">&lt;/span>&lt;span class="nt">url&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">/imgs/head.png&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>
-
-
-&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt" id="hl-5-1">&lt;a class="lnlinks" href="#hl-5-1">1&lt;/a>
-&lt;/span>&lt;span class="lnt" id="hl-5-2">&lt;a class="lnlinks" href="#hl-5-2">2&lt;/a>
-&lt;/span>&lt;span class="lnt" id="hl-5-3">&lt;a class="lnlinks" href="#hl-5-3">3&lt;/a>
-&lt;/span>&lt;span class="lnt" id="hl-5-4">&lt;a class="lnlinks" href="#hl-5-4">4&lt;/a>
-&lt;/span>&lt;span class="lnt" id="hl-5-5">&lt;a class="lnlinks" href="#hl-5-5">5&lt;/a>
-&lt;/span>&lt;span class="lnt" id="hl-5-6">&lt;a class="lnlinks" href="#hl-5-6">6&lt;/a>
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-yaml" data-lang="yaml">&lt;span class="line">&lt;span class="cl">&lt;span class="nt">siteState&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">&lt;/span>&lt;span class="c"># 是否在侧边栏显示文章、分类、标签信息&lt;/span>&lt;span class="w">
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">&lt;/span>&lt;span class="nt">basic&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="kc">false&lt;/span>&lt;span class="w">
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">&lt;/span>&lt;span class="c"># 站点访问信息&lt;/span>&lt;span class="w">
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">&lt;/span>&lt;span class="nt">views&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">enable&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="kc">false&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>
-
-
-&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt" id="hl-6-1">&lt;a class="lnlinks" href="#hl-6-1">1&lt;/a>
-&lt;/span>&lt;span class="lnt" id="hl-6-2">&lt;a class="lnlinks" href="#hl-6-2">2&lt;/a>
-&lt;/span>&lt;span class="lnt" id="hl-6-3">&lt;a class="lnlinks" href="#hl-6-3">3&lt;/a>
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-yaml" data-lang="yaml">&lt;span class="line">&lt;span class="cl">&lt;span class="c"># 社交链接地址&lt;/span>&lt;span class="w">
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">&lt;/span>&lt;span class="nt">social0&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">Github || https://github.com/sxqsfun || fab fa-github&lt;/span>&lt;span class="w">
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">&lt;/span>&lt;span class="nt">social1&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">E-Mail || mailto:78528291@qq.com || fa fa-envelope&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>
-
-
-&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt" id="hl-7-1">&lt;a class="lnlinks" href="#hl-7-1">1&lt;/a>
-&lt;/span>&lt;span class="lnt" id="hl-7-2">&lt;a class="lnlinks" href="#hl-7-2">2&lt;/a>
-&lt;/span>&lt;span class="lnt" id="hl-7-3">&lt;a class="lnlinks" href="#hl-7-3">3&lt;/a>
-&lt;/span>&lt;span class="lnt" id="hl-7-4">&lt;a class="lnlinks" href="#hl-7-4">4&lt;/a>
-&lt;/span>&lt;span class="lnt" id="hl-7-5">&lt;a class="lnlinks" href="#hl-7-5">5&lt;/a>
-&lt;/span>&lt;span class="lnt" id="hl-7-6">&lt;a class="lnlinks" href="#hl-7-6">6&lt;/a>
-&lt;/span>&lt;span class="lnt" id="hl-7-7">&lt;a class="lnlinks" href="#hl-7-7">7&lt;/a>
-&lt;/span>&lt;span class="lnt" id="hl-7-8">&lt;a class="lnlinks" href="#hl-7-8">8&lt;/a>
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-yaml" data-lang="yaml">&lt;span class="line">&lt;span class="cl">&lt;span class="c"># 友情链接设置&lt;/span>&lt;span class="w">
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">&lt;/span>&lt;span class="c"># 显示标题&lt;/span>&lt;span class="w">
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">&lt;/span>&lt;span class="c"># Show title&lt;/span>&lt;span class="w">
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">&lt;/span>&lt;span class="c"># 友情链接地址&lt;/span>&lt;span class="w">
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">&lt;/span>&lt;span class="nt">links&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="c">#link0: Hugo-NexT || https://gitee.com/hugo-next/hugo-theme-next&lt;/span>&lt;span class="w">
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="c">#link1: 凡梦星尘空间站 || https://lisenhui.cn&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>
-
-
-&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt" id="hl-8-1">&lt;a class="lnlinks" href="#hl-8-1">1&lt;/a>
-&lt;/span>&lt;span class="lnt" id="hl-8-2">&lt;a class="lnlinks" href="#hl-8-2">2&lt;/a>
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-yaml" data-lang="yaml">&lt;span class="line">&lt;span class="cl">&lt;span class="c"># 站点开始年份，默认为当下时间的年份&lt;/span>&lt;span class="w">
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">&lt;/span>&lt;span class="nt">since&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="m">2019&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>
-
-
-&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt" id="hl-9-1">&lt;a class="lnlinks" href="#hl-9-1">1&lt;/a>
-&lt;/span>&lt;span class="lnt" id="hl-9-2">&lt;a class="lnlinks" href="#hl-9-2">2&lt;/a>
-&lt;/span>&lt;span class="lnt" id="hl-9-3">&lt;a class="lnlinks" href="#hl-9-3">3&lt;/a>
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-yaml" data-lang="yaml">&lt;span class="line">&lt;span class="cl">&lt;span class="c"># 国内 ICP 备案和公安网备信息&lt;/span>&lt;span class="w">
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">&lt;/span>&lt;span class="nt">beian&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">enable&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="kc">false&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>
-
-
-&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt" id="hl-10-1">&lt;a class="lnlinks" href="#hl-10-1">1&lt;/a>
-&lt;/span>&lt;span class="lnt" id="hl-10-2">&lt;a class="lnlinks" href="#hl-10-2">2&lt;/a>
-&lt;/span>&lt;span class="lnt" id="hl-10-3">&lt;a class="lnlinks" href="#hl-10-3">3&lt;/a>
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-yaml" data-lang="yaml">&lt;span class="line">&lt;span class="cl">&lt;span class="c"># 站点支持供应商列表&lt;/span>&lt;span class="w">
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">&lt;/span>&lt;span class="nt">vendors&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">enable&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="kc">false&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>
-
-
-&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt" id="hl-11-1">&lt;a class="lnlinks" href="#hl-11-1">1&lt;/a>
-&lt;/span>&lt;span class="lnt" id="hl-11-2">&lt;a class="lnlinks" href="#hl-11-2">2&lt;/a>
-&lt;/span>&lt;span class="lnt" id="hl-11-3">&lt;a class="lnlinks" href="#hl-11-3">3&lt;/a>
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-yaml" data-lang="yaml">&lt;span class="line">&lt;span class="cl">&lt;span class="c"># 文章的在线编辑&lt;/span>&lt;span class="w">
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">&lt;/span>&lt;span class="nt">postEdit&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">enable&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="kc">false&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>
-
-
-&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt" id="hl-12-1">&lt;a class="lnlinks" href="#hl-12-1">1&lt;/a>
-&lt;/span>&lt;span class="lnt" id="hl-12-2">&lt;a class="lnlinks" href="#hl-12-2">2&lt;/a>
-&lt;/span>&lt;span class="lnt" id="hl-12-3">&lt;a class="lnlinks" href="#hl-12-3">3&lt;/a>
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-yaml" data-lang="yaml">&lt;span class="line">&lt;span class="cl">&lt;span class="c"># 右上角在 Github 上面关注我的横幅&lt;/span>&lt;span class="w">
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">&lt;/span>&lt;span class="nt">githubBanner&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">enable&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="kc">false&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div></description></item><item><title>支持在Markdown文档中实现块信息强调标注</title><link>https://sxqs.fun/demo/hugo-blockquote.html</link><pubDate>Thu, 02 Jan 2025 16:08:02 +0800</pubDate><guid>https://sxqs.fun/demo/hugo-blockquote.html</guid><description>&lt;p>过去 &lt;code>HugoNexT&lt;/code> 主题都是通过自定义短语来实现块信息的标注，近期发现 &lt;code>Hugo&lt;/code> 从
-&lt;a href="https://github.com/gohugoio/hugo/releases/tag/v0.134.0" title="v0.134.0" rel="noopener external nofollow noreferrer" target="_blank" class=" exturl">
- v0.134.0
- 
- &lt;i class="fa fa-external-link-alt">&lt;/i>
- 
-&lt;/a>版本开始便是可以支持通过hook方式渲染Markdown文档中的Blockquote样式（需要自己实现），实现类似Github的警告风格样式。于是便在 &lt;code>HugoNexT&lt;/code> 主题中添加7种不同风格供用户可选择使用，还可以自定义图标与颜色配置。&lt;/p></description></item><item><title>关于本站</title><link>https://sxqs.fun/about.html</link><pubDate>Sun, 09 Jun 2019 20:12:52 +0800</pubDate><guid>https://sxqs.fun/about.html</guid><description>&lt;p>本站主要记录个人的学习笔记，以及一些在工作、生活中遇到的问题等。&lt;/p></description></item><item><title>站点示例</title><link>https://sxqs.fun/flinks.html</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://sxqs.fun/flinks.html</guid><description>&lt;p>如想交换本站友情链接，请在评论区留下你的站点信息，格式参考如下：&lt;/p>
+&lt;/div></description></item><item><title>关于本站</title><link>https://sxqs.fun/about.html</link><pubDate>Sun, 09 Jun 2019 20:12:52 +0800</pubDate><guid>https://sxqs.fun/about.html</guid><description>&lt;p>本站主要记录个人的学习笔记，以及一些在工作、生活中遇到的问题等。&lt;/p></description></item><item><title>站点示例</title><link>https://sxqs.fun/flinks.html</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://sxqs.fun/flinks.html</guid><description>&lt;p>如想交换本站友情链接，请在评论区留下你的站点信息，格式参考如下：&lt;/p>
 
 &lt;div class="highlight">&lt;div class="chroma">
 &lt;table class="lntable">&lt;tr>&lt;td class="lntd">
