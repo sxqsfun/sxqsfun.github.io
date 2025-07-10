@@ -1,16 +1,194 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Dany 的个人小站</title><link>https://sxqs.fun/post/</link><description>Recent content in Posts on Dany 的个人小站</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Wed, 09 Jul 2025 10:23:18 +0800</lastBuildDate><atom:link href="https://sxqs.fun/post/rss.xml" rel="self" type="application/rss+xml"/><item><title>docker容器人大金仓数据迁移到mysql</title><link>https://sxqs.fun/post/docker%E5%AE%B9%E5%99%A8%E4%BA%BA%E5%A4%A7%E9%87%91%E4%BB%93%E6%95%B0%E6%8D%AE%E8%BF%81%E7%A7%BB%E5%88%B0mysql/</link><pubDate>Wed, 09 Jul 2025 10:23:18 +0800</pubDate><guid>https://sxqs.fun/post/docker%E5%AE%B9%E5%99%A8%E4%BA%BA%E5%A4%A7%E9%87%91%E4%BB%93%E6%95%B0%E6%8D%AE%E8%BF%81%E7%A7%BB%E5%88%B0mysql/</guid><description>&lt;h2 id="方法一-用官方迁移工具kdts">方法一：用官方迁移工具KDTS
-&lt;a class="header-anchor" href="#%e6%96%b9%e6%b3%95%e4%b8%80-%e7%94%a8%e5%ae%98%e6%96%b9%e8%bf%81%e7%a7%bb%e5%b7%a5%e5%85%b7kdts">&lt;/a>
-&lt;/h2>&lt;p>同事告知，用KDTS，从mysql迁移到人大金仓数据库没问题。但从人大金仓数据库迁移到mysql会失败，原因未明。
-KDTS工具为安装人大金仓数据库自带，没有独立版本。
-docker版本的人大金仓数据库没有此公具。&lt;/p></description></item><item><title>docker启动异常</title><link>https://sxqs.fun/post/docker%E5%90%AF%E5%8A%A8%E5%BC%82%E5%B8%B8/</link><pubDate>Fri, 04 Jul 2025 16:14:48 +0800</pubDate><guid>https://sxqs.fun/post/docker%E5%90%AF%E5%8A%A8%E5%BC%82%E5%B8%B8/</guid><description>&lt;h2 id="异常一">异常一
-&lt;a class="header-anchor" href="#%e5%bc%82%e5%b8%b8%e4%b8%80">&lt;/a>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Dany 的个人小站</title><link>https://sxqs.fun/post/</link><description>Recent content in Posts on Dany 的个人小站</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Thu, 10 Jul 2025 15:03:55 +0800</lastBuildDate><atom:link href="https://sxqs.fun/post/rss.xml" rel="self" type="application/rss+xml"/><item><title>echarts热力图数据聚合</title><link>https://sxqs.fun/post/echarts%E7%83%AD%E5%8A%9B%E5%9B%BE%E6%95%B0%E6%8D%AE%E8%81%9A%E5%90%88/</link><pubDate>Thu, 10 Jul 2025 15:03:55 +0800</pubDate><guid>https://sxqs.fun/post/echarts%E7%83%AD%E5%8A%9B%E5%9B%BE%E6%95%B0%E6%8D%AE%E8%81%9A%E5%90%88/</guid><description>&lt;h2 id="问题">问题
+&lt;a class="header-anchor" href="#%e9%97%ae%e9%a2%98">&lt;/a>
+&lt;/h2>&lt;p>echarts热力图渲染数据超过2万会感觉明显卡顿&lt;/p>
+&lt;h2 id="解决办法">解决办法
+&lt;a class="header-anchor" href="#%e8%a7%a3%e5%86%b3%e5%8a%9e%e6%b3%95">&lt;/a>
+&lt;/h2>&lt;p>后端通过网格将数据聚合，压缩数据量&lt;/p>
+
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt" id="hl-0-1">&lt;a class="lnlinks" href="#hl-0-1"> 1&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-0-2">&lt;a class="lnlinks" href="#hl-0-2"> 2&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-0-3">&lt;a class="lnlinks" href="#hl-0-3"> 3&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-0-4">&lt;a class="lnlinks" href="#hl-0-4"> 4&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-0-5">&lt;a class="lnlinks" href="#hl-0-5"> 5&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-0-6">&lt;a class="lnlinks" href="#hl-0-6"> 6&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-0-7">&lt;a class="lnlinks" href="#hl-0-7"> 7&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-0-8">&lt;a class="lnlinks" href="#hl-0-8"> 8&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-0-9">&lt;a class="lnlinks" href="#hl-0-9"> 9&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-0-10">&lt;a class="lnlinks" href="#hl-0-10">10&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-0-11">&lt;a class="lnlinks" href="#hl-0-11">11&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-0-12">&lt;a class="lnlinks" href="#hl-0-12">12&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-0-13">&lt;a class="lnlinks" href="#hl-0-13">13&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-0-14">&lt;a class="lnlinks" href="#hl-0-14">14&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-0-15">&lt;a class="lnlinks" href="#hl-0-15">15&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-0-16">&lt;a class="lnlinks" href="#hl-0-16">16&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-0-17">&lt;a class="lnlinks" href="#hl-0-17">17&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-0-18">&lt;a class="lnlinks" href="#hl-0-18">18&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-0-19">&lt;a class="lnlinks" href="#hl-0-19">19&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-0-20">&lt;a class="lnlinks" href="#hl-0-20">20&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-0-21">&lt;a class="lnlinks" href="#hl-0-21">21&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-0-22">&lt;a class="lnlinks" href="#hl-0-22">22&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-0-23">&lt;a class="lnlinks" href="#hl-0-23">23&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-0-24">&lt;a class="lnlinks" href="#hl-0-24">24&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-0-25">&lt;a class="lnlinks" href="#hl-0-25">25&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-0-26">&lt;a class="lnlinks" href="#hl-0-26">26&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-0-27">&lt;a class="lnlinks" href="#hl-0-27">27&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-0-28">&lt;a class="lnlinks" href="#hl-0-28">28&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-0-29">&lt;a class="lnlinks" href="#hl-0-29">29&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-0-30">&lt;a class="lnlinks" href="#hl-0-30">30&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-0-31">&lt;a class="lnlinks" href="#hl-0-31">31&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-0-32">&lt;a class="lnlinks" href="#hl-0-32">32&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-0-33">&lt;a class="lnlinks" href="#hl-0-33">33&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-0-34">&lt;a class="lnlinks" href="#hl-0-34">34&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-0-35">&lt;a class="lnlinks" href="#hl-0-35">35&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-0-36">&lt;a class="lnlinks" href="#hl-0-36">36&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-0-37">&lt;a class="lnlinks" href="#hl-0-37">37&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-0-38">&lt;a class="lnlinks" href="#hl-0-38">38&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-0-39">&lt;a class="lnlinks" href="#hl-0-39">39&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-0-40">&lt;a class="lnlinks" href="#hl-0-40">40&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-0-41">&lt;a class="lnlinks" href="#hl-0-41">41&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-0-42">&lt;a class="lnlinks" href="#hl-0-42">42&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-0-43">&lt;a class="lnlinks" href="#hl-0-43">43&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-0-44">&lt;a class="lnlinks" href="#hl-0-44">44&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-0-45">&lt;a class="lnlinks" href="#hl-0-45">45&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-0-46">&lt;a class="lnlinks" href="#hl-0-46">46&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-0-47">&lt;a class="lnlinks" href="#hl-0-47">47&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-0-48">&lt;a class="lnlinks" href="#hl-0-48">48&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-0-49">&lt;a class="lnlinks" href="#hl-0-49">49&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-0-50">&lt;a class="lnlinks" href="#hl-0-50">50&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-0-51">&lt;a class="lnlinks" href="#hl-0-51">51&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-0-52">&lt;a class="lnlinks" href="#hl-0-52">52&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-0-53">&lt;a class="lnlinks" href="#hl-0-53">53&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-0-54">&lt;a class="lnlinks" href="#hl-0-54">54&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-0-55">&lt;a class="lnlinks" href="#hl-0-55">55&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-0-56">&lt;a class="lnlinks" href="#hl-0-56">56&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-0-57">&lt;a class="lnlinks" href="#hl-0-57">57&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-0-58">&lt;a class="lnlinks" href="#hl-0-58">58&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-0-59">&lt;a class="lnlinks" href="#hl-0-59">59&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-0-60">&lt;a class="lnlinks" href="#hl-0-60">60&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-0-61">&lt;a class="lnlinks" href="#hl-0-61">61&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-0-62">&lt;a class="lnlinks" href="#hl-0-62">62&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-0-63">&lt;a class="lnlinks" href="#hl-0-63">63&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-0-64">&lt;a class="lnlinks" href="#hl-0-64">64&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-0-65">&lt;a class="lnlinks" href="#hl-0-65">65&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-0-66">&lt;a class="lnlinks" href="#hl-0-66">66&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-0-67">&lt;a class="lnlinks" href="#hl-0-67">67&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-0-68">&lt;a class="lnlinks" href="#hl-0-68">68&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-0-69">&lt;a class="lnlinks" href="#hl-0-69">69&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-0-70">&lt;a class="lnlinks" href="#hl-0-70">70&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-0-71">&lt;a class="lnlinks" href="#hl-0-71">71&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-0-72">&lt;a class="lnlinks" href="#hl-0-72">72&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-0-73">&lt;a class="lnlinks" href="#hl-0-73">73&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-0-74">&lt;a class="lnlinks" href="#hl-0-74">74&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-0-75">&lt;a class="lnlinks" href="#hl-0-75">75&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-0-76">&lt;a class="lnlinks" href="#hl-0-76">76&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-0-77">&lt;a class="lnlinks" href="#hl-0-77">77&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-0-78">&lt;a class="lnlinks" href="#hl-0-78">78&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-0-79">&lt;a class="lnlinks" href="#hl-0-79">79&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-0-80">&lt;a class="lnlinks" href="#hl-0-80">80&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-0-81">&lt;a class="lnlinks" href="#hl-0-81">81&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-0-82">&lt;a class="lnlinks" href="#hl-0-82">82&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-0-83">&lt;a class="lnlinks" href="#hl-0-83">83&lt;/a>
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-emacs-lisp" data-lang="emacs-lisp">&lt;span class="line">&lt;span class="cl">&lt;span class="nv">//&lt;/span> &lt;span class="nv">网格聚合核心方法&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nv">public&lt;/span> &lt;span class="nv">static&lt;/span> &lt;span class="nv">JSONArray&lt;/span> &lt;span class="nv">gridAggregate&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="nv">JSONArray&lt;/span> &lt;span class="nv">points,&lt;/span> &lt;span class="nv">int&lt;/span> &lt;span class="nv">xGridSize,&lt;/span> &lt;span class="nv">int&lt;/span> &lt;span class="nv">yGridSize&lt;/span>&lt;span class="p">)&lt;/span> &lt;span class="nv">throws&lt;/span> &lt;span class="nv">JSONException&lt;/span> &lt;span class="nv">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nb">if&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="nv">points.size&lt;/span>&lt;span class="p">()&lt;/span> &lt;span class="nf">&amp;lt;=&lt;/span> &lt;span class="mi">20000&lt;/span>&lt;span class="p">)&lt;/span>&lt;span class="nv">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nb">return&lt;/span> &lt;span class="nv">points&lt;/span>&lt;span class="c1">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nv">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nv">//&lt;/span> &lt;span class="mi">1.&lt;/span> &lt;span class="nv">计算坐标范围&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nv">double&lt;/span> &lt;span class="nv">minX&lt;/span> &lt;span class="nf">=&lt;/span> &lt;span class="mi">0&lt;/span>&lt;span class="o">,&lt;/span> &lt;span class="nv">maxX&lt;/span> &lt;span class="nf">=&lt;/span> &lt;span class="mi">0&lt;/span>&lt;span class="o">,&lt;/span> &lt;span class="nv">minY&lt;/span> &lt;span class="nf">=&lt;/span> &lt;span class="mi">0&lt;/span>&lt;span class="o">,&lt;/span> &lt;span class="nv">maxY&lt;/span> &lt;span class="nf">=&lt;/span> &lt;span class="mi">0&lt;/span>&lt;span class="c1">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nv">for&lt;/span> &lt;span class="p">(&lt;/span>&lt;span class="nv">int&lt;/span> &lt;span class="nv">i&lt;/span> &lt;span class="nf">=&lt;/span> &lt;span class="mi">0&lt;/span>&lt;span class="c1">; i &amp;lt; points.size(); i++) {&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nv">JSONArray&lt;/span> &lt;span class="nf">point&lt;/span> &lt;span class="nf">=&lt;/span> &lt;span class="nv">points.getJSONArray&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="nv">i&lt;/span>&lt;span class="p">)&lt;/span>&lt;span class="c1">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nv">double&lt;/span> &lt;span class="nv">x&lt;/span> &lt;span class="nf">=&lt;/span> &lt;span class="nv">point.getDouble&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="mi">0&lt;/span>&lt;span class="p">)&lt;/span>&lt;span class="c1">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nv">double&lt;/span> &lt;span class="nv">y&lt;/span> &lt;span class="nf">=&lt;/span> &lt;span class="nv">point.getDouble&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="mi">1&lt;/span>&lt;span class="p">)&lt;/span>&lt;span class="c1">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nb">if&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="nv">i&lt;/span> &lt;span class="nv">==&lt;/span> &lt;span class="mi">0&lt;/span>&lt;span class="p">)&lt;/span>&lt;span class="nv">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nv">minX&lt;/span> &lt;span class="nf">=&lt;/span> &lt;span class="nv">x&lt;/span>&lt;span class="c1">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nv">maxX&lt;/span> &lt;span class="nf">=&lt;/span> &lt;span class="nv">x&lt;/span>&lt;span class="c1">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nv">minY&lt;/span> &lt;span class="nf">=&lt;/span> &lt;span class="nv">y&lt;/span>&lt;span class="c1">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nv">maxY&lt;/span> &lt;span class="nf">=&lt;/span> &lt;span class="nv">y&lt;/span>&lt;span class="c1">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nv">}else{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nv">minX&lt;/span> &lt;span class="nf">=&lt;/span> &lt;span class="nv">Math.min&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="nv">minX,&lt;/span> &lt;span class="nv">x&lt;/span>&lt;span class="p">)&lt;/span>&lt;span class="c1">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nv">maxX&lt;/span> &lt;span class="nf">=&lt;/span> &lt;span class="nv">Math.max&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="nv">maxX,&lt;/span> &lt;span class="nv">x&lt;/span>&lt;span class="p">)&lt;/span>&lt;span class="c1">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nv">minY&lt;/span> &lt;span class="nf">=&lt;/span> &lt;span class="nv">Math.min&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="nv">minY,&lt;/span> &lt;span class="nv">y&lt;/span>&lt;span class="p">)&lt;/span>&lt;span class="c1">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nv">maxY&lt;/span> &lt;span class="nf">=&lt;/span> &lt;span class="nv">Math.max&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="nv">maxY,&lt;/span> &lt;span class="nv">y&lt;/span>&lt;span class="p">)&lt;/span>&lt;span class="c1">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nv">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nv">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nv">//&lt;/span> &lt;span class="mi">2.&lt;/span> &lt;span class="nv">初始化网格容器&lt;/span> &lt;span class="p">(&lt;/span>&lt;span class="nv">使用网格坐标作为Key&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nv">TreeMap&amp;lt;String,&lt;/span> &lt;span class="nv">List&amp;lt;Double&amp;gt;&amp;gt;&lt;/span> &lt;span class="nv">gridMap&lt;/span> &lt;span class="nf">=&lt;/span> &lt;span class="nv">new&lt;/span> &lt;span class="nv">TreeMap&amp;lt;&amp;gt;&lt;/span>&lt;span class="p">()&lt;/span>&lt;span class="c1">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nv">double&lt;/span> &lt;span class="nv">gridWidth&lt;/span> &lt;span class="nf">=&lt;/span> &lt;span class="p">(&lt;/span>&lt;span class="nv">maxX&lt;/span> &lt;span class="nf">-&lt;/span> &lt;span class="nv">minX&lt;/span>&lt;span class="p">)&lt;/span> &lt;span class="nf">/&lt;/span> &lt;span class="nv">xGridSize&lt;/span>&lt;span class="c1">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nv">double&lt;/span> &lt;span class="nv">gridHeight&lt;/span> &lt;span class="nf">=&lt;/span> &lt;span class="p">(&lt;/span>&lt;span class="nv">maxY&lt;/span> &lt;span class="nf">-&lt;/span> &lt;span class="nv">minY&lt;/span>&lt;span class="p">)&lt;/span> &lt;span class="nf">/&lt;/span> &lt;span class="nv">yGridSize&lt;/span>&lt;span class="c1">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nv">//&lt;/span> &lt;span class="mi">3.&lt;/span> &lt;span class="nv">点分配到网格&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nv">for&lt;/span> &lt;span class="p">(&lt;/span>&lt;span class="nv">int&lt;/span> &lt;span class="nv">i&lt;/span> &lt;span class="nf">=&lt;/span> &lt;span class="mi">0&lt;/span>&lt;span class="c1">; i &amp;lt; points.size(); i++) {&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nv">JSONArray&lt;/span> &lt;span class="nf">point&lt;/span> &lt;span class="nf">=&lt;/span> &lt;span class="nv">points.getJSONArray&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="nv">i&lt;/span>&lt;span class="p">)&lt;/span>&lt;span class="c1">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nv">double&lt;/span> &lt;span class="nv">x&lt;/span> &lt;span class="nf">=&lt;/span> &lt;span class="nv">point.getDouble&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="mi">0&lt;/span>&lt;span class="p">)&lt;/span>&lt;span class="c1">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nv">double&lt;/span> &lt;span class="nv">y&lt;/span> &lt;span class="nf">=&lt;/span> &lt;span class="nv">point.getDouble&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="mi">1&lt;/span>&lt;span class="p">)&lt;/span>&lt;span class="c1">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nv">double&lt;/span> &lt;span class="nv">value&lt;/span> &lt;span class="nf">=&lt;/span> &lt;span class="nv">point.getDouble&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="mi">2&lt;/span>&lt;span class="p">)&lt;/span>&lt;span class="c1">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nv">int&lt;/span> &lt;span class="nv">gridX&lt;/span> &lt;span class="nf">=&lt;/span> &lt;span class="p">(&lt;/span>&lt;span class="nv">int&lt;/span>&lt;span class="p">)&lt;/span> &lt;span class="p">((&lt;/span>&lt;span class="nv">x&lt;/span> &lt;span class="nf">-&lt;/span> &lt;span class="nv">minX&lt;/span>&lt;span class="p">)&lt;/span> &lt;span class="nf">/&lt;/span> &lt;span class="nv">gridWidth&lt;/span>&lt;span class="p">)&lt;/span>&lt;span class="c1">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nv">int&lt;/span> &lt;span class="nv">gridY&lt;/span> &lt;span class="nf">=&lt;/span> &lt;span class="p">(&lt;/span>&lt;span class="nv">int&lt;/span>&lt;span class="p">)&lt;/span> &lt;span class="p">((&lt;/span>&lt;span class="nv">y&lt;/span> &lt;span class="nf">-&lt;/span> &lt;span class="nv">minY&lt;/span>&lt;span class="p">)&lt;/span> &lt;span class="nf">/&lt;/span> &lt;span class="nv">gridHeight&lt;/span>&lt;span class="p">)&lt;/span>&lt;span class="c1">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nv">String&lt;/span> &lt;span class="nv">gridKey&lt;/span> &lt;span class="nf">=&lt;/span> &lt;span class="nv">gridX&lt;/span> &lt;span class="nf">+&lt;/span> &lt;span class="s">&amp;#34;_&amp;#34;&lt;/span> &lt;span class="nf">+&lt;/span> &lt;span class="nv">gridY&lt;/span>&lt;span class="c1">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nv">gridMap.computeIfAbsent&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="nv">gridKey,&lt;/span> &lt;span class="nv">k&lt;/span> &lt;span class="nv">-&amp;gt;&lt;/span> &lt;span class="nv">new&lt;/span> &lt;span class="nv">ArrayList&amp;lt;&amp;gt;&lt;/span>&lt;span class="p">())&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="nv">add&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="nv">value&lt;/span>&lt;span class="p">)&lt;/span>&lt;span class="c1">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nv">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nv">//&lt;/span> &lt;span class="mi">4.&lt;/span> &lt;span class="nv">生成聚合数据&lt;/span> &lt;span class="p">(&lt;/span>&lt;span class="nv">使用平均值策略&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nv">JSONArray&lt;/span> &lt;span class="nv">aggregatedData&lt;/span> &lt;span class="nf">=&lt;/span> &lt;span class="nv">new&lt;/span> &lt;span class="nv">JSONArray&lt;/span>&lt;span class="p">()&lt;/span>&lt;span class="c1">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nv">for&lt;/span> &lt;span class="p">(&lt;/span>&lt;span class="nv">Map.Entry&amp;lt;String,&lt;/span> &lt;span class="nv">List&amp;lt;Double&amp;gt;&amp;gt;&lt;/span> &lt;span class="nv">entry&lt;/span> &lt;span class="o">:&lt;/span> &lt;span class="nv">gridMap.entrySet&lt;/span>&lt;span class="p">())&lt;/span> &lt;span class="nv">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nv">String&lt;/span>&lt;span class="p">[]&lt;/span> &lt;span class="nv">keys&lt;/span> &lt;span class="nf">=&lt;/span> &lt;span class="nv">entry.getKey&lt;/span>&lt;span class="p">()&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="nv">split&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s">&amp;#34;_&amp;#34;&lt;/span>&lt;span class="p">)&lt;/span>&lt;span class="c1">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nv">int&lt;/span> &lt;span class="nv">gridX&lt;/span> &lt;span class="nf">=&lt;/span> &lt;span class="nv">Integer.parseInt&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="nv">keys&lt;/span>&lt;span class="p">[&lt;/span>&lt;span class="mi">0&lt;/span>&lt;span class="p">])&lt;/span>&lt;span class="c1">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nv">int&lt;/span> &lt;span class="nv">gridY&lt;/span> &lt;span class="nf">=&lt;/span> &lt;span class="nv">Integer.parseInt&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="nv">keys&lt;/span>&lt;span class="p">[&lt;/span>&lt;span class="mi">1&lt;/span>&lt;span class="p">])&lt;/span>&lt;span class="c1">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nv">//&lt;/span> &lt;span class="nv">计算网格中心坐标&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nv">double&lt;/span> &lt;span class="nv">centerX&lt;/span> &lt;span class="nf">=&lt;/span> &lt;span class="nv">minX&lt;/span> &lt;span class="nf">+&lt;/span> &lt;span class="p">(&lt;/span>&lt;span class="nv">gridX&lt;/span> &lt;span class="nf">+&lt;/span> &lt;span class="mf">0.5&lt;/span>&lt;span class="p">)&lt;/span> &lt;span class="nf">*&lt;/span> &lt;span class="nv">gridWidth&lt;/span>&lt;span class="c1">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nv">double&lt;/span> &lt;span class="nv">centerY&lt;/span> &lt;span class="nf">=&lt;/span> &lt;span class="nv">minY&lt;/span> &lt;span class="nf">+&lt;/span> &lt;span class="p">(&lt;/span>&lt;span class="nv">gridY&lt;/span> &lt;span class="nf">+&lt;/span> &lt;span class="mf">0.5&lt;/span>&lt;span class="p">)&lt;/span> &lt;span class="nf">*&lt;/span> &lt;span class="nv">gridHeight&lt;/span>&lt;span class="c1">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nv">//&lt;/span> &lt;span class="nv">计算平均值&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nv">double&lt;/span> &lt;span class="nv">avgValue&lt;/span> &lt;span class="nf">=&lt;/span> &lt;span class="nv">entry.getValue&lt;/span>&lt;span class="p">()&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="nv">stream&lt;/span>&lt;span class="p">()&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="o">.&lt;/span>&lt;span class="nv">mapToDouble&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="nv">Double::doubleValue&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="o">.&lt;/span>&lt;span class="nv">average&lt;/span>&lt;span class="p">()&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="o">.&lt;/span>&lt;span class="nv">orElse&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="mf">0.0&lt;/span>&lt;span class="p">)&lt;/span>&lt;span class="c1">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nv">//&lt;/span> &lt;span class="nv">构建新数据点&lt;/span> &lt;span class="p">[&lt;/span>&lt;span class="nv">x,&lt;/span> &lt;span class="nv">y,&lt;/span> &lt;span class="nv">value&lt;/span>&lt;span class="p">]&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nv">JSONArray&lt;/span> &lt;span class="nv">newPoint&lt;/span> &lt;span class="nf">=&lt;/span> &lt;span class="nv">new&lt;/span> &lt;span class="nv">JSONArray&lt;/span>&lt;span class="p">()&lt;/span>&lt;span class="c1">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nv">newPoint.put&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="nv">new&lt;/span> &lt;span class="nv">BigDecimal&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="nv">centerX&lt;/span>&lt;span class="p">)&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="nv">setScale&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="mi">2&lt;/span>&lt;span class="o">,&lt;/span> &lt;span class="nv">RoundingMode.DOWN&lt;/span>&lt;span class="p">)&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="nv">intValue&lt;/span>&lt;span class="p">())&lt;/span>&lt;span class="c1">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nv">newPoint.put&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="nv">new&lt;/span> &lt;span class="nv">BigDecimal&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="nv">centerY&lt;/span>&lt;span class="p">)&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="nv">setScale&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="mi">2&lt;/span>&lt;span class="o">,&lt;/span> &lt;span class="nv">RoundingMode.DOWN&lt;/span>&lt;span class="p">)&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="nv">doubleValue&lt;/span>&lt;span class="p">())&lt;/span>&lt;span class="c1">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nv">newPoint.put&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="nv">new&lt;/span> &lt;span class="nv">BigDecimal&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="nv">avgValue&lt;/span>&lt;span class="p">)&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="nv">setScale&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="mi">6&lt;/span>&lt;span class="o">,&lt;/span> &lt;span class="nv">RoundingMode.DOWN&lt;/span>&lt;span class="p">)&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="nv">doubleValue&lt;/span>&lt;span class="p">())&lt;/span>&lt;span class="c1">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nv">aggregatedData.put&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="nv">newPoint&lt;/span>&lt;span class="p">)&lt;/span>&lt;span class="c1">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nv">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nv">//System.out.println&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s">&amp;#34;原始点数: &amp;#34;&lt;/span> &lt;span class="nf">+&lt;/span> &lt;span class="nv">points.size&lt;/span>&lt;span class="p">())&lt;/span>&lt;span class="c1">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nv">//System.out.println&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s">&amp;#34;聚合后点数: &amp;#34;&lt;/span> &lt;span class="nf">+&lt;/span> &lt;span class="nv">aggregatedData.size&lt;/span>&lt;span class="p">())&lt;/span>&lt;span class="c1">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nv">aggregatedData.sort&lt;/span>&lt;span class="p">((&lt;/span>&lt;span class="nv">o1,&lt;/span> &lt;span class="nv">o2&lt;/span>&lt;span class="p">)&lt;/span> &lt;span class="nv">-&amp;gt;&lt;/span> &lt;span class="nv">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nv">JSONArray&lt;/span> &lt;span class="nv">points1&lt;/span> &lt;span class="nf">=&lt;/span> &lt;span class="p">(&lt;/span>&lt;span class="nv">JSONArray&lt;/span>&lt;span class="p">)&lt;/span> &lt;span class="nv">o1&lt;/span>&lt;span class="c1">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nv">JSONArray&lt;/span> &lt;span class="nv">points2&lt;/span> &lt;span class="nf">=&lt;/span> &lt;span class="p">(&lt;/span>&lt;span class="nv">JSONArray&lt;/span>&lt;span class="p">)&lt;/span> &lt;span class="nv">o2&lt;/span>&lt;span class="c1">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nb">return&lt;/span> &lt;span class="nv">points1.getInt&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="mi">0&lt;/span>&lt;span class="p">)&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="nv">compareTo&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="nv">points2.getInt&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="mi">0&lt;/span>&lt;span class="p">))&lt;/span>&lt;span class="c1">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nv">}&lt;/span>&lt;span class="p">)&lt;/span>&lt;span class="c1">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nb">return&lt;/span> &lt;span class="nv">aggregatedData&lt;/span>&lt;span class="c1">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nv">}&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div></description></item><item><title>docker启动异常</title><link>https://sxqs.fun/post/docker%E5%90%AF%E5%8A%A8%E5%BC%82%E5%B8%B8/</link><pubDate>Thu, 10 Jul 2025 14:52:41 +0800</pubDate><guid>https://sxqs.fun/post/docker%E5%90%AF%E5%8A%A8%E5%BC%82%E5%B8%B8/</guid><description>&lt;h2 id="异常一ddd">异常一ddd
+&lt;a class="header-anchor" href="#%e5%bc%82%e5%b8%b8%e4%b8%80ddd">&lt;/a>
 &lt;/h2>&lt;h3 id="dockerd-启动提示--docker0--networks-have-same-bridge-name">dockerd 启动提示：(docker0): networks have same bridge name
 &lt;a class="header-anchor" href="#dockerd-%e5%90%af%e5%8a%a8%e6%8f%90%e7%a4%ba--docker0--networks-have-same-bridge-name">&lt;/a>
 &lt;/h3>&lt;h4 id="原因分析">原因分析
 &lt;a class="header-anchor" href="#%e5%8e%9f%e5%9b%a0%e5%88%86%e6%9e%90">&lt;/a>
 &lt;/h4>&lt;p>使用 docker-compose 的方式部署时，默认的网络模式是bridge ,
 默认网段是172.17.0.1/16，即docker0。自动生成的网桥会依次使用：172.18.x.x ,172.19.x.x&amp;hellip;.
-这些docker生成的网段可能与内网网段有冲突。&lt;/p></description></item><item><title>docker查看实时日志</title><link>https://sxqs.fun/post/docker%E6%9F%A5%E7%9C%8B%E5%AE%9E%E6%97%B6%E6%97%A5%E5%BF%97/</link><pubDate>Wed, 02 Jul 2025 13:23:09 +0000</pubDate><guid>https://sxqs.fun/post/docker%E6%9F%A5%E7%9C%8B%E5%AE%9E%E6%97%B6%E6%97%A5%E5%BF%97/</guid><description>&lt;h2 id="需求">需求
+这些docker生成的网段可能与内网网段有冲突。&lt;/p></description></item><item><title>docker容器人大金仓数据迁移到mysql</title><link>https://sxqs.fun/post/docker%E5%AE%B9%E5%99%A8%E4%BA%BA%E5%A4%A7%E9%87%91%E4%BB%93%E6%95%B0%E6%8D%AE%E8%BF%81%E7%A7%BB%E5%88%B0mysql/</link><pubDate>Wed, 09 Jul 2025 10:23:18 +0800</pubDate><guid>https://sxqs.fun/post/docker%E5%AE%B9%E5%99%A8%E4%BA%BA%E5%A4%A7%E9%87%91%E4%BB%93%E6%95%B0%E6%8D%AE%E8%BF%81%E7%A7%BB%E5%88%B0mysql/</guid><description>&lt;h2 id="方法一-用官方迁移工具kdts">方法一：用官方迁移工具KDTS
+&lt;a class="header-anchor" href="#%e6%96%b9%e6%b3%95%e4%b8%80-%e7%94%a8%e5%ae%98%e6%96%b9%e8%bf%81%e7%a7%bb%e5%b7%a5%e5%85%b7kdts">&lt;/a>
+&lt;/h2>&lt;p>同事告知，用KDTS，从mysql迁移到人大金仓数据库没问题。但从人大金仓数据库迁移到mysql会失败，原因未明。
+KDTS工具为安装人大金仓数据库自带，没有独立版本。
+docker版本的人大金仓数据库没有此公具。&lt;/p></description></item><item><title>docker查看实时日志</title><link>https://sxqs.fun/post/docker%E6%9F%A5%E7%9C%8B%E5%AE%9E%E6%97%B6%E6%97%A5%E5%BF%97/</link><pubDate>Wed, 02 Jul 2025 13:23:09 +0000</pubDate><guid>https://sxqs.fun/post/docker%E6%9F%A5%E7%9C%8B%E5%AE%9E%E6%97%B6%E6%97%A5%E5%BF%97/</guid><description>&lt;h2 id="需求">需求
 &lt;a class="header-anchor" href="#%e9%9c%80%e6%b1%82">&lt;/a>
 &lt;/h2>&lt;p>之前一直用 &lt;code>docker logs -f 容器ID&lt;/code> 查看日志，遇到一个问题，一旦打印的日志太多，好像是从上一次查看的位置开始输出，导致终端在狂刷日志，而我只想看最新的日志。&lt;/p></description></item><item><title>jar包解压与压缩</title><link>https://sxqs.fun/post/jar%E5%8C%85%E8%A7%A3%E5%8E%8B%E4%B8%8E%E5%8E%8B%E7%BC%A9/</link><pubDate>Wed, 02 Jul 2025 10:01:14 +0800</pubDate><guid>https://sxqs.fun/post/jar%E5%8C%85%E8%A7%A3%E5%8E%8B%E4%B8%8E%E5%8E%8B%E7%BC%A9/</guid><description>&lt;h2 id="需求">需求
 &lt;a class="header-anchor" href="#%e9%9c%80%e6%b1%82">&lt;/a>
