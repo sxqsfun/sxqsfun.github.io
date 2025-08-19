@@ -1,4 +1,45 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Dany 的个人小站</title><link>https://sxqs.fun/</link><description>Recent content on Dany 的个人小站</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Mon, 28 Jul 2025 23:31:02 +0800</lastBuildDate><atom:link href="https://sxqs.fun/rss.xml" rel="self" type="application/rss+xml"/><item><title>浏览器渲染问题</title><link>https://sxqs.fun/post/%E6%B5%8F%E8%A7%88%E5%99%A8%E6%B8%B2%E6%9F%93%E9%97%AE%E9%A2%98/</link><pubDate>Mon, 28 Jul 2025 23:23:09 +0000</pubDate><guid>https://sxqs.fun/post/%E6%B5%8F%E8%A7%88%E5%99%A8%E6%B8%B2%E6%9F%93%E9%97%AE%E9%A2%98/</guid><description>&lt;h2 id="src里的访问路径">src里的访问路径
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Dany 的个人小站</title><link>https://sxqs.fun/</link><description>Recent content on Dany 的个人小站</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Tue, 19 Aug 2025 17:34:17 +0800</lastBuildDate><atom:link href="https://sxqs.fun/rss.xml" rel="self" type="application/rss+xml"/><item><title>rsync使用</title><link>https://sxqs.fun/post/rsync%E4%BD%BF%E7%94%A8/</link><pubDate>Tue, 19 Aug 2025 17:34:17 +0800</pubDate><guid>https://sxqs.fun/post/rsync%E4%BD%BF%E7%94%A8/</guid><description>&lt;h2 id="需求">需求
+&lt;a class="header-anchor" href="#%e9%9c%80%e6%b1%82">&lt;/a>
+&lt;/h2>&lt;ul>
+&lt;li>玩Linux，经常需要重装系统，所以我的文件都是放 /data 目录下，data 目录是一个独立的分区，每次重装系统时只需要重新挂载分区到 /data 目录即可，非常方便。配合
+konsave 工具和软件安装脚本，基本上十多分钟就可以恢复系统原样。对 data 目录的备份至关重要。&lt;/li>
+&lt;li>工作时经常需要在生成环境进行软件部署，有时可能只改了几个文件，也需要重新上传全量包到生成环境，其实完全没必要，更新修改的文件即可。&lt;/li>
+&lt;/ul>
+&lt;h2 id="rsync的优点">rsync的优点
+&lt;a class="header-anchor" href="#rsync%e7%9a%84%e4%bc%98%e7%82%b9">&lt;/a>
+&lt;/h2>&lt;ul>
+&lt;li>会检查发送方和接收方已有的文件，仅传输有变动的部分&lt;/li>
+&lt;li>支持断点续传，可替代sftp使用&lt;/li>
+&lt;/ul>
+&lt;h2 id="rsync使用--参考-https-www-dot-ruanyifeng-dot-com-blog-2020-08-rsync-dot-html">rsync使用(参考：
+&lt;a href="https://www.ruanyifeng.com/blog/2020/08/rsync.html" title="https://www.ruanyifeng.com/blog/2020/08/rsync.html" rel="noopener external nofollow noreferrer" target="_blank" class=" exturl">
+ https://www.ruanyifeng.com/blog/2020/08/rsync.html
+ 
+ &lt;i class="fa fa-external-link-alt">&lt;/i>
+ 
+&lt;/a>)
+&lt;a class="header-anchor" href="#rsync%e4%bd%bf%e7%94%a8--%e5%8f%82%e8%80%83-https-www-dot-ruanyifeng-dot-com-blog-2020-08-rsync-dot-html">&lt;/a>
+&lt;/h2>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt" id="hl-0-1">&lt;a class="lnlinks" href="#hl-0-1">1&lt;/a>
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">rsync -avzc --delete --partial --append-verify --checksum --progress -e &lt;span class="s2">&amp;#34;ssh -p remote_port&amp;#34;&lt;/span> source/ user@remote_host:/destination&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>
+
+&lt;ul>
+&lt;li>&lt;code>-a&lt;/code> 表示存档模式，保存所有的元数据，比如修改时间（modification time）、权限、所有者等&lt;/li>
+&lt;li>&lt;code>-v&lt;/code> 表示输出细节。=-vv=表示输出更详细的信息，=-vvv=表示输出最详细的信息。&lt;/li>
+&lt;li>&lt;code>-z&lt;/code> 表示指定同步时压缩数据&lt;/li>
+&lt;li>&lt;code>-c&lt;/code> 默认情况下，rsync 只检查文件的大小和最后修改日期是否发生变化，如果发生变化，就重新传输；使用这个参数以后，则通过判断文件内容的校验和，决定是否重新传输。&lt;/li>
+&lt;li>&lt;code>--delete&lt;/code> 删除目标目录下的多余文件，使得目标目录成为源目录的镜像副本&lt;/li>
+&lt;li>&lt;code>--partila&lt;/code> 表示允许恢复中断的传输&lt;/li>
+&lt;li>&lt;code>--append-verify&lt;/code> 表示接着上次中断的地方继续传输，并对传输完成后的文件进行一次校验。如果校验失败，将重新发送整个文件。&lt;/li>
+&lt;li>&lt;code>--progress&lt;/code> 表示显示进展&lt;/li>
+&lt;li>&lt;code>-e&lt;/code> 指定使用 SSH 协议传输数据&lt;/li>
+&lt;/ul></description></item><item><title>浏览器渲染问题</title><link>https://sxqs.fun/post/%E6%B5%8F%E8%A7%88%E5%99%A8%E6%B8%B2%E6%9F%93%E9%97%AE%E9%A2%98/</link><pubDate>Mon, 28 Jul 2025 23:23:09 +0000</pubDate><guid>https://sxqs.fun/post/%E6%B5%8F%E8%A7%88%E5%99%A8%E6%B8%B2%E6%9F%93%E9%97%AE%E9%A2%98/</guid><description>&lt;h2 id="src里的访问路径">src里的访问路径
 &lt;a class="header-anchor" href="#src%e9%87%8c%e7%9a%84%e8%ae%bf%e9%97%ae%e8%b7%af%e5%be%84">&lt;/a>
 &lt;/h2>&lt;p>src路径会自动将 &lt;code>\&lt;/code> 替换为 &lt;code>/&lt;/code>&lt;/p>
 &lt;h2 id="src里的中文会自动转码">src里的中文会自动转码
