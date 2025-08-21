@@ -1,0 +1,163 @@
+<!doctype html><html lang=zh-CN data-theme=dark><head><meta charset=UTF-8><meta name=viewport content="width=device-width,initial-scale=1"><meta name=theme-color content="#222" media="(prefers-color-scheme: dark)"><meta name=generator content="Hugo 0.148.2"><link rel="shortcut icon" type=image/x-icon href=/imgs/icons/favicon.ico><link rel=icon type=image/x-icon href=/imgs/icons/favicon.ico><link rel=icon type=image/png sizes=16x16 href=/imgs/icons/favicon_16x16_next.png><link rel=icon type=image/png sizes=32x32 href=/imgs/icons/favicon_32_32_next.png><link rel=apple-touch-icon sizes=180x180 href=/imgs/icons/apple_touch_icon_next.png><meta itemprop=name content="更换Hugo Next 主题"><meta itemprop=description content="更换Hugo Next 主题"><meta name=description content="更换Hugo Next 主题"><meta itemprop=datePublished zgotmplz><meta itemprop=dateModified zgotmplz><meta itemprop=image content="https://sxqs.fun/imgs/head.png"><meta itemprop=keywords content="emacs,elisp,java"><meta property="og:type" content="article"><meta property="og:title" content="更换Hugo Next 主题"><meta property="og:description" content="更换Hugo Next 主题"><meta property="og:image" content="/imgs/head.png"><meta property="og:image:width" content="312"><meta property="og:image:height" content="312"><meta property="og:image:type" content="image/jpeg/png/svg/jpg"><meta property="og:url" content="https://sxqs.fun/post/%E6%9B%B4%E6%8D%A2-hugo-next-%E4%B8%BB%E9%A2%98/"><meta property="og:site_name" content="Dany 的个人小站"><meta property="og:locale" content="zh-CN"><meta property="article:author" content="Dany"><meta property="article:published_time" content="2020-06-18 18:01:00 +0800 CST"><meta property="article:modified_time" content="2020-06-18 18:01:00 +0800 CST"><link type=text/css rel=stylesheet href=https://sxqs.fun/js/3rd/font-awesome/6.7.2/css/all.min.css><link type=text/css rel=stylesheet href=https://sxqs.fun/js/3rd/animate.css/3.1.1/animate.min.css><link type=text/css rel=stylesheet href=https://sxqs.fun/js/3rd/viewerjs/1.11.6/viewer.min.css><link rel=stylesheet href="/css/main.min.css?=1755770411"><style type=text/css>.post-footer hr:after{content:"~ 我可是有底线的哟 ~"}.flinks-list-footer hr:after{content:"~ 我可是有底线的哟 ~"}</style><script type=text/javascript>(function(){localDB={set:function(e,t,n){if(n===0)return;const s=new Date,o=n*864e5,i={value:t,expiry:s.getTime()+o};localStorage.setItem(e,JSON.stringify(i))},get:function(e){const t=localStorage.getItem(e);if(!t)return 0[0];const n=JSON.parse(t),s=new Date;return s.getTime()>n.expiry?(localStorage.removeItem(e),0[0]):n.value}},theme={active:function(){const e=localDB.get("theme");if(e==null)return;theme.toggle(e),window.matchMedia("(prefers-color-scheme: dark)").addListener(function(e){theme.toggle(e.matches?"dark":"light")})},toggle:function(e){document.documentElement.setAttribute("data-theme",e),localDB.set("theme",e,2);const t=document.querySelector("iframe.giscus-frame");if(t){const n={setConfig:{theme:e}};t.contentWindow.postMessage({giscus:n},"https://giscus.app")}}},theme.active()})(window)</script><script type=text/javascript>document.addEventListener("DOMContentLoaded",()=>{var e=document.createElement("script");e.charset="UTF-8",e.src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js",e.async=!1,e.defer=!0,document.head.appendChild(e),e.onload=function(){NexT.utils.fmtBusuanzi()}})</script><title>更换Hugo Next 主题 - Dany 的个人小站</title><noscript><link rel=stylesheet href=/css/noscript.css></noscript></head><body itemscope itemtype=http://schema.org/WebPage class=use-motion><div class=headband></div><main class=main><header class=header itemscope itemtype=http://schema.org/WPHeader><div class=header-inner><div class=site-brand-container><div class=site-nav-toggle><div class=toggle aria-label role=button><span class=toggle-line></span>
+<span class=toggle-line></span>
+<span class=toggle-line></span></div></div><div class=site-meta><a href=/ class=brand rel=start><i class=logo-line></i><h1 class=site-title>Dany 的个人小站</h1><i class=logo-line></i></a><p class=site-subtitle itemprop=description>上下求索</p></div><div class=site-nav-right><div class="toggle popup-trigger"><i class="fa fa-search fa-fw fa-lg"></i></div></div></div><nav class=site-nav><ul class="main-menu menu"><li class="menu-item menu-item-home"><a href=/ class=hvr-icon-pulse rel=section><i class="fa fa-home hvr-icon"></i>首页</a></li><li class="menu-item menu-item-archives"><a href=/archives/ class=hvr-icon-pulse rel=section><i class="fa fa-archive hvr-icon"></i>归档
+<span class=badge>15</span></a></li><li class="menu-item menu-item-tags"><a href=/tags/ class=hvr-icon-pulse rel=section><i class="fa fa-tags hvr-icon"></i>标签</a></li><li class="menu-item menu-item-about"><a href=/about.html class=hvr-icon-pulse rel=section><i class="fa fa-user hvr-icon"></i>关于</a></li><li class="menu-item menu-item-search"><a role=button class="popup-trigger hvr-icon-pulse"><i class="fa fa-search fa-fw hvr-icon"></i>搜索</a></li></ul></nav><div class=search-pop-overlay><div class="popup search-popup"><div class=search-header><span class=search-icon><i class="fa fa-search"></i></span><div class=search-input-container><input autocomplete=off autocapitalize=off maxlength=80 placeholder=搜索... spellcheck=false type=search class=search-input></div><span class=popup-btn-close role=button><i class="fa fa-times-circle"></i></span></div><div class="search-result-container no-result"><div class=search-result-icon><i class="fa fa-spinner fa-pulse fa-5x"></i></div></div></div></div></div><div class="toggle sidebar-toggle" role=button><span class=toggle-line></span>
+<span class=toggle-line></span>
+<span class=toggle-line></span></div><aside class=sidebar><div class="sidebar-inner sidebar-nav-active sidebar-toc-active"><ul class=sidebar-nav><li class=sidebar-nav-toc>文章目录</li><li class=sidebar-nav-overview>站点概览</li></ul><div class=sidebar-panel-container><div class="post-toc-wrap sidebar-panel"><div class="post-toc animated"><nav id=TableOfContents><ul><li><a href=#headline-1>下载 hugo-theme-next-starter</a></li><li><a href=#headline-2>配置</a><ul><li><a href=#headline-3>编辑hugo.yaml</a></li><li><a href=#headline-4>编辑params.yaml</a></li></ul></li></ul></nav></div></div><div class="site-overview-wrap sidebar-panel"><div class="site-author site-overview-item animated" itemprop=author itemscope itemtype=http://schema.org/Person><img class=site-author-image itemprop=image alt=Dany src=/imgs/img-lazy-loading.gif data-src=/imgs/head.png><p class=site-author-name itemprop=name>Dany</p><div class=site-description itemprop=description>你的要务不在于达成什么，而是待在当下此处。只管专注当下就行了。这能使你得到解脱，免于痛苦，免于恐惧，免于心智的束缚。</div></div><div class="links-of-social site-overview-item animated"><span class=links-of-social-item><a href=https://github.com/sxqsfun title="Github → https://github.com/sxqsfun" rel=noopener class=hvr-icon-pulse target=_blank><i class="fab fa-github fa-fw hvr-icon"></i>
+Github
+</a></span><span class=links-of-social-item><a href=mailto:78528291@qq.com title="E-Mail → mailto:78528291@qq.com" rel=noopener class=hvr-icon-pulse target=_blank><i class="fa fa-envelope fa-fw hvr-icon"></i>
+E-Mail</a></span></div></div></div></div></aside><div class=sidebar-dimmer></div></header><div class=tool-buttons><div id=goto-comments class="button goto-comments" title=直达评论><i class="fas fa-comments"></i></div><div id=goto-i18n-translate class=button title=多语言翻译><i class="fas fa-globe"></i></div><div id=toggle-theme class=button title=深浅模式切换><i class="fas fa-adjust"></i></div><div class=back-to-top role=button title=返回顶部><i class="fa fa-arrow-up"></i>
+<span>0%</span></div></div><div class=reading-progress-bar></div><a role=button class="book-mark-link book-mark-link-fixed"></a><noscript><div class=noscript-warning>Theme NexT works best with JavaScript enabled</div></noscript><div class="main-inner post posts-expand"><div class=post-block><article itemscope itemtype=http://schema.org/Article class=post-content lang><link itemprop=mainEntityOfPage href=https://sxqs.fun/post/%E6%9B%B4%E6%8D%A2-hugo-next-%E4%B8%BB%E9%A2%98/><span hidden itemprop=author itemscope itemtype=http://schema.org/Person><meta itemprop=image content="/imgs/head.png"><meta itemprop=name content="Dany"></span><span hidden itemprop=publisher itemscope itemtype=http://schema.org/Organization><meta itemprop=name content="Dany"><meta itemprop=description content="你的要务不在于达成什么，而是待在当下此处。只管专注当下就行了。这能使你得到解脱，免于痛苦，免于恐惧，免于心智的束缚。"></span><span hidden itemprop=post itemscope itemtype=http://schema.org/CreativeWork><meta itemprop=name content="更换Hugo Next 主题"><meta itemprop=description content="更换Hugo Next 主题"></span><header class=post-header><h1 class=post-title itemprop="name headline">更换Hugo Next 主题</h1><div class=post-meta-container><div class=post-meta-items><span class=post-meta-item><span class=post-meta-item-icon><i class="fas fa-solid fa-calendar"></i>
+</span><span class=post-meta-item-text title=发表于>发表于：
+</span><time title="创建时间：2020年06月18日 18:01:00 CST" itemprop="dateCreated datePublished" datetime="2020-06-18 18:01:00 +0800 CST">2020年06月18日</time></span></div><div class=post-meta-items><span class=post-meta-item title=字数><span class=post-meta-item-icon><i class="fas fa-solid fa-file-word"></i>
+</span><span class=post-meta-item-text>字数：</span>
+<span>422</span>
+</span><span class=post-meta-item title=阅读><span class=post-meta-item-icon><i class="fas fa-solid fa-clock"></i>
+</span><span class=post-meta-item-text>阅读：&ap;</span>
+<span>1分钟</span>
+</span><span class=post-meta-item title=浏览><span class=post-meta-item-icon><i class="fas fa-solid fa-eye"></i>
+</span><span class=post-meta-item-text>浏览：
+</span><span id=pageview-count data-path=/post/%E6%9B%B4%E6%8D%A2-hugo-next-%E4%B8%BB%E9%A2%98/><i class="fa fa-sync fa-spin"></i></span></span></div></div></header><div class="post-body autonumber" itemprop=articleBody><div class=post-summary-wrapper><div class=summary-title><span><i class="fa-solid fa-list"></i></span>
+<span>总结摘要</span></div><div class=summary-content>更换Hugo Next 主题</div></div><div id=outline-container-headline-1 class=outline-3><h3 id=headline-1>下载 hugo-theme-next-starter</h3><div id=outline-text-headline-1 class=outline-text-3><div class="src src-emacs-lisp"><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt id=1><a class=lnlinks href=#1>1</a>
+</span><span class=lnt id=2><a class=lnlinks href=#2>2</a>
+</span><span class=lnt id=3><a class=lnlinks href=#3>3</a>
+</span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-emacs-lisp data-lang=emacs-lisp><span class=line><span class=cl>  <span class=nv>git</span> <span class=nv>clone</span> <span class=nv>https://github.com/hugo-next/hugo-theme-next-starter</span>
+</span></span><span class=line><span class=cl>  <span class=nv>cd</span> <span class=nv>hugo-theme-next-starter</span>
+</span></span><span class=line><span class=cl>  <span class=nv>git</span> <span class=nv>submodule</span> <span class=nv>update</span> <span class=nv>--init</span> <span class=nv>--recursive</span></span></span></code></pre></td></tr></table></div></div></div></div></div><div id=outline-container-headline-2 class=outline-3><h3 id=headline-2>配置</h3><div id=outline-text-headline-2 class=outline-text-3><div id=outline-container-headline-3 class=outline-4><h4 id=headline-3>编辑hugo.yaml</h4><div id=outline-text-headline-3 class=outline-text-4><div class="src src-emacs-lisp"><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt id=1><a class=lnlinks href=#1>1</a>
+</span><span class=lnt id=2><a class=lnlinks href=#2>2</a>
+</span><span class=lnt id=3><a class=lnlinks href=#3>3</a>
+</span><span class=lnt id=4><a class=lnlinks href=#4>4</a>
+</span><span class=lnt id=5><a class=lnlinks href=#5>5</a>
+</span><span class=lnt id=6><a class=lnlinks href=#6>6</a>
+</span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-emacs-lisp data-lang=emacs-lisp><span class=line><span class=cl>  <span class=nv>vim</span> <span class=nv>config/_default/hugo.yaml</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>  <span class=err>#</span> <span class=nv>站点域名</span>
+</span></span><span class=line><span class=cl>  <span class=nv>baseURL:</span> <span class=nv>https://sxqs.fun</span>
+</span></span><span class=line><span class=cl>  <span class=err>#</span> <span class=nv>站点标题</span>
+</span></span><span class=line><span class=cl>  <span class=nv>title:</span> <span class=nv>Dany</span> <span class=nv>的个人小站</span></span></span></code></pre></td></tr></table></div></div></div></div></div><div id=outline-container-headline-4 class=outline-4><h4 id=headline-4>编辑params.yaml</h4><div id=outline-text-headline-4 class=outline-text-4><div class="src src-emacs-lisp"><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt id=1><a class=lnlinks href=#1> 1</a>
+</span><span class=lnt id=2><a class=lnlinks href=#2> 2</a>
+</span><span class=lnt id=3><a class=lnlinks href=#3> 3</a>
+</span><span class=lnt id=4><a class=lnlinks href=#4> 4</a>
+</span><span class=lnt id=5><a class=lnlinks href=#5> 5</a>
+</span><span class=lnt id=6><a class=lnlinks href=#6> 6</a>
+</span><span class=lnt id=7><a class=lnlinks href=#7> 7</a>
+</span><span class=lnt id=8><a class=lnlinks href=#8> 8</a>
+</span><span class=lnt id=9><a class=lnlinks href=#9> 9</a>
+</span><span class=lnt id=10><a class=lnlinks href=#10>10</a>
+</span><span class=lnt id=11><a class=lnlinks href=#11>11</a>
+</span><span class=lnt id=12><a class=lnlinks href=#12>12</a>
+</span><span class=lnt id=13><a class=lnlinks href=#13>13</a>
+</span><span class=lnt id=14><a class=lnlinks href=#14>14</a>
+</span><span class=lnt id=15><a class=lnlinks href=#15>15</a>
+</span><span class=lnt id=16><a class=lnlinks href=#16>16</a>
+</span><span class=lnt id=17><a class=lnlinks href=#17>17</a>
+</span><span class=lnt id=18><a class=lnlinks href=#18>18</a>
+</span><span class=lnt id=19><a class=lnlinks href=#19>19</a>
+</span><span class=lnt id=20><a class=lnlinks href=#20>20</a>
+</span><span class=lnt id=21><a class=lnlinks href=#21>21</a>
+</span><span class=lnt id=22><a class=lnlinks href=#22>22</a>
+</span><span class=lnt id=23><a class=lnlinks href=#23>23</a>
+</span><span class=lnt id=24><a class=lnlinks href=#24>24</a>
+</span><span class=lnt id=25><a class=lnlinks href=#25>25</a>
+</span><span class=lnt id=26><a class=lnlinks href=#26>26</a>
+</span><span class=lnt id=27><a class=lnlinks href=#27>27</a>
+</span><span class=lnt id=28><a class=lnlinks href=#28>28</a>
+</span><span class=lnt id=29><a class=lnlinks href=#29>29</a>
+</span><span class=lnt id=30><a class=lnlinks href=#30>30</a>
+</span><span class=lnt id=31><a class=lnlinks href=#31>31</a>
+</span><span class=lnt id=32><a class=lnlinks href=#32>32</a>
+</span><span class=lnt id=33><a class=lnlinks href=#33>33</a>
+</span><span class=lnt id=34><a class=lnlinks href=#34>34</a>
+</span><span class=lnt id=35><a class=lnlinks href=#35>35</a>
+</span><span class=lnt id=36><a class=lnlinks href=#36>36</a>
+</span><span class=lnt id=37><a class=lnlinks href=#37>37</a>
+</span><span class=lnt id=38><a class=lnlinks href=#38>38</a>
+</span><span class=lnt id=39><a class=lnlinks href=#39>39</a>
+</span><span class=lnt id=40><a class=lnlinks href=#40>40</a>
+</span><span class=lnt id=41><a class=lnlinks href=#41>41</a>
+</span><span class=lnt id=42><a class=lnlinks href=#42>42</a>
+</span><span class=lnt id=43><a class=lnlinks href=#43>43</a>
+</span><span class=lnt id=44><a class=lnlinks href=#44>44</a>
+</span><span class=lnt id=45><a class=lnlinks href=#45>45</a>
+</span><span class=lnt id=46><a class=lnlinks href=#46>46</a>
+</span><span class=lnt id=47><a class=lnlinks href=#47>47</a>
+</span><span class=lnt id=48><a class=lnlinks href=#48>48</a>
+</span><span class=lnt id=49><a class=lnlinks href=#49>49</a>
+</span><span class=lnt id=50><a class=lnlinks href=#50>50</a>
+</span><span class=lnt id=51><a class=lnlinks href=#51>51</a>
+</span><span class=lnt id=52><a class=lnlinks href=#52>52</a>
+</span><span class=lnt id=53><a class=lnlinks href=#53>53</a>
+</span><span class=lnt id=54><a class=lnlinks href=#54>54</a>
+</span><span class=lnt id=55><a class=lnlinks href=#55>55</a>
+</span><span class=lnt id=56><a class=lnlinks href=#56>56</a>
+</span><span class=lnt id=57><a class=lnlinks href=#57>57</a>
+</span><span class=lnt id=58><a class=lnlinks href=#58>58</a>
+</span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-emacs-lisp data-lang=emacs-lisp><span class=line><span class=cl>  <span class=nv>vim</span> <span class=nv>config/_default/params.yaml</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>  <span class=err>#</span> <span class=nv>站点基本信息</span>
+</span></span><span class=line><span class=cl>  <span class=err>#</span> <span class=nv>Site</span> <span class=nv>Information</span> <span class=nv>Settings</span>
+</span></span><span class=line><span class=cl>  <span class=nv>author:</span> <span class=nv>Dany</span>
+</span></span><span class=line><span class=cl>  <span class=nv>subtitle:</span> <span class=nv>上下求索</span>
+</span></span><span class=line><span class=cl>  <span class=nv>description:</span> <span class=nv>你的要务不在于达成什么</span><span class=err>，</span><span class=nv>而是待在当下此处</span><span class=err>。</span><span class=nv>只管专注当下就行了</span><span class=err>。</span><span class=nv>这能使你得到解脱</span><span class=err>，</span><span class=nv>免于痛苦</span><span class=err>，</span><span class=nv>免于恐惧</span><span class=err>，</span><span class=nv>免于心智的束缚</span><span class=err>。</span>
+</span></span><span class=line><span class=cl>  <span class=nv>keywords:</span> <span class=nv>emacs,elisp,java</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>  <span class=err>#</span> <span class=nv>知识共享国际许可</span> <span class=mf>4.0</span>
+</span></span><span class=line><span class=cl>  <span class=err>#</span> <span class=nv>侧边栏显示</span>
+</span></span><span class=line><span class=cl>  <span class=nv>sidebar:</span> <span class=nv>false</span>
+</span></span><span class=line><span class=cl>  <span class=err>#</span> <span class=nv>文章底部显示</span>
+</span></span><span class=line><span class=cl>  <span class=nv>post:</span> <span class=nv>false</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>  <span class=err>#</span> <span class=nv>侧边栏头像</span>
+</span></span><span class=line><span class=cl>  <span class=err>#</span> <span class=nv>设置显示头像的相对路径</span>
+</span></span><span class=line><span class=cl>  <span class=nv>url:</span> <span class=nv>/imgs/head.png</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>  <span class=nv>siteState:</span>
+</span></span><span class=line><span class=cl>  <span class=err>#</span> <span class=nv>是否在侧边栏显示文章</span><span class=err>、</span><span class=nv>分类</span><span class=err>、</span><span class=nv>标签信息</span>
+</span></span><span class=line><span class=cl>  <span class=nv>basic:</span> <span class=nv>false</span>
+</span></span><span class=line><span class=cl>  <span class=err>#</span> <span class=nv>站点访问信息</span>
+</span></span><span class=line><span class=cl>  <span class=nv>views:</span>
+</span></span><span class=line><span class=cl>    <span class=nv>enable:</span> <span class=nv>false</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>  <span class=err>#</span> <span class=nv>社交链接地址</span>
+</span></span><span class=line><span class=cl>  <span class=nv>social0:</span> <span class=nv>Github</span> <span class=nv>||</span> <span class=nv>https://github.com/sxqsfun</span> <span class=nv>||</span> <span class=nv>fab</span> <span class=nv>fa-github</span>
+</span></span><span class=line><span class=cl>  <span class=nv>social1:</span> <span class=nv>E-Mail</span> <span class=nv>||</span> <span class=nv>mailto:78528291@qq.com</span> <span class=nv>||</span> <span class=nv>fa</span> <span class=nv>fa-envelope</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>  <span class=err>#</span> <span class=nv>友情链接设置</span>
+</span></span><span class=line><span class=cl>  <span class=err>#</span> <span class=nv>显示标题</span>
+</span></span><span class=line><span class=cl>  <span class=err>#</span> <span class=nv>Show</span> <span class=nv>title</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>  <span class=err>#</span> <span class=nv>友情链接地址</span>
+</span></span><span class=line><span class=cl>  <span class=nv>links:</span>
+</span></span><span class=line><span class=cl>    <span class=err>#</span><span class=nv>link0:</span> <span class=nv>Hugo-NexT</span> <span class=nv>||</span> <span class=nv>https://gitee.com/hugo-next/hugo-theme-next</span>
+</span></span><span class=line><span class=cl>    <span class=err>#</span><span class=nv>link1:</span> <span class=nv>凡梦星尘空间站</span> <span class=nv>||</span> <span class=nv>https://lisenhui.cn</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>  <span class=err>#</span> <span class=nv>站点开始年份</span><span class=err>，</span><span class=nv>默认为当下时间的年份</span>
+</span></span><span class=line><span class=cl>  <span class=nv>since:</span> <span class=mi>2019</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>  <span class=err>#</span> <span class=nv>国内</span> <span class=nv>ICP</span> <span class=nv>备案和公安网备信息</span>
+</span></span><span class=line><span class=cl>  <span class=nv>beian:</span>
+</span></span><span class=line><span class=cl>    <span class=nv>enable:</span> <span class=nv>false</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>  <span class=err>#</span> <span class=nv>站点支持供应商列表</span>
+</span></span><span class=line><span class=cl>  <span class=nv>vendors:</span>
+</span></span><span class=line><span class=cl>    <span class=nv>enable:</span> <span class=nv>false</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>  <span class=err>#</span> <span class=nv>文章的在线编辑</span>
+</span></span><span class=line><span class=cl>  <span class=nv>postEdit:</span>
+</span></span><span class=line><span class=cl>    <span class=nv>enable:</span> <span class=nv>false</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>  <span class=err>#</span> <span class=nv>右上角在</span> <span class=nv>Github</span> <span class=nv>上面关注我的横幅</span>
+</span></span><span class=line><span class=cl>  <span class=nv>githubBanner:</span>
+</span></span><span class=line><span class=cl>    <span class=nv>enable:</span> <span class=nv>false</span></span></span></code></pre></td></tr></table></div></div></div></div></div></div></div><a id=more></a></div><footer class=post-footer><div class=post-share-tools><div class=post-share-loading><i class="fa-solid fa-ellipsis fa-spin"></i></div><div class="a2a_kit a2a_kit_size_32 a2a_default_style"><a class=a2a_dd href=https://www.addtoany.com/share></a><a class=a2a_button_wechat></a><a class=a2a_button_qzone></a><a class=a2a_button_sina_weibo></a><a class=a2a_button_douban></a><a class=a2a_button_facebook></a><a class=a2a_button_x></a><a class=a2a_button_email></a><a class=a2a_button_printfriendly></a></div></div><hr><div class=reward-container><div><i class="fa-solid fa-mug-hot"></i>请我喝杯咖啡吧 ヾ(^▽^*)))</div><button>
+赞赏</button><div class=post-reward><div class=post-reward-item><img src=/imgs/img-lazy-loading.gif data-src=/imgs/ali-pay.png alt="Dany - 支付宝">
+<span>支付宝</span></div><div class=post-reward-item><img src=/imgs/img-lazy-loading.gif data-src=/imgs/wechat-pay.png alt="Dany - 微信">
+<span>微信</span></div></div></div><div class=post-nav><div class="post-nav-next post-nav-item"><a href=/post/gnome%E8%87%AA%E5%AE%9A%E4%B9%89%E4%BC%91%E6%81%AF%E6%97%B6%E9%97%B4%E8%AE%BE%E7%BD%AE/ rel=next title=gnome自定义休息时间设置><i class="fa fa-chevron-left"></i> gnome自定义休息时间设置</a></div><div class="post-nav-prev post-nav-item"><a href=/post/%E6%9B%B4%E6%8D%A2hugo-next-%E4%B8%BB%E9%A2%98/ rel=prev title="更换Hugo Next 主题">更换Hugo Next 主题
+<i class="fa fa-chevron-right"></i></a></div></div></footer></article></div><div id=comments class=post-comments><div class=comment-head><div class=comment-headline><i class="fas fa-comments fa-fw"></i>
+<span>评论交流</span></div></div><div class=comment-wrap><div><div class=comment-loading><i class="fa fa-sync fa-spin"></i></div><div class=waline3-container></div></div></div></div></div></main><footer class=footer><div class=footer-inner><div id=i18n-translate class=i18n-translate><i class="fa fa-language"></i><div id=lang-select class=lang-select><div id=lang-selected class=selected-option><span class="flag-icon flag-icon-zh-cn"></span>
+<span class=selected-language>简体中文</span>
+<i class="fa fa-chevron-down"></i></div><div id=lang-options class=lang-options><div class=lang-option lang-code=zh-cn lang-name=简体中文 lang-url=/post/%E6%9B%B4%E6%8D%A2-hugo-next-%E4%B8%BB%E9%A2%98/><span class="flag-icon flag-icon-zh-cn"></span>
+<span class=lang-name>简体中文</span></div></div></div></div><div class=copyright>&copy;
+<span itemprop=copyrightYear>2019 - 2025
+</span><span class=with-love><i class="fa fa-heart"></i>
+</span><span class=author itemprop=copyrightHolder>Dany</span></div><div class=powered-by>由 <a href=https://gohugo.io title=0.148.2 target=_blank>Hugo</a> & <a href=https://github.com/hugo-next/hugo-theme-next title=4.8.3 target=_blank>Hugo NexT.Gemini</a> 强力驱动</div></div></footer><script class=next-config data-name=page type=application/json>{"comments":true,"expired":false,"isHome":false,"isPage":true,"path":"%E6%9B%B4%E6%8D%A2-hugo-next-%E4%B8%BB%E9%A2%98","permalink":"https://sxqs.fun/post/%E6%9B%B4%E6%8D%A2-hugo-next-%E4%B8%BB%E9%A2%98/","title":"更换Hugo Next 主题","toc":true,"waline3":{"pagecnt":{"alias":"@waline/client","alias_name":"waline","file":"dist/pageview.js","name":"pageview","version":"3.5.7"}}}</script><script type=text/javascript src=https://sxqs.fun/js/3rd/animejs/3.2.2/anime.min.js crossorigin=anonymous defer></script><script type=text/javascript src=https://sxqs.fun/js/3rd/viewerjs/1.11.6/viewer.min.js crossorigin=anonymous defer></script><script class=next-config data-name=main type=application/json>{"bookmark":{"color":"#222","enable":true,"save":"manual"},"copybtn":true,"darkmode":true,"giscus":{"cfg":{"category":"Comments","categoryid":null,"emit":false,"inputposition":"top","mapping":"title","reactions":false,"repo":"username/repo-name","repoid":null,"theme":"preferred_color_scheme"},"js":"https://giscus.app/client.js"},"hostname":"https://sxqs.fun/","i18n":{"ds_day":" 天前","ds_days":" 天 ","ds_hour":" 小时前","ds_hours":" 小时 ","ds_just":"刚刚","ds_min":" 分钟前","ds_mins":" 分钟","ds_month":" 个月前","ds_years":" 年 ","empty":"没有找到任何搜索结果：${query}","hits":"找到 ${hits} 个搜索结果","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","placeholder":"搜索..."},"isMultiLang":true,"lang":"zh-CN","lazyload":false,"localSearch":{"enable":true,"limit":1e3,"path":"/searchindexes.xml","preload":false,"topnperarticle":-1,"trigger":"auto","unescape":false},"motion":{"async":true,"enable":true,"transition":{"collheader":"fadeInLeft","postblock":"fadeIn","postbody":"fadeInDown","postheader":"fadeInDown","sidebar":"fadeInUp"}},"postmeta":{"comments":{"enable":false,"plugin":"waline3"},"views":{"enable":true,"plugin":"waline3"}},"root":"/","scheme":"Gemini","share":{"addtoany":{"js":"https://static.addtoany.com/menu/page.js","locale":"zh-CN","num":8},"enable":true},"sidebar":{"display":"post","offset":12,"padding":18,"position":"left","width":256},"vendor":{"plugins":"local","router":{"name":"local","type":"modern","url":"https://sxqs.fun/js/3rd"}},"version":"4.8.3","waline3":{"cfg":{"emoji":false,"imguploader":false,"placeholder":"请文明发言哟 ヾ(≧▽≦*)o 可用快捷键选取表情符号：😀😄😁🥳👻👽👀🚄 (Window系统：Win+.，Mac系统：Control+Command+Space)","reaction":true,"reactiontext":["点赞","踩一下","得意","不屑","尴尬","睡觉"],"reactiontitle":"你认为这篇文章怎么样？","requiredmeta":["nick","mail"],"search":true,"serverurl":"https://walinejs.comment.lithub.cc","sofa":"快来发表你的意见吧 (≧∀≦)ゞ","wordlimit":200},"css":{"alias":"@waline/client","file":"dist/waline.css","name":"waline","version":"3.5.7"},"js":{"alias":"@waline/client","file":"dist/waline.js","name":"waline","version":"3.5.7"}}}</script><script type=text/javascript src="/js/main.min.js?=1755770411" defer></script></body></html>
