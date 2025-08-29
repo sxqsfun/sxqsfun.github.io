@@ -10,4 +10,6 @@
 &lt;a class="header-anchor" href="#%e6%96%b9%e6%b3%95%e4%b8%80-%e7%94%a8%e5%ae%98%e6%96%b9%e8%bf%81%e7%a7%bb%e5%b7%a5%e5%85%b7kdts">&lt;/a>
 &lt;/h2>&lt;p>同事告知，用KDTS，从mysql迁移到人大金仓数据库没问题。但从人大金仓数据库迁移到mysql会失败，原因未明。
 KDTS工具为安装人大金仓数据库自带，没有独立版本。
-docker版本的人大金仓数据库没有此公具。&lt;/p></description></item></channel></rss>
+docker版本的人大金仓数据库没有此公具。&lt;/p></description></item><item><title>docker查看实时日志</title><link>https://sxqs.fun/post/docker%E6%9F%A5%E7%9C%8B%E5%AE%9E%E6%97%B6%E6%97%A5%E5%BF%97/</link><pubDate>Wed, 02 Jul 2025 13:23:09 +0000</pubDate><guid>https://sxqs.fun/post/docker%E6%9F%A5%E7%9C%8B%E5%AE%9E%E6%97%B6%E6%97%A5%E5%BF%97/</guid><description>&lt;h2 id="需求">需求
+&lt;a class="header-anchor" href="#%e9%9c%80%e6%b1%82">&lt;/a>
+&lt;/h2>&lt;p>之前一直用 &lt;code>docker logs -f 容器ID&lt;/code> 查看日志，遇到一个问题，一旦打印的日志太多，好像是从上一次查看的位置开始输出，导致终端在狂刷日志，而我只想看最新的日志。&lt;/p></description></item></channel></rss>
